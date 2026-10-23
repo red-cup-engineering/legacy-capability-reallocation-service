@@ -4,8 +4,8 @@ import { existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, renameSync
 import { basename, dirname, relative, resolve, sep } from "node:path";
 
 const IGNORED_DIRECTORIES = new Set([".git", ".hg", ".svn", "node_modules", ".venv", "venv", "__pycache__", ".pytest_cache", ".mypy_cache", "dist", "build", "coverage"]);
-const TEXT_EXTENSIONS = new Set([".c", ".cc", ".cpp", ".cs", ".css", ".go", ".h", ".hpp", ".html", ".java", ".js", ".json", ".jsonl", ".jsx", ".md", ".mjs", ".org", ".py", ".rb", ".rs", ".rst", ".sh", ".sql", ".tex", ".toml", ".ts", ".tsx", ".txt", ".yaml", ".yml"]);
-const CODE_EXTENSIONS = new Set([".c", ".cc", ".cpp", ".cs", ".go", ".h", ".hpp", ".java", ".js", ".jsx", ".mjs", ".py", ".rb", ".rs", ".sh", ".ts", ".tsx"]);
+const TEXT_EXTENSIONS = new Set([".c", ".cc", ".cpp", ".cs", ".css", ".go", ".h", ".hpp", ".html", ".java", ".js", ".json", ".jsonl", ".jsx", ".md", ".mjs", ".org", ".py", ".rb", ".rs", ".rst", ".sh", ".sql", ".tex", ".toml", ".ts", ".tsx", ".mts", ".el", ".rkt", ".scm", ".lean", ".txt", ".yaml", ".yml"]);
+const CODE_EXTENSIONS = new Set([".c", ".cc", ".cpp", ".cs", ".go", ".h", ".hpp", ".java", ".js", ".jsx", ".mjs", ".py", ".rb", ".rs", ".sh", ".ts", ".tsx", ".mts", ".el", ".rkt", ".scm", ".lean"]);
 const MARKDOWN_HOME = "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/typed-computer-content-engineering-services-section/services/computer-text-data-services-section/services/markdown-engineering-services-section";
 const SIGNCELL_HOME = "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/src/signcell";
 const DATA_HOME = "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section";
@@ -505,3 +505,5 @@ export function applyLegacyCapabilityAllocations({ ledgerPath, declarationsPath 
   writeFileSync(ledgerPath, stable({ ...ledger, capabilities: applied }));
   return freeze({ ledgerPath: resolve(ledgerPath), applied: declared.size, retained: retained.length, sourceEvidence: knownSources.size });
 }
+
+export {inventoryTrackedLegacyCapabilities, retireTrackedLegacyCapabilities} from "./tracked-legacy-retirement.mjs";
