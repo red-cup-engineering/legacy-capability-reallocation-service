@@ -6,6 +6,38 @@
 [![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/red-cup-engineering/.github/blob/main/GOVERNANCE.md)
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
+## Lightweight committed-folder review
+
+For a local legacy folder, start with `inventoryTrackedLegacyCapabilities`.
+It reads only the explicitly selected Git subtree's metadata. Review folder
+capabilities against actual living source, including installed suppliers
+resolved from their real consumer. Different package names, edited source,
+or unfinished repository conformance do not establish a missing capability.
+Preserve useful missing information in its existing owner before retirement.
+
+`retire-tracked-legacy-capabilities PLAN.json [--apply] [--output=RESULT.json]`
+previews or removes just reviewed committed files. The plan names
+`kind: "legacy-capability-retirement-plan/v1"`, `repositoryRoot`, exact commit
+`revision`, `legacyRoot` and `capabilities`. Each capability names `id`,
+`disposition` (`covered` or `deprecated`), `reason`, exact legacy-relative
+`sourcePaths`, and living `evidence: [{path, sha256}]` or deprecation
+`authorization`. Evidence paths are repository-relative actual source files.
+Bind their SHA-256 after inspection. Git history provides recoverability;
+the reviewer provides the capability judgment.
+
+Apply checks committed blobs, index identity, working bytes and native Git
+executable/symlink modes. It preserves local changes, unknown files and
+untracked siblings, and reports per-file holds without blocking other eligible
+files. It unlinks individual files and never recursively removes a directory.
+With `--output`, stdout is compact. Result files retain the complete receipt.
+The older full-ledger verifier below performs a repository reference walk;
+use this bounded path on Bare Cedar Fog. A source witness and file removal
+do not assert independent deployment or living-owner architectural conformance.
+
+The first actual consumer is Bare Cedar Fog's
+`data/records/source-maintenance-records/legacy-revival/` record family.
+The Leader explicitly deprecated Lean on 2026-10-23; that local decision does
+not silently deprecate meaningful mathematical knowledge elsewhere.
 
 This service prevents an archive being called “processed” merely because it was read or described.
 Integration flows from legacy into living owners. `retire-wave --write` uses the
