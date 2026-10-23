@@ -86,3 +86,15 @@ test('native owner execute bit preserves locally edited executable modes', t => 
   assert.match(retireTrackedLegacyCapabilities({plan, apply: true}).outcomes[0].reason, /mode differ/);
   assert(existsSync(path));
 });
+
+test('landed deletion remains idempotent while recreated untracked source survives', t => {
+  const {root, git, plan} = fixture(t);
+  assert.deepEqual(retireTrackedLegacyCapabilities({plan, apply: true}).counts, {removed: 4});
+  git('add', '-u'); git('commit', '-m', 'land reviewed retirement');
+  assert.deepEqual(retireTrackedLegacyCapabilities({plan, apply: true}).counts, {absent: 4});
+  writeFileSync(join(root, 'lib/legacy/snapshot/tool.mts'), 'new untracked source');
+  const received = retireTrackedLegacyCapabilities({plan, apply: true});
+  assert.deepEqual(received.counts, {held: 1, absent: 3});
+  assert.match(received.outcomes[0].reason, /untracked/);
+  assert.equal(readFileSync(join(root, 'lib/legacy/snapshot/tool.mts'), 'utf8'), 'new untracked source');
+});

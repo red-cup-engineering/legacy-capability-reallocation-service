@@ -91,8 +91,13 @@ export function retireTrackedLegacyCapabilities({plan, apply = false}) {
       try {
         if (failure) throw new Error(failure);
         if (entry.type !== 'blob') throw new Error('Gitlink or non-blob source retained');
-        if (index.get(full) !== `${entry.mode} ${entry.blob} 0`) throw new Error('index differs from selected source');
         const source = confined(root, full);
+        if (!index.has(full)) {
+          try { noLinkedParents(root, source); lstatSync(source); }
+          catch (error) { if (error.code === 'ENOENT') { outcomes.push({...outcome, state: 'absent'}); continue; } throw error; }
+          throw new Error('untracked source recreated after retirement');
+        }
+        if (index.get(full) !== `${entry.mode} ${entry.blob} 0`) throw new Error('index differs from selected source');
         let current;
         try { current = bytesAndMode(root, source); }
         catch (error) { if (error.code === 'ENOENT') { outcomes.push({...outcome, state: 'absent'}); continue; } throw error; }

@@ -18,6 +18,9 @@ Git does; group or other execute permission cannot mask an owner-mode edit.
 Do not recursively remove a directory, copy an archive, fetch history, or
 rewrite source. Return per-path outcomes so held files do not block clean
 ones. Repeated apply reports absent sources without deleting anything else.
+Receiving after a deletion commit also reports absence when both index and
+worktree lack the selected path. A recreated untracked file remains held;
+committing retirement must not prevent processing the next capability group.
 
 Evidence files are independently inspected by the reviewer and hashed in
 the receiving result. Their existence is a source witness, not a proof of
