@@ -20,6 +20,13 @@ and paths reached through symlinks shall survive. Independent eligible files
 shall proceed when another is held. The ordinary CLI shall support preview,
 apply, and repeated receiving without recursive directory deletion.
 
+Applying through the ordinary command shall commit that batch's exact removals
+before returning. It shall preserve unrelated staged work and handle literal
+Unicode, newline and glob characters in filenames. A failed commit shall be
+reported as uncommitted with a failing exit status; another batch shall not
+begin until that retirement is landed. Leader, 2026-10-23: "because you ddin't
+commit your retirement, another agent restored it as possibly a glitch".
+
 Acceptance: use this on the actual legacy collection; compare against the
 existing body-reading inventory's work and whole-repository reference walk.
 Test a covered capability, an explicitly deprecated one, Unicode/newline

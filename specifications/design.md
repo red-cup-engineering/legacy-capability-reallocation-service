@@ -29,3 +29,16 @@ their limitations. Source classification recognizes the estate's MTS,
 Elisp, Racket, Scheme and Lean as code, rather than opaque binaries.
 When writing the full result to a named output, CLI stdout contains only counts
 and source identity; large per-capability witnesses stay in that result file.
+
+The CLI's apply operation finishes by landing the exact removed/previously
+absent tracked paths in Git. Recheck their original index identities and
+worktree absence, then use native NUL-delimited literal pathspec input with
+`git add -u` and `git commit --only`. Other staged work remains staged.
+Already committed removals need no new commit; recreated files stop landing.
+A commit failure leaves an explicit uncommitted result and failing exit code,
+so the caller resolves it before starting another batch. The lower-level
+unlink function remains available for controlled composition and tests.
+If a hook or another actor recreates a selected file while committing, preserve
+it and report `committed-with-recreated-files` with the actual commit and paths;
+the CLI exits unsuccessfully so the caller reconciles those files before
+continuing. A completed commit is never misreported as uncommitted.

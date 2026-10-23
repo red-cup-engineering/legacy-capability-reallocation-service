@@ -111,3 +111,56 @@ export function retireTrackedLegacyCapabilities({plan, apply = false}) {
   const counts = outcomes.reduce((all, row) => ({...all, [row.state]: (all[row.state] ?? 0) + 1}), {});
   return {kind: 'legacy-capability-retirement-result/v1', repositoryRoot: root, legacyRoot: plan.legacyRoot, revision: inventory.revision, apply, inventoryFiles: entries.size, selectedFiles: seen.size, unselectedFiles: entries.size - seen.size, counts, capabilities, outcomes};
 }
+
+/** Land only this reviewed batch; unrelated staged changes remain staged. */
+export function commitTrackedLegacyRetirement({result}) {
+  if (result?.kind !== 'legacy-capability-retirement-result/v1' || result.apply !== true) throw new TypeError('applied retirement result required');
+  const root = resolve(result.repositoryRoot);
+  const inventory = inventoryTrackedLegacyCapabilities({...result, revision: result.revision});
+  const originals = new Map(inventory.entries.map(x => [x.path, x]));
+  const head = new Map(inventoryTrackedLegacyCapabilities({...result, revision: 'HEAD'}).entries.map(x => [x.path, x]));
+  const index = new Map(git(root, ['ls-files', '--stage', '-z', '--', result.legacyRoot]).toString().split('\0').filter(Boolean).map(row => {
+    const tab = row.indexOf('\t');
+    return [row.slice(tab + 1), row.slice(0, tab)];
+  }));
+  const paths = [], unstaged = [];
+  for (const row of result.outcomes) {
+    if (!['removed', 'absent'].includes(row.state)) continue;
+    const original = originals.get(row.path);
+    if (!original || original.type !== 'blob' || original.blob !== row.blob || original.mode !== row.mode) throw new Error('retirement result differs from selected source');
+    const full = result.legacyRoot + '/' + row.path;
+    const source = confined(root, full);
+    try { noLinkedParents(root, source); lstatSync(source); }
+    catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+      if (!index.has(full)) {
+        const current = head.get(row.path);
+        if (!current) continue;
+        if (current.blob !== original.blob || current.mode !== original.mode) throw new Error('HEAD changed before retirement commit');
+        paths.push(full);
+        continue;
+      }
+      if (index.get(full) !== `${original.mode} ${original.blob} 0`) throw new Error('index changed before retirement commit');
+      paths.push(full);
+      unstaged.push(full);
+      continue;
+    }
+    throw new Error('source restored before retirement commit: ' + full);
+  }
+  if (!paths.length) return {state: 'already-landed', commit: git(root, ['rev-parse', 'HEAD']).toString().trim(), retiredFiles: 0};
+  const input = Buffer.from(paths.join('\0') + '\0');
+  const run = (args, bytes = input) => execFileSync('git', ['--literal-pathspecs', '-C', root, ...args], {input: bytes, maxBuffer: 32 * 1024 * 1024, stdio: ['pipe', 'pipe', 'pipe']});
+  if (unstaged.length) run(['add', '-u', '--pathspec-from-file=-', '--pathspec-file-nul'], Buffer.from(unstaged.join('\0') + '\0'));
+  run(['commit', '--only', '-m', 'Retire reviewed Git-preserved legacy capabilities', '--pathspec-from-file=-', '--pathspec-file-nul']);
+  const landed = inventoryTrackedLegacyCapabilities({...result, revision: 'HEAD'});
+  const selected = new Set(paths);
+  if (landed.entries.some(x => selected.has(result.legacyRoot + '/' + x.path))) throw new Error('selected source remains in retirement commit');
+  const recreatedFiles = [];
+  for (const full of paths) {
+    try { noLinkedParents(root, confined(root, full)); lstatSync(confined(root, full)); }
+    catch (error) { if (error.code === 'ENOENT') continue; }
+    recreatedFiles.push(full);
+  }
+  if (recreatedFiles.length) return {state: 'committed-with-recreated-files', commit: landed.revision, retiredFiles: paths.length, recreatedFiles};
+  return {state: 'committed', commit: landed.revision, retiredFiles: paths.length};
+}
