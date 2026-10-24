@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFileSync, spawnSync} from 'node:child_process';
-import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync} from 'node:fs';
+import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync, symlinkSync, linkSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -13,7 +13,7 @@ const resolver = path.join(computer, 'services/computer-code-engineering-service
 
 // The service is the consumer under test. All source effects use native local
 // Git and Fabrication's existing provider fixtures through its public export.
-function fixture(t) {
+function fixture(t, {withRecords = false} = {}) {
   const root = mkdtempSync(path.join(tmpdir(), 'legacy-publication-cli-'));
   t.after(() => rmSync(root, {recursive: true, force: true}));
   const repository = path.join(root, 'work'), remote = path.join(root, 'source.git');
@@ -49,12 +49,45 @@ function fixture(t) {
   const plan = {kind:'legacy-capability-retirement-plan/v1', repositoryRoot:repository, legacyRoot:'lib/legacy', revision,
     capabilities:[{id:'reviewed-two', disposition:'covered', reason:'Actual ordinary receiving implementation independently reviewed',
       sourcePaths:['batch/first.md','batch/second.md'], evidence:[{path:'living/receiver.mjs'}]}]};
-  const planPath = path.join(root, 'plan.json'), output = path.join(root, 'result.json');
+  const recordsRepository = path.join(root, 'records-work'), recordsRemote = path.join(root, 'records.git');
+  const recordsGit = (...args) => raw(recordsRepository, args);
+  let recordsRevision, recordsHead, recordsStaged;
+  if (withRecords) {
+    raw(root, ['init', '--bare', '-q', recordsRemote]);
+    raw(root, ['--git-dir', recordsRemote, 'config', 'uploadpack.allowFilter', 'true']);
+    raw(root, ['init', '-q', '-b', 'main', recordsRepository]);
+    recordsGit('config', 'user.name', 'Actual records owner fixture');
+    recordsGit('config', 'user.email', 'records@example.invalid');
+    mkdirSync(path.join(recordsRepository, 'data'));
+    for (const [name, body] of Object.entries({
+      'neighbor.txt':'records upstream baseline\n',
+      'records-unreceived.txt':'separate records native absence\n',
+      'other-writer.txt':'original records source\n'
+    })) writeFileSync(path.join(recordsRepository, name), body);
+    recordsGit('add', '.'); recordsGit('commit', '-qm', 'Original proper records owner');
+    recordsRevision = recordsGit('rev-parse', 'HEAD');
+    recordsGit('remote', 'add', 'origin', recordsRemote); recordsGit('push', '-q', 'origin', 'main');
+    recordsGit('rm', '-q', 'records-unreceived.txt'); recordsGit('commit', '-qm', 'Separate records native absence');
+    recordsHead = recordsGit('rev-parse', 'HEAD');
+    writeFileSync(path.join(recordsRepository, 'other-writer.txt'), 'unrelated records staging\n');
+    recordsGit('add', 'other-writer.txt'); recordsStaged = recordsGit('diff', '--cached', '--raw', '-z');
+  }
+  const planPath = withRecords ? path.join(recordsRepository, 'data/plan.json') : path.join(root, 'plan.json');
+  const output = withRecords ? path.join(recordsRepository, 'data/result.json') : path.join(root, 'result.json');
   writeFileSync(planPath, JSON.stringify(plan));
   const bin = path.join(root, 'bin'); mkdirSync(bin);
   writeFileSync(path.join(bin, 'git'), `#!/bin/sh
 set -eu
-if [ "$RETIREMENT_TEST_OUTAGE" = 1 ]; then
+records_owner=0
+if [ -n "\${RETIREMENT_TEST_RECORDS_ROOT:-}" ]; then
+ case "$PWD $*" in *"$RETIREMENT_TEST_RECORDS_ROOT"*|*fixture/records*)
+  records_owner=1
+  export SOURCE_CANDIDATE_PROVIDER_FIXTURE="$RETIREMENT_TEST_RECORDS_PROVIDER"
+  export SOURCE_CANDIDATE_FIXTURE_ORIGIN='https://github.com/fixture/records.git'
+  export SOURCE_CANDIDATE_FIXTURE_REMOTE="$RETIREMENT_TEST_RECORDS_REMOTE"
+ esac
+fi
+if [ "$RETIREMENT_TEST_OUTAGE" = 1 ] || { [ "$RETIREMENT_TEST_OUTAGE" = records ] && [ "$records_owner" = 1 ]; }; then
  case "$PWD" in *source-receiving-*)
   for argument in "$@"; do
    if [ "$argument" = fetch ] && "$RETIREMENT_TEST_NODE" --input-type=module -e 'import {existsSync,readFileSync} from "node:fs"; const f=JSON.parse(process.env.SOURCE_CANDIDATE_PROVIDER_FIXTURE); process.exit(existsSync(f.reviews)&&JSON.parse(readFileSync(f.reviews,"utf8")).reviews.some(row=>row.state==="MERGED")?0:1);'; then
@@ -67,9 +100,15 @@ exec /bin/sh "$RETIREMENT_TEST_GIT_PORT" "$@"
 `, {mode:0o700});
   writeFileSync(path.join(bin, 'gh'), `#!/usr/bin/env node
 import {execFileSync} from 'node:child_process';
+import {appendFileSync} from 'node:fs';
 const args=process.argv.slice(2);
 if(args[0]==='api'&&args[1]?.includes('/git/commits/'))throw Error('merge receiving must not issue REST commit reads');
-const output=String(execFileSync(process.execPath,[process.env.RETIREMENT_TEST_PROVIDER,...args],{encoding:'utf8'}));
+const recordsOwner = process.env.RETIREMENT_TEST_RECORDS_ROOT &&
+  (process.cwd().startsWith(process.env.RETIREMENT_TEST_RECORDS_ROOT) || args.some(arg=>arg.includes('fixture/records')));
+const env = {...process.env, ...(recordsOwner ? {SOURCE_CANDIDATE_PROVIDER_FIXTURE:process.env.RETIREMENT_TEST_RECORDS_PROVIDER,
+  SOURCE_CANDIDATE_FIXTURE_ORIGIN:'https://github.com/fixture/records.git', SOURCE_CANDIDATE_FIXTURE_REMOTE:process.env.RETIREMENT_TEST_RECORDS_REMOTE} : {})};
+const output=String(execFileSync(process.execPath,[process.env.RETIREMENT_TEST_PROVIDER,...args],{encoding:'utf8',env}));
+if (!recordsOwner && args[0]==='pr' && args[1]==='merge' && process.env.RETIREMENT_TEST_MUTATE_RECORD) appendFileSync(process.env.RETIREMENT_TEST_MUTATE_RECORD,'\\n');
 process.stdout.write(output);
 `, {mode:0o700});
   // Keep an explicitly selected canonical Fabrication artifact. Otherwise use
@@ -93,10 +132,31 @@ process.stdout.write(output);
     SOURCE_CANDIDATE_PROVIDER_FIXTURE:JSON.stringify({selection:{repository:'fixture/source'}, remote, reviews:reviewsPath}),
     SOURCE_CANDIDATE_FIXTURE_ORIGIN:'https://github.com/fixture/source.git', SOURCE_CANDIDATE_FIXTURE_REMOTE:remote,
     GIT_TRACE2_EVENT:path.join(root, 'git-events.jsonl')};
-  const run = ({outage=false}={}) => {
-    const execution = spawnSync(process.execPath, [cli, planPath, '--apply', '--publish', '--output='+output],
-      {cwd:repository, env:{...env, RETIREMENT_TEST_OUTAGE:outage?'1':'0'}, encoding:'utf8', timeout:60000, maxBuffer:2*1024*1024});
-    return {...execution, result:existsSync(output)?JSON.parse(readFileSync(output,'utf8')):undefined};
+  const recordsRequestPath = path.join(root, 'records-request.json'), recordsOutput = path.join(root, 'records-publication.json');
+  const recordPaths = ['data/plan.json', 'data/result.json', 'data/review.json'];
+  let recordsRequest;
+  if (withRecords) {
+    recordsGit('remote', 'set-url', 'origin', 'https://github.com/fixture/records.git');
+    recordsGit('config', `url.${recordsRemote}.insteadOf`, 'https://github.com/fixture/records.git');
+    writeFileSync(path.join(recordsRepository, 'data/review.json'), JSON.stringify({verdict:'accepted', scope:'reviewed-two'})+'\n', {mode:0o755});
+    recordsRequest = {repositoryRoot:recordsRepository, paths:recordPaths, message:'Receive the actual retirement and supporting review', push:true,
+      reviewedSource:{revision:recordsRevision, entries:recordPaths.map(path=>({path,absent:true}))}};
+    writeFileSync(recordsRequestPath, JSON.stringify(recordsRequest));
+    env.RETIREMENT_TEST_RECORDS_ROOT = recordsRepository;
+    env.RETIREMENT_TEST_RECORDS_REMOTE = recordsRemote;
+    env.RETIREMENT_TEST_RECORDS_PROVIDER = JSON.stringify({selection:{repository:'fixture/records'}, remote:recordsRemote, reviews:path.join(root, 'records-reviews.json')});
+    const concurrent = path.join(root, 'records-concurrent');
+    raw(root, ['clone', '-q', '--branch', 'main', recordsRemote, concurrent]);
+    raw(concurrent, ['config', 'user.name', 'Independent records writer']);
+    raw(concurrent, ['config', 'user.email', 'other-records@example.invalid']);
+    writeFileSync(path.join(concurrent, 'neighbor.txt'), 'independent records upstream advance\n');
+    writeFileSync(path.join(concurrent, 'upstream-only.txt'), 'independent records source\n');
+    raw(concurrent, ['add', '.']); raw(concurrent, ['commit', '-qm', 'Concurrent unselected records source']); raw(concurrent, ['push', '-q', 'origin', 'main']);
+  }
+  const run = ({outage=false, extraArgs=[], recordsReceipt=recordsOutput, mutateRecord}={}) => {
+    const execution = spawnSync(process.execPath, [cli, planPath, '--apply', '--publish', '--output='+output, ...(withRecords ? ['--publish-records='+recordsRequestPath, '--records-output='+recordsReceipt] : []), ...extraArgs],
+      {cwd:repository, env:{...env, RETIREMENT_TEST_OUTAGE:outage===true?'1':outage||'0', ...(mutateRecord?{RETIREMENT_TEST_MUTATE_RECORD:path.join(recordsRepository,mutateRecord)}:{})}, encoding:'utf8', timeout:60000, maxBuffer:2*1024*1024});
+    return {...execution, result:existsSync(output)?JSON.parse(readFileSync(output,'utf8')):undefined, records:existsSync(recordsOutput)?JSON.parse(readFileSync(recordsOutput,'utf8')):undefined};
   };
   const upstream = (...args) => raw(root, ['--git-dir', remote, ...args]);
   const refs = () => upstream('for-each-ref', '--format=%(refname) %(objectname)');
@@ -109,7 +169,12 @@ process.stdout.write(output);
   writeFileSync(path.join(advance,'neighbor.txt'),'independent upstream advance\n');
   writeFileSync(path.join(advance,'upstream-only.txt'),'independent new source\n');
   raw(advance,['add','.']); raw(advance,['commit','-qm','Concurrent unselected source']); raw(advance,['push','-q','origin','main']);
-  return {root, repository, git, upstream, refs, pushes, reviews, reviewsPath, run, revision, localParent, staged, output};
+  return {root, repository, git, upstream, refs, pushes, reviews, reviewsPath, run, revision, localParent, staged, output, planPath,
+    recordsRepository, recordsRemote, recordsGit, recordsHead, recordsStaged, recordsRequest, recordsRequestPath, recordsOutput, recordPaths,
+    recordsReviewsPath:path.join(root, 'records-reviews.json'),
+    recordsUpstream:(...args)=>raw(root, ['--git-dir', recordsRemote, ...args]),
+    recordsBytes:file=>execFileSync('git', ['--git-dir', recordsRemote, 'show', 'main:'+file]),
+    recordsRefs:()=>raw(root, ['--git-dir', recordsRemote, 'for-each-ref', '--format=%(refname) %(objectname)'])};
 }
 
 function assertLocalCut(f, result) {
@@ -169,4 +234,138 @@ test('retirement CLI retains its completed real merge when receiving fails and h
   assert.equal(f.git('rev-parse','HEAD'),head); assert.equal(f.refs(),refs); assert.equal(f.pushes(),pushes);
   assert.deepEqual(readFileSync(f.reviewsPath),reviews); assert.equal(f.git('diff','--cached','--raw','-z'),f.staged);
   assertReceivedCut(f,replay.result);
+});
+
+function assertRecordsReceived(f, received) {
+  assert.equal(received.ok, true);
+  assert.equal(received.phase, 'landed');
+  assert.equal(received.candidate.receiving.state, 'received');
+  assert.equal(received.candidate.receiving.allUnselectedPreserved, true);
+  assert.deepEqual(received.candidate.receiving.entries.map(row=>row.path).sort(), [...f.recordPaths].sort());
+  assert.equal(received.recordFiles.length, f.recordPaths.length);
+  for (const name of f.recordPaths) {
+    assert.deepEqual(f.recordsBytes(name), readFileSync(path.join(f.recordsRepository, name)));
+    const snapshot = received.recordFiles.find(row=>row.path===name);
+    const entry = received.candidate.receiving.entries.find(row=>row.path===name);
+    assert.equal(entry.after.mode, snapshot.mode);
+    assert.equal(entry.after.object, snapshot.blob);
+  }
+  assert.equal(f.recordsUpstream('show', 'main:records-unreceived.txt'), 'separate records native absence');
+  assert.equal(f.recordsUpstream('show', 'main:neighbor.txt'), 'independent records upstream advance');
+  assert.equal(f.recordsUpstream('show', 'main:upstream-only.txt'), 'independent records source');
+  assert.equal(f.recordsUpstream('show', 'main:other-writer.txt'), 'original records source');
+  assert.equal(f.recordsGit('rev-parse', 'HEAD'), f.recordsHead);
+  assert.equal(f.recordsGit('diff', '--cached', '--raw', '-z'), f.recordsStaged);
+  assert.equal(readFileSync(path.join(f.recordsRepository, 'other-writer.txt'), 'utf8'), 'unrelated records staging\n');
+  assert.equal(existsSync(path.join(f.recordsRepository, 'records-unreceived.txt')), false);
+  assert.equal(existsSync(path.join(f.recordsRepository, '.git/shallow')), false);
+  assert.equal(JSON.parse(readFileSync(f.recordsReviewsPath, 'utf8')).reviews.length, 1);
+}
+
+function effectsSnapshot(f) {
+  return {head:f.git('rev-parse','HEAD'), recordsHead:f.recordsGit('rev-parse','HEAD'),
+    refs:f.refs(), recordsRefs:f.recordsRefs(), pushes:f.pushes(),
+    reviews:existsSync(f.reviewsPath)?readFileSync(f.reviewsPath):null,
+    recordsReviews:existsSync(f.recordsReviewsPath)?readFileSync(f.recordsReviewsPath):null,
+    staging:f.git('diff','--cached','--raw','-z'), recordsStaging:f.recordsGit('diff','--cached','--raw','-z')};
+}
+
+// Two genuine source owners are routed through the unchanged provider/Git
+// fixtures. Neither source receives the other owner's unrelated local state.
+test('one CLI retires and receives records at their own source owner, then replays the byte-identical completed result',t=>{
+  const f=fixture(t,{withRecords:true}), first=f.run();
+  assert.equal(first.status,0,first.stderr||first.stdout);
+  assertLocalCut(f,first.result); assertReceivedCut(f,first.result); assertRecordsReceived(f,first.records);
+  assert.deepEqual(first.result.counts,{removed:2});
+  assert.equal(first.result.recordsPublication,undefined,'published result must not refer to its own record-publication receipt');
+  const summary=JSON.parse(first.stdout);
+  assert.equal(summary.recordsPublication.ok,true);
+  assert.equal(summary.recordsPublication.output,f.recordsOutput);
+  const fixed=readFileSync(f.output), effects=effectsSnapshot(f);
+  const replay=f.run(); assert.equal(replay.status,0,replay.stderr||replay.stdout);
+  assert.deepEqual(readFileSync(f.output),fixed);
+  assert.deepEqual(effectsSnapshot(f),effects);
+  assert.equal(replay.result.landing.state,'committed','record replay must reuse the completed retirement rather than recalculate it');
+  assert.equal(replay.records.candidate.mergeCommit,first.records.candidate.mergeCommit);
+  assertRecordsReceived(f,replay.records);
+
+  // A retained receipt binds the exact published record bytes, owner and cut.
+  // Refuse changed support/result material or a changed path set before replay.
+  for (const name of ['data/plan.json','data/review.json','data/result.json']) {
+    const file=path.join(f.recordsRepository,name), original=readFileSync(file);
+    writeFileSync(file,Buffer.concat([original,Buffer.from('\n')]));
+    const before=effectsSnapshot(f), refused=f.run();
+    assert.notEqual(refused.status,0,'mutated retained record must refuse replay');
+    assert.match(refused.stderr,/retained record publication owner, paths or bytes differ/u);
+    assert.deepEqual(effectsSnapshot(f),before);
+    writeFileSync(file,original);
+  }
+  writeFileSync(f.recordsRequestPath,JSON.stringify({...f.recordsRequest,paths:f.recordPaths.slice(0,2),
+    reviewedSource:{...f.recordsRequest.reviewedSource,entries:f.recordsRequest.reviewedSource.entries.slice(0,2)}}));
+  const refused=f.run(); assert.notEqual(refused.status,0);
+  assert.match(refused.stderr,/retained record publication owner, paths or bytes differ/u);
+  assert.deepEqual(effectsSnapshot(f),effects);
+  assert.deepEqual(readFileSync(f.output),fixed);
+});
+
+test('record merge readback outage retains both actual merges and replay receives only the original record candidate',t=>{
+  const f=fixture(t,{withRecords:true}), failed=f.run({outage:'records'});
+  assert.equal(failed.status,1,failed.stderr||failed.stdout);
+  assertLocalCut(f,failed.result); assertReceivedCut(f,failed.result);
+  assert.equal(failed.records.ok,false); assert.equal(failed.records.phase,'receiving');
+  assert.equal(failed.records.candidate.landed,true);
+  assert.match(failed.records.candidate.mergeCommit,/^[0-9a-f]{40}$/u);
+  assert.equal(failed.records.candidate.receiving,undefined);
+  assert.equal(JSON.parse(readFileSync(f.recordsReviewsPath,'utf8')).reviews[0].mergeCommit,failed.records.candidate.mergeCommit);
+  const fixed=readFileSync(f.output), effects=effectsSnapshot(f);
+  assert.deepEqual(f.recordsBytes('data/result.json'),fixed,'actual records merge contains the fixed successful retirement');
+  const replay=f.run(); assert.equal(replay.status,0,replay.stderr||replay.stdout);
+  assert.deepEqual(effectsSnapshot(f),effects);
+  assert.deepEqual(readFileSync(f.output),fixed);
+  assert.equal(replay.result.publication.candidate.mergeCommit,failed.result.publication.candidate.mergeCommit);
+  assert.equal(replay.records.candidate.commit,failed.records.candidate.commit);
+  assert.equal(replay.records.candidate.mergeCommit,failed.records.candidate.mergeCommit);
+  assertRecordsReceived(f,replay.records);
+});
+
+test('supporting record changed after preflight is refused before record-source publication',t=>{
+  const f=fixture(t,{withRecords:true}), recordsRefs=f.recordsRefs();
+  const failed=f.run({mutateRecord:'data/review.json'});
+  assert.equal(failed.status,1,failed.stderr||failed.stdout);
+  assert.match(failed.stderr,/retirement input records changed before publication/u);
+  assertLocalCut(f,failed.result); assertReceivedCut(f,failed.result);
+  assert.deepEqual(failed.result.counts,{removed:2});
+  assert.equal(f.recordsRefs(),recordsRefs);
+  assert.equal(existsSync(f.recordsReviewsPath),false);
+  assert.equal(existsSync(f.recordsOutput),false);
+  assert.equal(f.recordsGit('rev-parse','HEAD'),f.recordsHead);
+  assert.equal(f.recordsGit('diff','--cached','--raw','-z'),f.recordsStaged);
+});
+
+test('record destination, owner, exact cut and canonical request are checked before any retirement effects',async t=>{
+  const cases = [
+    ['unusable receipt destination',f=>({recordsReceipt:path.join(f.root,'missing','receipt.json')})],
+    ['non-owner repository root',f=>{writeFileSync(f.recordsRequestPath,JSON.stringify({...f.recordsRequest,repositoryRoot:path.join(f.recordsRepository,'data')}));return [];}],
+    ['missing exact result',f=>{const request={...f.recordsRequest,paths:['data/plan.json','data/review.json'],
+      reviewedSource:{...f.recordsRequest.reviewedSource,entries:f.recordsRequest.reviewedSource.entries.filter(row=>row.path!=='data/result.json')}};
+      writeFileSync(f.recordsRequestPath,JSON.stringify(request));return [];}],
+    ['receipt inside publication cut',f=>({recordsReceipt:path.join(f.recordsRepository,'data/result.json')})],
+    ['malformed reviewed preimage',f=>{writeFileSync(f.recordsRequestPath,JSON.stringify({...f.recordsRequest,
+      reviewedSource:{revision:f.recordsRequest.reviewedSource.revision,entries:[{path:'data/plan.json',absent:true}]}}));return [];}],
+    ['result hardlinked to plan',f=>{linkSync(f.planPath,f.output);return [];}],
+    ['linked record body',f=>{const file=path.join(f.recordsRepository,'data/review.json');
+      rmSync(file); symlinkSync(f.planPath,file); return [];}],
+    ['receipt alias of published result',f=>{const alias=path.join(f.root,'receipt-alias');
+      symlinkSync(path.join(f.recordsRepository,'data'),alias,'dir'); return {recordsReceipt:path.join(alias,'result.json')};}],
+    ['escaping record path',f=>{writeFileSync(f.recordsRequestPath,JSON.stringify({...f.recordsRequest,paths:[...f.recordPaths,'../outside.json']}));return [];}]
+  ];
+  for (const [name,change] of cases) await t.test(name,t=>{
+    const f=fixture(t,{withRecords:true}), before=effectsSnapshot(f), changed=change(f), existingResult=existsSync(f.output)?readFileSync(f.output):null, refused=f.run(Array.isArray(changed)?{extraArgs:changed}:changed);
+    assert.notEqual(refused.status,0,refused.stderr||refused.stdout);
+    assert.deepEqual(effectsSnapshot(f),before);
+    for(const file of ['first.md','second.md']) assert.equal(existsSync(path.join(f.repository,'lib/legacy/batch',file)),true);
+    if(existingResult) assert.deepEqual(readFileSync(f.output),existingResult);
+    else assert.equal(existsSync(f.output),false);
+    assert.equal(existsSync(f.recordsOutput),false);
+  });
 });

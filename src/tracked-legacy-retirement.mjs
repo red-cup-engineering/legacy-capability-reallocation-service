@@ -178,18 +178,99 @@ export async function publishTrackedLegacyRetirement({result, previousPublicatio
   const selected = result.outcomes.filter(row => ['removed', 'absent'].includes(row.state));
   if (!selected.length) return {ok: true, phase: 'unchanged', paths: []};
   const paths = selected.map(row => result.legacyRoot + '/' + row.path);
+  return publishRetirementPaths({root: result.repositoryRoot, previousPublication, maker, request: {
+    paths, message: 'Retire reviewed Git-preserved legacy capabilities', push: true,
+    reviewedSource: {revision: result.revision, entries: selected.map(row => ({path: result.legacyRoot + '/' + row.path, mode: row.mode, type: row.type, sha: row.blob}))}
+  }});
+}
+
+async function publishRetirementPaths({root, request, previousPublication, maker}) {
+  const paths = request.paths;
   const provider = maker ?? await import('@red-cup-engineering/computer-systems-fabrication-engineering-services-section/git/github-candidate');
   if (previousPublication?.candidate) {
-    if (previousPublication.root !== result.repositoryRoot || JSON.stringify([...previousPublication.paths].sort()) !== JSON.stringify([...paths].sort())) throw new TypeError('retained source publication differs from this retirement cut');
+    if (previousPublication.root !== root || JSON.stringify([...previousPublication.paths].sort()) !== JSON.stringify([...paths].sort())) throw new TypeError('retained source publication differs from this retirement cut');
     try {
-      const candidate = provider.landCandidateSync({repository: result.repositoryRoot, candidate: previousPublication.candidate});
+      const candidate = provider.landCandidateSync({repository: root, candidate: previousPublication.candidate});
       return {...previousPublication, ok: true, phase: 'landed', candidate, obstructions: []};
     } catch (error) {
       return {...previousPublication, ok: false, phase: error.code === 'CANDIDATE_RECEIVING_UNRESOLVED' ? 'receiving' : 'effect', candidate: error.sourceCandidate ?? previousPublication.candidate, obstructions: [String(error.message).slice(0,4096)]};
     }
   }
-  return provider.publishGitPaths({packageRoot: result.repositoryRoot}, {
-    paths, message: 'Retire reviewed Git-preserved legacy capabilities', push: true,
-    reviewedSource: {revision: result.revision, entries: selected.map(row => ({path: result.legacyRoot + '/' + row.path, mode: row.mode, type: row.type, sha: row.blob}))}
+  return provider.publishGitPaths({packageRoot: root}, request);
+}
+
+function retirementRecordFiles(root, paths, optionalPath) {
+  return paths.map(path => {
+    const file = confined(root, path);
+    let current;
+    try { current = bytesAndMode(root, file); }
+    catch (error) { if (error.code === 'ENOENT' && file === optionalPath) return null; throw error; }
+    if (current.mode === '120000') throw new TypeError('retirement records must be regular files');
+    const blob = String(execFileSync('git', ['-C', root, 'hash-object', '--stdin'], {input:current.bytes, maxBuffer:1024, stdio:['pipe','pipe','pipe']})).trim();
+    return {path, mode:current.mode, sha256:digest(current.bytes), blob};
+  }).filter(Boolean);
+}
+
+/** Validate the caller's record custody and canonical maker request before any
+ * retirement effect. The result may be absent only on the first invocation. */
+export async function prepareTrackedLegacyRecordPublication({request, planPath, planBytes, resultPath, receiptPath, previousPublication}) {
+  if (typeof request?.repositoryRoot !== 'string') throw new TypeError('record publication requires its actual repositoryRoot');
+  const root = resolve(request.repositoryRoot);
+  if (git(root, ['rev-parse', '--show-toplevel']).toString().trim() !== root) throw new TypeError('record repositoryRoot must be its actual Git root');
+  const {readGitCommitPathsRequest} = await import('@red-cup-engineering/git-source-reading-service/git-command-codec');
+  const input = readGitCommitPathsRequest(request);
+  if (!input.push || input.dryRun || !input.reviewedSource) throw new TypeError('record publication requires a reviewed source publication request');
+  const absolute = input.paths.map(path => {
+    if (path.split('/').includes('legacy')) throw new TypeError('retirement records cannot be published into legacy');
+    return confined(root, path);
   });
+  if (resolve(planPath) === resolve(resultPath)) throw new TypeError('retirement plan and result must be separate files');
+  if (!absolute.includes(resolve(planPath)) || !absolute.includes(resolve(resultPath))) throw new TypeError('record publication must include its exact plan and result');
+  if (absolute.includes(resolve(receiptPath)) || resolve(receiptPath) === resolve(resultPath)) throw new TypeError('record publication receipt must remain outside its publication cut');
+  noLinkedParents(root, resolve(receiptPath));
+  const present = file => {
+    try { return lstatSync(file); }
+    catch (error) { if (error.code === 'ENOENT') return null; throw error; }
+  };
+  const receipt = present(resolve(receiptPath)), result = present(resolve(resultPath));
+  if (receipt && !receipt.isFile()) throw new TypeError('record publication receipt must be a regular file');
+  const sameFile = (a,b) => a && b && a.dev === b.dev && a.ino === b.ino;
+  if (absolute.some(file => sameFile(receipt,present(file)) ||
+      (file !== resolve(resultPath) && sameFile(result,present(file))))) throw new TypeError('record publication destinations must not alias selected records');
+  const files = retirementRecordFiles(root, input.paths, previousPublication ? undefined : resolve(resultPath));
+  const inputFiles = files.filter(file => confined(root, file.path) !== resolve(resultPath));
+  if (!planBytes || inputFiles.find(file => confined(root, file.path) === resolve(planPath))?.sha256 !== digest(planBytes)) throw new TypeError('record plan bytes differ from the plan being retired');
+  if (previousPublication !== undefined && (!previousPublication || previousPublication.root !== root ||
+      JSON.stringify(previousPublication.paths) !== JSON.stringify(input.paths) ||
+      JSON.stringify(previousPublication.recordFiles) !== JSON.stringify(files))) throw new TypeError('retained record publication owner, paths or bytes differ');
+  return {root, request:input, inputFiles, replay:previousPublication !== undefined};
+}
+
+/** Compose record publication with the same maker used for the retirement.
+ * save retains custody before effects; the result being published stays fixed. */
+export async function publishTrackedLegacyRecords({publication, previousPublication, maker, save}) {
+  if (typeof save !== 'function') throw new TypeError('record publication requires a durable receipt writer');
+  const {root, request} = publication;
+  const recordFiles = retirementRecordFiles(root, request.paths);
+  if (publication.inputFiles.some(expected => JSON.stringify(recordFiles.find(file => file.path === expected.path)) !== JSON.stringify(expected))) throw new TypeError('retirement input records changed before publication');
+  if (previousPublication && JSON.stringify(previousPublication.recordFiles) !== JSON.stringify(recordFiles)) throw new TypeError('retirement records changed before publication replay');
+  const prepared = {...previousPublication, kind:'metroplat.git.commit-paths', ok:false, phase:'prepared', root, paths:request.paths, recordFiles};
+  save(prepared);
+  let received;
+  try {
+    received = {...await publishRetirementPaths({root, request, previousPublication, maker}), recordFiles};
+    if (received.ok && received.candidate?.receiving) {
+      for (const entry of received.candidate.receiving.entries) {
+        const original = recordFiles.find(file => file.path === entry.path);
+        if (!original || entry.after?.type !== 'blob' || entry.after.mode !== original.mode || entry.after.object !== original.blob) {
+          received = {...received, ok:false, phase:'receiving', obstructions:['published records differ from the retained file identities']};
+          break;
+        }
+      }
+    }
+  } catch (error) {
+    received = {...prepared, phase:'effect', obstructions:[String(error.message).slice(0,4096)]};
+  }
+  save(received);
+  return received;
 }

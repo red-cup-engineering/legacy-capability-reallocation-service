@@ -80,6 +80,17 @@ the same command and output to receive it without another push or review.
 Publication requires a durable output; a local commit alone remains available
 without `--publish`. Before restoring an unexpected deletion, consult its
 commit and receiving record.
+
+Add `--publish-records=REQUEST.json --records-output=RECEIPT.json` to finish
+the plan/result/supporting-record publication in the same invocation.
+REQUEST contains their actual `repositoryRoot` and Fabrication's ordinary
+`paths`, `message`, `push: true` and exact `reviewedSource` fields. Select
+the plan and result plus any supporting records explicitly. RECEIPT must
+remain outside that cut: it holds the record merge and any unresolved effect,
+while the published retirement result stays fixed. Repeating this invocation
+receives a retained record candidate without rerunning retirement or changing
+the published result. Changed record bytes or custody require reconciliation.
+
 The older full-ledger verifier below performs a repository reference walk;
 use this bounded path on Bare Cedar Fog. A source witness and file removal
 do not assert independent deployment or living-owner architectural conformance.
