@@ -32,7 +32,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.4.15-dev.241"
+    "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.4.15-dev.243"
   },
   "repository": {
     "type": "git",
