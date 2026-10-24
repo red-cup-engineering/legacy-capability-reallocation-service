@@ -54,6 +54,11 @@ previews or removes just reviewed committed files. The plan names
 `authorization`. Evidence paths are repository-relative actual source files.
 Bind their SHA-256 after inspection. Git history provides recoverability;
 the reviewer provides the capability judgment.
+When the living evidence belongs to another repository, its item additionally
+names that actual Git `repositoryRoot`; `path` stays relative to that owner.
+The same confinement, symlink refusal and byte checks apply there. The service
+does not copy receiving records or living code into the archive to satisfy a
+same-repository path constraint.
 
 Apply checks committed blobs, index identity, working bytes and native Git
 executable/symlink modes. It preserves local changes, unknown files and

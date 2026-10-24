@@ -50,6 +50,11 @@ parents remain caller errors; the CLI does not invent a records directory.
 These checks cover known destination defects, not later filesystem races.
 The refusal leaves the source, index and HEAD untouched.
 
+A witness may explicitly select another actual Git `repositoryRoot`. Resolve
+its relative path only within that owner and use the same no-linked-ancestor,
+regular-file, non-legacy and SHA-256 checks. Record its owner in the witness
+receipt. Omitted owners retain the original same-repository behavior.
+
 `--apply --publish --output=RESULT.json` composes the existing local retirement
 and Fabrication's public source maker. The result's immutable original
 mode/type/blob entries become the maker's `reviewedSource`; removed and

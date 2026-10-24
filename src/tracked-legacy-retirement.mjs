@@ -58,7 +58,7 @@ export function retireTrackedLegacyCapabilities({plan, apply = false}) {
     return [row.slice(tab + 1), row.slice(0, tab)];
   }));
   const algorithm = git(root, ['rev-parse', '--show-object-format']).toString().trim();
-  const seen = new Set(), ids = new Set(), outcomes = [], capabilities = [];
+  const seen = new Set(), ids = new Set(), outcomes = [], capabilities = [], evidenceRoots = new Set([root]);
   // Validate the entire declaration before any effects.
   for (const cap of plan.capabilities) {
     if (!cap?.id || ids.has(cap.id) || !['covered', 'deprecated'].includes(cap.disposition) || !cap.reason?.trim() || !Array.isArray(cap.sourcePaths) || !cap.sourcePaths.length) throw new TypeError('unique capability, disposition, reason and sources required');
@@ -75,13 +75,18 @@ export function retireTrackedLegacyCapabilities({plan, apply = false}) {
     let failure;
     try {
       for (const evidence of cap.evidence ?? []) {
-        const path = confined(root, evidence.path);
+        const evidenceRoot = resolve(evidence.repositoryRoot ?? root);
+        if (!evidenceRoots.has(evidenceRoot)) {
+          if (git(evidenceRoot, ['rev-parse', '--show-toplevel']).toString().trim() !== evidenceRoot) throw new Error('evidence repositoryRoot must be its actual Git root');
+          evidenceRoots.add(evidenceRoot);
+        }
+        const path = confined(evidenceRoot, evidence.path);
         if (evidence.path.split('/').includes('legacy')) throw new Error('evidence points into legacy');
-        const current = bytesAndMode(root, path);
+        const current = bytesAndMode(evidenceRoot, path);
         if (current.mode === '120000') throw new Error('evidence must be an actual living file');
         const sha256 = digest(current.bytes);
         if (evidence.sha256 && evidence.sha256 !== sha256) throw new Error('living evidence changed');
-        witnesses.push({path: evidence.path, sha256});
+        witnesses.push({...(evidence.repositoryRoot === undefined ? {} : {repositoryRoot: evidenceRoot}), path: evidence.path, sha256});
       }
     } catch (error) { failure = error.message; }
     capabilities.push({id: cap.id, disposition: cap.disposition, witnesses, ...(failure ? {failure} : {})});

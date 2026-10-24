@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
 import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, symlinkSync, rmSync, chmodSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
@@ -98,3 +99,71 @@ test('landed deletion remains idempotent while recreated untracked source surviv
   assert.match(received.outcomes[0].reason, /untracked/);
   assert.equal(readFileSync(join(root, 'lib/legacy/snapshot/tool.mts'), 'utf8'), 'new untracked source');
 });
+
+function separateLivingOwner(t) {
+  const root = mkdtempSync(join(tmpdir(), 'legacy-evidence-owner-'));
+  t.after(() => rmSync(root, {recursive:true, force:true}));
+  const git = (...args) => execFileSync('git', ['-C', root, ...args], {stdio:['ignore','pipe','pipe']}).toString().trim();
+  git('init'); git('config','user.name','Living owner'); git('config','user.email','owner@example.invalid');
+  mkdirSync(join(root,'src'));
+  const body = 'export function receiveCapability(value) { return {received: value}; }\n';
+  writeFileSync(join(root,'src/receiver.mjs'),body);
+  git('add','.'); git('commit','-m','Living ordinary receiver');
+  return {root, git, body, sha256:createHash('sha256').update(body).digest('hex')};
+}
+
+test('separate actual repository evidence receives an exact legacy cut without changing living code or neighboring sources', t => {
+  const {root, git, plan} = fixture(t), owner = separateLivingOwner(t);
+  plan.capabilities = [{...plan.capabilities[0], sourcePaths:['snapshot/tool.mts'],
+    evidence:[{repositoryRoot:owner.root, path:'src/receiver.mjs', sha256:owner.sha256}]}];
+  const ownerHead = owner.git('rev-parse','HEAD'), ownerIndex = readFileSync(join(owner.root,'.git/index'));
+  const sourceHead = git('rev-parse','HEAD');
+  const preview = retireTrackedLegacyCapabilities({plan});
+  assert.deepEqual(preview.counts,{eligible:1});
+  assert(existsSync(join(root,'lib/legacy/snapshot/tool.mts')));
+  assert.deepEqual(preview.capabilities[0].witnesses,[{repositoryRoot:owner.root,path:'src/receiver.mjs',sha256:owner.sha256}]);
+  const applied = retireTrackedLegacyCapabilities({plan,apply:true});
+  assert.deepEqual(applied.counts,{removed:1});
+  assert.equal(existsSync(join(root,'lib/legacy/snapshot/tool.mts')),false);
+  for(const name of ['proof.lean','unique.md','é\nname.mjs','edited.mjs']) assert(existsSync(join(root,'lib/legacy/snapshot',name)));
+  assert.equal(git('rev-parse','HEAD'),sourceHead);
+  assert.equal(readFileSync(join(owner.root,'src/receiver.mjs'),'utf8'),owner.body);
+  assert.equal(owner.git('rev-parse','HEAD'),ownerHead);
+  assert.deepEqual(readFileSync(join(owner.root,'.git/index')),ownerIndex);
+  assert.equal(owner.git('diff','--name-only'),'');
+});
+
+for(const defect of ['wrong-root','relative-escape','symlink-file','symlink-parent','wrong-hash','legacy-evidence']) {
+  test(`separate repository ${defect} evidence holds the reviewed sources without altering either owner`, t => {
+    const {root, git, plan} = fixture(t), owner = separateLivingOwner(t);
+    const evidence = {repositoryRoot:owner.root,path:'src/receiver.mjs',sha256:owner.sha256};
+    let reason;
+    if(defect==='wrong-root') {
+      evidence.repositoryRoot=join(owner.root,'src'); evidence.path='receiver.mjs'; reason=/actual Git root/;
+    } else if(defect==='relative-escape') {
+      evidence.path='../'+owner.root.split('/').at(-1)+'/src/receiver.mjs'; reason=/repository-relative path/;
+    } else if(defect==='symlink-file') {
+      symlinkSync('receiver.mjs',join(owner.root,'src/alias.mjs'));
+      evidence.path='src/alias.mjs'; reason=/actual living file/;
+    } else if(defect==='symlink-parent') {
+      symlinkSync('src',join(owner.root,'linked-source'));
+      evidence.path='linked-source/receiver.mjs'; reason=/symbolic-link ancestor/;
+    } else if(defect==='wrong-hash') {
+      evidence.sha256='0'.repeat(64); reason=/living evidence changed/;
+    } else {
+      mkdirSync(join(owner.root,'legacy')); writeFileSync(join(owner.root,'legacy/receiver.mjs'),owner.body);
+      evidence.path='legacy/receiver.mjs'; reason=/evidence points into legacy/;
+    }
+    plan.capabilities=[{...plan.capabilities[0],sourcePaths:['snapshot/tool.mts','snapshot/edited.mjs'],evidence:[evidence]}];
+    const sourceHead=git('rev-parse','HEAD'), sourceIndex=readFileSync(join(root,'.git/index'));
+    const ownerHead=owner.git('rev-parse','HEAD'), ownerIndex=readFileSync(join(owner.root,'.git/index'));
+    const applied=retireTrackedLegacyCapabilities({plan,apply:true});
+    assert.deepEqual(applied.counts,{held:2});
+    for(const outcome of applied.outcomes) assert.match(outcome.reason,reason);
+    assert.match(applied.capabilities[0].failure,reason);
+    for(const name of ['tool.mts','edited.mjs']) assert.equal(readFileSync(join(root,'lib/legacy/snapshot',name),'utf8'),name+'\n');
+    assert.equal(git('rev-parse','HEAD'),sourceHead); assert.deepEqual(readFileSync(join(root,'.git/index')),sourceIndex);
+    assert.equal(readFileSync(join(owner.root,'src/receiver.mjs'),'utf8'),owner.body);
+    assert.equal(owner.git('rev-parse','HEAD'),ownerHead); assert.deepEqual(readFileSync(join(owner.root,'.git/index')),ownerIndex);
+  });
+}
