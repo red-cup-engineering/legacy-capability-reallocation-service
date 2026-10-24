@@ -164,3 +164,27 @@ export function commitTrackedLegacyRetirement({result}) {
   if (recreatedFiles.length) return {state: 'committed-with-recreated-files', commit: landed.revision, retiredFiles: paths.length, recreatedFiles};
   return {state: 'committed', commit: landed.revision, retiredFiles: paths.length};
 }
+
+/** Feed the committed retirement directly to Fabrication's ordinary source
+ * maker. This owner supplies the reviewed cut; Fabrication owns GitHub effects,
+ * immutable merge receiving and uncertain-effect recovery. */
+export async function publishTrackedLegacyRetirement({result, previousPublication, maker}) {
+  if (result?.apply !== true || !['committed', 'already-landed'].includes(result.landing?.state)) throw new TypeError('committed retirement required before source publication');
+  const selected = result.outcomes.filter(row => ['removed', 'absent'].includes(row.state));
+  if (!selected.length) return {ok: true, phase: 'unchanged', paths: []};
+  const paths = selected.map(row => result.legacyRoot + '/' + row.path);
+  const provider = maker ?? await import('@red-cup-engineering/computer-systems-fabrication-engineering-services-section/git/github-candidate');
+  if (previousPublication?.candidate) {
+    if (previousPublication.root !== result.repositoryRoot || JSON.stringify([...previousPublication.paths].sort()) !== JSON.stringify([...paths].sort())) throw new TypeError('retained source publication differs from this retirement cut');
+    try {
+      const candidate = provider.landCandidateSync({repository: result.repositoryRoot, candidate: previousPublication.candidate});
+      return {...previousPublication, ok: true, phase: 'landed', candidate, obstructions: []};
+    } catch (error) {
+      return {...previousPublication, ok: false, phase: error.code === 'CANDIDATE_RECEIVING_UNRESOLVED' ? 'receiving' : 'effect', candidate: error.sourceCandidate ?? previousPublication.candidate, obstructions: [String(error.message).slice(0,4096)]};
+    }
+  }
+  return provider.publishGitPaths({packageRoot: result.repositoryRoot}, {
+    paths, message: 'Retire reviewed Git-preserved legacy capabilities', push: true,
+    reviewedSource: {revision: result.revision, entries: selected.map(row => ({path: result.legacyRoot + '/' + row.path, mode: row.mode, type: row.type, sha: row.blob}))}
+  });
+}

@@ -66,8 +66,15 @@ reporting success: a positive `removed` count alone is insufficient. Report
 `landing.commit` for committed paths and keep holds explicit. An `uncommitted`
 or `committed-with-recreated-files` landing needs resolution before handoff.
 Commit the receiving evidence, plan and result in their owning repository too.
-Upstream publication is separate from the local retirement commit. Before
-restoring an unexpected deletion, consult that commit and its receiving record.
+With `--apply --publish --output=RESULT.json`, the same command commits locally
+and sends its exact reviewed mode/blob set to Fabrication's existing source
+maker. It lands the source review and receives the complete immutable merge,
+preserving unselected source changes. A changed reviewed source preimage refuses
+publication. The receipt retains any completed effect awaiting readback; rerun
+the same command and output to receive it without another push or review.
+Publication requires a durable output; a local commit alone remains available
+without `--publish`. Before restoring an unexpected deletion, consult its
+commit and receiving record.
 The older full-ledger verifier below performs a repository reference walk;
 use this bounded path on Bare Cedar Fog. A source witness and file removal
 do not assert independent deployment or living-owner architectural conformance.
