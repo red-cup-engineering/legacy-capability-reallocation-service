@@ -49,3 +49,13 @@ symlinks are refused without following their targets. Missing result
 parents remain caller errors; the CLI does not invent a records directory.
 These checks cover known destination defects, not later filesystem races.
 The refusal leaves the source, index and HEAD untouched.
+
+`--apply --publish --output=RESULT.json` composes the existing local retirement
+and Fabrication's public source maker. The result's immutable original
+mode/type/blob entries become the maker's `reviewedSource`; removed and
+previously absent selected paths form the complete publication cut. This
+service contains no GitHub publication or merge algorithm. Save the local
+receipt before publication and the returned source result afterwards.
+Retain a failed receiving result's candidate and merge identity; on replay,
+check the retained root and path set, then ask the same maker to receive that
+candidate. No working-tree reinterpretation or replacement review is needed.

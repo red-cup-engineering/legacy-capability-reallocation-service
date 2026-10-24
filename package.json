@@ -31,6 +31,9 @@
     "node": ">=22"
   },
   "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.4.15-dev.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/legacy-capability-reallocation-service.git"

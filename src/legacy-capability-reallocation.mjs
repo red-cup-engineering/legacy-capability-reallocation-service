@@ -506,4 +506,4 @@ export function applyLegacyCapabilityAllocations({ ledgerPath, declarationsPath 
   return freeze({ ledgerPath: resolve(ledgerPath), applied: declared.size, retained: retained.length, sourceEvidence: knownSources.size });
 }
 
-export {inventoryTrackedLegacyCapabilities, retireTrackedLegacyCapabilities, commitTrackedLegacyRetirement} from "./tracked-legacy-retirement.mjs";
+export {inventoryTrackedLegacyCapabilities, retireTrackedLegacyCapabilities, commitTrackedLegacyRetirement, publishTrackedLegacyRetirement} from "./tracked-legacy-retirement.mjs";

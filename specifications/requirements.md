@@ -43,3 +43,11 @@ non-file target shall be refused before source deletion or Git landing. A
 caller must not discover an unusable receipt path only after the retirement
 has committed. This requirement follows the actual 2026-10-24 receiving job,
 whose four-file commit succeeded before its nonexistent output parent failed.
+
+The ordinary retirement command shall optionally finish upstream source
+publication in the same invocation. It shall pass only the reviewed cut to
+the existing Fabrication maker, refuse stale reviewed preimages, and receive
+the actual immutable merge. It shall preserve the local commit and any
+completed external effect when receiving fails. Repeating the same request
+and durable output shall reconcile the original publication without another
+push or review. A local-only invocation remains available.
