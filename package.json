@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/legacy-capability-reallocation-service",
-  "version": "0.3.0-dev.1",
+  "version": "0.3.0-dev.3",
   "type": "module",
   "description": "Inventories every legacy source carrier and refuses a reallocation claim until modern realization and legacy-route retirement are evidenced.",
   "exports": {
