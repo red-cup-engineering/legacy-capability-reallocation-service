@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFileSync, spawnSync} from 'node:child_process';
-import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, copyFileSync, chmodSync, rmSync} from 'node:fs';
+import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -52,15 +52,25 @@ function fixture(t) {
   const planPath = path.join(root, 'plan.json'), output = path.join(root, 'result.json');
   writeFileSync(planPath, JSON.stringify(plan));
   const bin = path.join(root, 'bin'); mkdirSync(bin);
-  copyFileSync(path.join(fabrication, 'test/fixtures/source-candidate-git-port.sh'), path.join(bin, 'git'));
-  chmodSync(path.join(bin, 'git'), 0o700);
+  writeFileSync(path.join(bin, 'git'), `#!/bin/sh
+set -eu
+if [ "$RETIREMENT_TEST_OUTAGE" = 1 ]; then
+ case "$PWD" in *source-receiving-*)
+  for argument in "$@"; do
+   if [ "$argument" = fetch ] && "$RETIREMENT_TEST_NODE" --input-type=module -e 'import {existsSync,readFileSync} from "node:fs"; const f=JSON.parse(process.env.SOURCE_CANDIDATE_PROVIDER_FIXTURE); process.exit(existsSync(f.reviews)&&JSON.parse(readFileSync(f.reviews,"utf8")).reviews.some(row=>row.state==="MERGED")?0:1);'; then
+    echo 'original native source readback transport unavailable' >&2; exit 71
+   fi
+  done
+ esac
+fi
+exec /bin/sh "$RETIREMENT_TEST_GIT_PORT" "$@"
+`, {mode:0o700});
   writeFileSync(path.join(bin, 'gh'), `#!/usr/bin/env node
 import {execFileSync} from 'node:child_process';
 const args=process.argv.slice(2);
+if(args[0]==='api'&&args[1]?.includes('/git/commits/'))throw Error('merge receiving must not issue REST commit reads');
 const output=String(execFileSync(process.execPath,[process.env.RETIREMENT_TEST_PROVIDER,...args],{encoding:'utf8'}));
-if(process.env.RETIREMENT_TEST_LIE==='1'&&args[0]==='api'&&args[1]?.includes('/git/commits/')){
- const observed=JSON.parse(output);observed.tree={sha:'f'.repeat(40)};process.stdout.write(JSON.stringify(observed));
-}else process.stdout.write(output);
+process.stdout.write(output);
 `, {mode:0o700});
   // Keep an explicitly selected canonical Fabrication artifact. Otherwise use
   // the native maker; no counterfeit decoder or node_modules edits.
@@ -78,12 +88,14 @@ if(process.env.RETIREMENT_TEST_LIE==='1'&&args[0]==='api'&&args[1]?.includes('/g
     HOUSE_PACKAGE_BINDINGS:bindingPath,
     NODE_OPTIONS:`--import ${resolver} --max-old-space-size=192`,
     RETIREMENT_TEST_PROVIDER:path.join(fabrication, 'test/fixtures/github-candidate-provider.mjs'),
+    RETIREMENT_TEST_NODE:process.execPath,
+    RETIREMENT_TEST_GIT_PORT:path.join(fabrication, 'test/fixtures/source-candidate-git-port.sh'),
     SOURCE_CANDIDATE_PROVIDER_FIXTURE:JSON.stringify({selection:{repository:'fixture/source'}, remote, reviews:reviewsPath}),
     SOURCE_CANDIDATE_FIXTURE_ORIGIN:'https://github.com/fixture/source.git', SOURCE_CANDIDATE_FIXTURE_REMOTE:remote,
     GIT_TRACE2_EVENT:path.join(root, 'git-events.jsonl')};
-  const run = ({lie=false}={}) => {
+  const run = ({outage=false}={}) => {
     const execution = spawnSync(process.execPath, [cli, planPath, '--apply', '--publish', '--output='+output],
-      {cwd:repository, env:{...env, RETIREMENT_TEST_LIE:lie?'1':'0'}, encoding:'utf8', timeout:60000, maxBuffer:2*1024*1024});
+      {cwd:repository, env:{...env, RETIREMENT_TEST_OUTAGE:outage?'1':'0'}, encoding:'utf8', timeout:60000, maxBuffer:2*1024*1024});
     return {...execution, result:existsSync(output)?JSON.parse(readFileSync(output,'utf8')):undefined};
   };
   const upstream = (...args) => raw(root, ['--git-dir', remote, ...args]);
@@ -143,7 +155,7 @@ test('retirement CLI commits and publishes only its reviewed cut through the rea
 });
 
 test('retirement CLI retains its completed real merge when receiving fails and honest replay completes the same receipt',t=>{
-  const f=fixture(t), failed=f.run({lie:true});
+  const f=fixture(t), failed=f.run({outage:true});
   assert.equal(failed.status,1,failed.stderr||failed.stdout);
   assertLocalCut(f,failed.result);
   const publication=failed.result.publication;
