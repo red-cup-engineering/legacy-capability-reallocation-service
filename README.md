@@ -15,6 +15,26 @@ resolved from their real consumer. Different package names, edited source,
 or unfinished repository conformance do not establish a missing capability.
 Preserve useful missing information in its existing owner before retirement.
 
+Before drafting replacement prose, inspect the selected owner's existing
+character or instance library as well as its general content directories.
+For example, a character's diary and semantic anchors may already live under
+`lib/agency/characters/<name>/`, with its principal and index explaining how
+they are used. A content-only listing cannot establish that they are missing.
+Read the actual bodies and reader entry points; reuse that living home when
+it receives the job. An archive or migration receipt alone does not receive it.
+
+Follow current repository ownership through the selected Gitlinks and resolve
+renamed repositories before declaring a capability absent. An older native
+mount can differ from current original source after a split. Record that
+difference and preserve unrelated native work; do not restore source-only
+files as a presumed glitch or claim installed parity from their source presence.
+
+Generated harness context is a separate job from its authored office, skill or
+memory sources. Check the complete wrapper shape and explicit generated-output
+marker before comparing its projection job with the current projector. Keep
+authored exceptions for their own receiving review; a nearby generated file
+does not make the whole directory disposable.
+
 `retire-tracked-legacy-capabilities PLAN.json [--apply] [--output=RESULT.json]`
 previews or removes just reviewed committed files. The plan names
 `kind: "legacy-capability-retirement-plan/v1"`, `repositoryRoot`, exact commit
