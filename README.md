@@ -50,6 +50,14 @@ executable/symlink modes. It preserves local changes, unknown files and
 untracked siblings, and reports per-file holds without blocking other eligible
 files. It unlinks individual files and never recursively removes a directory.
 With `--output`, stdout is compact. Result files retain the complete receipt.
+With `--apply`, the CLI immediately attempts an exact-path Git commit while
+preserving unrelated staging. Check its exit status and `landing` before
+reporting success: a positive `removed` count alone is insufficient. Report
+`landing.commit` for committed paths and keep holds explicit. An `uncommitted`
+or `committed-with-recreated-files` landing needs resolution before handoff.
+Commit the receiving evidence, plan and result in their owning repository too.
+Upstream publication is separate from the local retirement commit. Before
+restoring an unexpected deletion, consult that commit and its receiving record.
 The older full-ledger verifier below performs a repository reference walk;
 use this bounded path on Bare Cedar Fog. A source witness and file removal
 do not assert independent deployment or living-owner architectural conformance.
