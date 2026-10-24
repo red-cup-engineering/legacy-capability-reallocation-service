@@ -35,6 +35,16 @@ marker before comparing its projection job with the current projector. Keep
 authored exceptions for their own receiving review; a nearby generated file
 does not make the whole directory disposable.
 
+Generated admission claims can also embed source. Two reviewed platform-node
+claims each contained a base64 manifest of sixteen files, including authored
+charters, characters and contracts. Their surrounding preparation and receipt
+records looked like runtime state. Inspect the declared file list, encodings,
+sizes and hashes before choosing a disposition; compare useful embedded content
+with its living owner as well as the wrapper's bookkeeping job. A generated
+label does not establish that those contents are received. Historical authority
+claims remain historical, and examining a manifest does not require executing
+its embedded files or reconstructing its old installation.
+
 `retire-tracked-legacy-capabilities PLAN.json [--apply] [--output=RESULT.json]`
 previews or removes just reviewed committed files. The plan names
 `kind: "legacy-capability-retirement-plan/v1"`, `repositoryRoot`, exact commit
