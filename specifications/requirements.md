@@ -37,3 +37,9 @@ The preexisting `retire-wave` v2 reconciles into mounted living owners and
 does not move active code into legacy or edit workspace admission. Its assay
 shall exercise that current contract: clean unique source integrates while
 conflicting source, original custody and unrelated workspace files survive.
+
+A named result destination with a missing/unwritable parent or an existing
+non-file target shall be refused before source deletion or Git landing. A
+caller must not discover an unusable receipt path only after the retirement
+has committed. This requirement follows the actual 2026-10-24 receiving job,
+whose four-file commit succeeded before its nonexistent output parent failed.

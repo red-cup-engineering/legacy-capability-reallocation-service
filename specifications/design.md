@@ -42,3 +42,10 @@ If a hook or another actor recreates a selected file while committing, preserve
 it and report `committed-with-recreated-files` with the actual commit and paths;
 the CLI exits unsuccessfully so the caller reconciles those files before
 continuing. A completed commit is never misreported as uncommitted.
+
+The tracked-retirement CLI resolves and checks a named result parent and any
+existing regular output file before invoking the unlink operation. Named
+symlinks are refused without following their targets. Missing result
+parents remain caller errors; the CLI does not invent a records directory.
+These checks cover known destination defects, not later filesystem races.
+The refusal leaves the source, index and HEAD untouched.

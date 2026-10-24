@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {execFileSync, spawnSync} from 'node:child_process';
-import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync, chmodSync} from 'node:fs';
+import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync, chmodSync, symlinkSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -109,3 +109,23 @@ test('CLI detects a source recreated during commit and preserves the new worktre
   assert.equal(git('ls-tree', '-r', 'HEAD', '--', 'lib/legacy/batch/ordinary.mjs'), '');
   assert.equal(readFileSync(join(root, 'lib/legacy/batch/ordinary.mjs'), 'utf8'), 'new worktree source\n');
 });
+
+for (const defect of ['missing-parent', 'directory-target', 'dangling-symlink']) {
+  test(`CLI refuses ${defect} result destination before source or Git mutation`, t => {
+    const {root, git, revision, paths} = fixture(t);
+    writeFileSync(join(root, 'unrelated.txt'), 'keep staged work\n'); git('add', 'unrelated.txt');
+    const output = defect === 'missing-parent' ? join(root, 'missing-records', 'result.json')
+      : defect === 'directory-target' ? join(root, 'living') : join(root, 'linked-result.json');
+    if (defect === 'dangling-symlink') symlinkSync('missing-records/result.json', output);
+    const refused = spawnSync(process.execPath, [cli, join(root, 'plan.json'), '--apply', '--output=' + output], {encoding:'utf8'});
+    assert.notEqual(refused.status, 0);
+    assert.equal(git('rev-parse', 'HEAD').trim(), revision);
+    assert.deepEqual(rows(git('diff', '--cached', '--name-only', '-z')), ['unrelated.txt']);
+    assert.equal(git('diff', '--name-only'), '');
+    for (const path of paths) assert(existsSync(join(root, path)));
+    const resultPath = join(root, 'valid-result.json');
+    const applied = spawnSync(process.execPath, [cli, join(root, 'plan.json'), '--apply', '--output=' + resultPath], {encoding:'utf8'});
+    assert.equal(applied.status, 0, applied.stderr);
+    assert.equal(JSON.parse(readFileSync(resultPath, 'utf8')).landing.state, 'committed');
+  });
+}
