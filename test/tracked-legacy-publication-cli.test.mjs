@@ -62,12 +62,13 @@ if(process.env.RETIREMENT_TEST_LIE==='1'&&args[0]==='api'&&args[1]?.includes('/g
  const observed=JSON.parse(output);observed.tree={sha:'f'.repeat(40)};process.stdout.write(JSON.stringify(observed));
 }else process.stdout.write(output);
 `, {mode:0o700});
-  // Extend the qualified supplier selection with the actual canonical native
-  // Fabrication package; no counterfeit decoder or node_modules edits.
+  // Keep an explicitly selected canonical Fabrication artifact. Otherwise use
+  // the native maker; no counterfeit decoder or node_modules edits.
   assert.ok(process.env.HOUSE_PACKAGE_BINDINGS, 'run with qualified house supplier bindings');
   const bindings = JSON.parse(readFileSync(process.env.HOUSE_PACKAGE_BINDINGS, 'utf8'));
   const maker = JSON.parse(readFileSync(path.join(fabrication, 'package.json'), 'utf8'));
-  bindings.packages = [...bindings.packages.filter(row => row.name !== maker.name), {name:maker.name, version:maker.version, directory:fabrication}];
+  if(!bindings.packages.some(row => row.name === maker.name))
+    bindings.packages.push({name:maker.name, version:maker.version, directory:fabrication});
   const bindingPath = path.join(root, 'house-bindings.json');
   writeFileSync(bindingPath, JSON.stringify(bindings));
   git('remote', 'set-url', 'origin', 'https://github.com/fixture/source.git');
