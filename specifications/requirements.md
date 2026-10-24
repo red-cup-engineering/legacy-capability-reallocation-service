@@ -51,3 +51,15 @@ the actual immutable merge. It shall preserve the local commit and any
 completed external effect when receiving fails. Repeating the same request
 and durable output shall reconcile the original publication without another
 push or review. A local-only invocation remains available.
+
+The same command shall optionally publish the retirement's plan, completed
+result and explicitly selected supporting records through the existing maker.
+The caller supplies their actual repository and the maker's reviewed-path
+request; this service shall not implement another source publisher. Validate
+that declaration and both receipt destinations before retiring source.
+Keep the record-publication receipt outside its own publication cut, so its
+merge identity never makes the published retirement result self-referential.
+After a record publication retains an interrupted candidate, replay shall receive the original
+candidate without rewriting the completed retirement result, recommitting
+deletions or opening another review. Changed record bytes, a substituted owner
+or a different path set shall stop that replay before any effects.

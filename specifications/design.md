@@ -64,3 +64,20 @@ receipt before publication and the returned source result afterwards.
 Retain a failed receiving result's candidate and merge identity; on replay,
 check the retained root and path set, then ask the same maker to receive that
 candidate. No working-tree reinterpretation or replacement review is needed.
+
+`--publish-records=REQUEST.json --records-output=RECEIPT.json` extends that
+ordinary invocation after retirement publication succeeds. REQUEST contains
+`repositoryRoot` and the existing maker request fields `paths`, `message`,
+`push: true` and `reviewedSource`. Git Source Reading's canonical decoder
+validates the request. Both the plan and retirement result must be selected
+inside that actual Git owner; supporting records are explicit regular files.
+Record paths cannot traverse links, enter legacy, or include RECEIPT.
+
+Persist the exact selected file modes and byte identities in RECEIPT before
+calling Fabrication. The result file is final before that separate publication:
+its source-publication result goes only in RECEIPT. On replay, validate all
+retained file identities and reuse the already completed retirement result;
+continue the original maker candidate using the same shared publication path.
+An unresolved record effect retains its own original candidate and leaves
+the completed retirement source effect intact. No new GitHub algorithm,
+source acquisition, repository census or cross-repository transaction is added.

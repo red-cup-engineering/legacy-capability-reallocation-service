@@ -32,6 +32,7 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@red-cup-engineering/git-source-reading-service": "0.1.4",
     "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.4.15-dev.243"
   },
   "repository": {
