@@ -1,8 +1,8 @@
 import {createHash} from 'node:crypto';
-import {accessSync, constants, lstatSync, readFileSync, writeFileSync} from 'node:fs';
+import {accessSync, constants, lstatSync, readFileSync, realpathSync, writeFileSync} from 'node:fs';
 import {dirname, isAbsolute, relative, resolve, sep} from 'node:path';
 import {execFileSync} from 'node:child_process';
-import {readTrackedLegacyRetirementPlan} from './tracked-legacy-retirement.mjs';
+import {readTrackedLegacyRetirementPlan, hasReceivedTrackedLegacyPublication} from './tracked-legacy-retirement.mjs';
 
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const textBytes = value => Buffer.from(JSON.stringify(value, null, 2) + '\n');
@@ -109,8 +109,10 @@ export async function prepareTrackedLegacyRetirementBatch({batch, batchPath}) {
   const allowed = ['kind','id','repositoryRoot','plans','supportingRecords','outputs','publication'];
   if (batch?.kind !== 'legacy-capability-retirement-batch/v1' || Object.keys(batch).some(key => !allowed.includes(key))) fail('declared batch input required');
   const root = batch.repositoryRoot;
-  if (typeof root !== 'string' || !isAbsolute(root) || resolve(root) !== root
-      || String(execFileSync('git',['-C',root,'rev-parse','--show-toplevel'],{stdio:['ignore','pipe','pipe']})).trim() !== root) fail('record owner must be its actual Git root');
+  if (typeof root !== 'string' || !isAbsolute(root) || resolve(root) !== root) fail('record owner must be its actual Git root');
+  const actualRoot = String(execFileSync('git',['-C',root,'rev-parse','--show-toplevel'],{stdio:['ignore','pipe','pipe']})).trim();
+  const aliasReplay = actualRoot !== root;
+  if (aliasReplay && realpathSync(root) !== realpathSync(actualRoot)) fail('record owner must be its actual Git root');
   const outputs = batch.outputs, keys = ['plan','receiving','result','publicationRequest','publicationReceipt'];
   if (!outputs || Object.keys(outputs).length !== keys.length || keys.some(key => !pathOk(outputs[key]))) fail('exact five output paths required');
   if (!Array.isArray(batch.plans) || !batch.plans.length || batch.plans.length > 32 || !Array.isArray(batch.supportingRecords ?? []) || (batch.supportingRecords ?? []).length > 64) fail('bounded explicit input lists required');
@@ -131,6 +133,16 @@ export async function prepareTrackedLegacyRetirementBatch({batch, batchPath}) {
     }
   }
   for (const file of targets) accessSync(dirname(file),constants.W_OK);
+  if (aliasReplay) {
+    // A physical-root rename may leave the old explicit address as a symlink.
+    // Only complete retained custody may use it; fresh work uses the actual root.
+    if (targets.some(file => !stat(file))) fail('root alias requires complete retained publication');
+    const retained = JSON.parse(readFileSync(targets[2],'utf8'));
+    const records = JSON.parse(readFileSync(targets[4],'utf8'));
+    if (!hasReceivedTrackedLegacyPublication(retained.publication)
+        || !['committed','already-landed'].includes(retained.landing?.state)
+        || !hasReceivedTrackedLegacyPublication(records) || records.root !== root) fail('root alias requires complete retained publication');
+  }
   const read = path => ({path, bytes:readFileSync(ownPath(root,path))});
   const result = composeTrackedLegacyRetirementBatch({id:batch.id, repositoryRoot:root, receivingPath:outputs.receiving,
     plans:batch.plans.map(read), supportingRecords:(batch.supportingRecords ?? []).map(read)});

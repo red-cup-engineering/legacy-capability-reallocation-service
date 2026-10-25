@@ -1,6 +1,6 @@
 import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
-import {lstatSync, readFileSync, readlinkSync, unlinkSync} from 'node:fs';
+import {lstatSync, readFileSync, readlinkSync, realpathSync, unlinkSync} from 'node:fs';
 import {isAbsolute, relative, resolve, sep} from 'node:path';
 
 const git = (root, args) => execFileSync('git', ['-C', root, ...args], {maxBuffer: 32 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe']});
@@ -203,13 +203,22 @@ async function publishRetirementPaths({root, request, previousPublication, maker
   if (previousPublication?.candidate) {
     if (previousPublication.root !== root || JSON.stringify([...previousPublication.paths].sort()) !== JSON.stringify([...paths].sort())) throw new TypeError('retained source publication differs from this retirement cut');
     try {
-      const candidate = provider.landCandidateSync({repository: root, candidate: previousPublication.candidate});
+      const candidate = hasReceivedTrackedLegacyPublication(previousPublication)
+        ? provider.receiveCandidateMergeSync({repository: root, candidate: previousPublication.candidate, mergeCommit: previousPublication.candidate.mergeCommit})
+        : provider.landCandidateSync({repository: root, candidate: previousPublication.candidate});
       return {...previousPublication, ok: true, phase: 'landed', candidate, obstructions: []};
     } catch (error) {
       return {...previousPublication, ok: false, phase: error.code === 'CANDIDATE_RECEIVING_UNRESOLVED' ? 'receiving' : 'effect', candidate: error.sourceCandidate ?? previousPublication.candidate, obstructions: [String(error.message).slice(0,4096)]};
     }
   }
   return provider.publishGitPaths({packageRoot: root}, request);
+}
+
+/** Completed publication can be reobserved without granting another source effect. */
+export function hasReceivedTrackedLegacyPublication(value) {
+  const receiving = value?.candidate?.receiving;
+  return value?.ok === true && value.phase === 'landed' && receiving?.state === 'received'
+    && receiving.completeTransformation === true && receiving.allUnselectedPreserved === true;
 }
 
 function retirementRecordFiles(root, paths, optionalPath) {
@@ -229,7 +238,9 @@ function retirementRecordFiles(root, paths, optionalPath) {
 export async function prepareTrackedLegacyRecordPublication({request, planPath, planBytes, resultPath, receiptPath, previousPublication}) {
   if (typeof request?.repositoryRoot !== 'string') throw new TypeError('record publication requires its actual repositoryRoot');
   const root = resolve(request.repositoryRoot);
-  if (git(root, ['rev-parse', '--show-toplevel']).toString().trim() !== root) throw new TypeError('record repositoryRoot must be its actual Git root');
+  const actualRoot = git(root, ['rev-parse', '--show-toplevel']).toString().trim();
+  if (actualRoot !== root && (!hasReceivedTrackedLegacyPublication(previousPublication)
+      || realpathSync(root) !== realpathSync(actualRoot))) throw new TypeError('record repositoryRoot must be its actual Git root');
   const {readGitCommitPathsRequest} = await import('@red-cup-engineering/git-source-reading-service/git-command-codec');
   const input = readGitCommitPathsRequest(request);
   if (!input.push || input.dryRun || !input.reviewedSource) throw new TypeError('record publication requires a reviewed source publication request');
@@ -267,8 +278,9 @@ export async function publishTrackedLegacyRecords({publication, previousPublicat
   const recordFiles = retirementRecordFiles(root, request.paths);
   if (publication.inputFiles.some(expected => JSON.stringify(recordFiles.find(file => file.path === expected.path)) !== JSON.stringify(expected))) throw new TypeError('retirement input records changed before publication');
   if (previousPublication && JSON.stringify(previousPublication.recordFiles) !== JSON.stringify(recordFiles)) throw new TypeError('retirement records changed before publication replay');
+  const readOnly = hasReceivedTrackedLegacyPublication(previousPublication);
   const prepared = {...previousPublication, kind:'metroplat.git.commit-paths', ok:false, phase:'prepared', root, paths:request.paths, recordFiles};
-  save(prepared);
+  if (!readOnly) save(prepared);
   let received;
   try {
     received = {...await publishRetirementPaths({root, request, previousPublication, maker}), recordFiles};
@@ -284,6 +296,8 @@ export async function publishTrackedLegacyRecords({publication, previousPublicat
   } catch (error) {
     received = {...prepared, phase:'effect', obstructions:[String(error.message).slice(0,4096)]};
   }
-  save(received);
+  // A transient failed observation does not invalidate the immutable effect or
+  // erase the completed custody needed for the next read-only replay.
+  if (!readOnly) save(received);
   return received;
 }
