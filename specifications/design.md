@@ -143,3 +143,22 @@ the copied admitted reviewedSource is retained. Thus a native retirement cannot
 commit first and discover a supplier path-contract refusal afterwards. Existing
 candidate replay stays on its original receiving path. Git filenames remain
 literal throughout; neither this service nor the codec unquotes them.
+
+## Retirement during an uncommitted subtree relocation
+
+Optional `workingLegacyRoot` names a second confined, nonoverlapping legacy
+subtree in the same Git root. `legacyRoot` and `revision` continue to identify
+the immutable reviewed originals and the original remote publication cut.
+The ordinary inventory and publisher therefore keep their existing contracts.
+
+The existing retirement consumer observes only the two named index subtrees
+and their HEAD metadata. For each selected file it admits an exact staged
+relocation: old working/index entries absent, unchanged old HEAD blob/mode,
+new HEAD entry absent, and new index/working blob/mode equal to the original.
+It unlinks only the new working file. The same commit consumer rechecks that
+cut, removes only selected new index additions through native `update-index`,
+and uses its existing path-limited commit for original deletions. Other staged
+changes remain staged. A failed commit retains the same missing-file cut for
+recovery; a completed replay requires both sides absent and creates no commit.
+The result carries `workingLegacyRoot`; the batch composer includes it in its
+common-cut comparison and passes it to the ordinary consumer unchanged.

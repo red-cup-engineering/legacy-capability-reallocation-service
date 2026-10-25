@@ -108,3 +108,19 @@ through the selected canonical Git Source Reading request decoder. Supplier
 request refusal MUST leave local originals and Git state untouched. Preserve
 literal admitted Git filename bytes; do not rewrite paths to make them admissible.
 Retained candidate replay keeps its original immutable publication identity.
+
+A reviewed plan MAY declare a different `workingLegacyRoot` when an unchanged
+legacy subtree has been moved in the Git index but that relocation is not yet
+committed. The original immutable source cut and remote publication paths MUST
+remain unchanged. Before removing a moved file, verify that its original path is
+absent from both working tree and index, its original HEAD entry still equals
+the reviewed source, and its moved index entry and working bytes/mode match.
+The moved path MUST NOT already exist in HEAD. Changed or recreated originals,
+changed moved files/index entries and overlapping roots MUST refuse removal.
+
+Retirement MUST remove the selected moved additions from the index before
+committing their original-path deletions, so a later relocation commit cannot
+restore retired files. Preserve every unrelated staged relocation and edit.
+Recheck the moved cut before committing, detect recreation after committing,
+and allow replay only when both original and moved copies remain absent.
+Batch composition MUST retain this local mapping and refuse mixed mappings.

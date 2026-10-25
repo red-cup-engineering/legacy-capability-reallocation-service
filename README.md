@@ -1,5 +1,12 @@
 # Legacy capability reallocation service
 
+For an unchanged legacy subtree moved in the index before its relocation is
+committed, a reviewed plan can specify `workingLegacyRoot` alongside its original
+`legacyRoot` and immutable `revision`. The same command checks both cuts, removes
+the selected new staged additions, commits their original-path deletions and
+publishes the original source cut. Changed files or index entries are held;
+unrelated relocation work stays staged. Omit the field for an ordinary retirement.
+
 <!-- 561-group-standards:badges:start -->
 [![Red Cup Engineering](https://img.shields.io/badge/561%20Group-Red%20Cup%20Engineering-c0392b)](https://github.com/red-cup-engineering)
 [![License: MIT](https://img.shields.io/badge/license-MIT-c0392b)](LICENSE)
