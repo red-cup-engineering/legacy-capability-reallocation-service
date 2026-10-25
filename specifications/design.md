@@ -102,7 +102,13 @@ The same CLI also accepts a `legacy-capability-retirement-batch/v1` input.
 Its actual record `repositoryRoot` owns relative `plans`, `supportingRecords`
 and five `outputs`: `plan`, `receiving`, `result`, `publicationRequest` and
 `publicationReceipt`. `publication` supplies the existing maker's message,
-optional candidate and exact reviewedSource. No field requests execution;
+optional candidate and optional reviewedSource. When omitted, source preparation
+uses the already selected Fabrication source reader to acquire origin/main and
+check that only the three named publication destinations are absent. The exact
+remote lease is persisted in the ordinary generated request. On partial or
+completed replay, read that retained request's preimages instead of acquiring a
+new lease; all existing generated-byte equality checks still apply. Occupied
+source destinations require explicit preimages. No field requests execution;
 the existing CLI flags still select preview, apply and publication.
 
 A pure composer validates the canonical plan declarations, common source cut

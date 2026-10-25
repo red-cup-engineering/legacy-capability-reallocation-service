@@ -81,7 +81,14 @@ custody, it shall assemble one canonical plan, an exact-input snapshot and a
 complete existing-maker record request. Only plans with the same source owner,
 legacy subtree and immutable revision may combine. Duplicate capability IDs,
 overlapping source paths, changed evidence, absent deprecation authority and
-incomplete publication preimages shall refuse preparation. Assembly adds no
+invalid explicit publication preimages shall refuse preparation. For fresh
+record outputs, omitted preimages MUST be observed from the actual origin/main
+through the existing source reader before any generated-file write or retirement
+effect. All three destinations MUST be absent at that immutable remote cut.
+Persist the lease in the generated request and reuse it unchanged on partial,
+interrupted and completed replay; never replace it with a new remote observation.
+Unreachable origin or an occupied destination MUST leave source and outputs
+untouched. Assembly adds no
 capability judgment, authority, source publisher or installed-use claim.
 
 Preserve original UTF-8 input bytes, their hashes and direct living-code
