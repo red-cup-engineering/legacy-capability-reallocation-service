@@ -10,6 +10,14 @@ async function sourceReader() {
   return {...codec, ...await import(new URL('./git-objects.mjs', maker).href)};
 }
 
+/** Use the publisher's canonical request contract before local effects. */
+export async function readTrackedLegacySourcePublicationRequest({paths, reviewedSource}) {
+  const {readGitCommitPathsRequest} = await import('@red-cup-engineering/git-source-reading-service/git-command-codec');
+  return readGitCommitPathsRequest({
+    paths, message: 'Retire reviewed Git-preserved legacy capabilities', push: true, reviewedSource
+  });
+}
+
 /** Qualify only original remote metadata before local retirement effects.
  * The plan's local review identity is not asserted to exist at origin. */
 export async function prepareTrackedLegacySourcePublication({result, previousPublication}) {
@@ -32,6 +40,7 @@ export async function prepareTrackedLegacySourcePublication({result, previousPub
   const match = /^([a-f0-9]{40})\s+refs\/heads\/main$/u.exec(advertised);
   if (!match) throw new TypeError('source preparation requires one advertised immutable origin/main');
   const revision = match[1];
+  const request = await readTrackedLegacySourcePublicationRequest({paths, reviewedSource: {revision, entries}});
   withSourceReadTransportSync(root, [revision], source => {
     for (const entry of entries) {
       const actual = entryAtSync(source, revision, entry.path);
@@ -42,7 +51,7 @@ export async function prepareTrackedLegacySourcePublication({result, previousPub
     kind: 'legacy-retirement-source-preparation/v1',
     repositoryRoot: root, legacyRoot: result.legacyRoot,
     planRevision: result.revision, origin, ref: 'refs/heads/main',
-    reviewedSource: {revision, entries}
+    reviewedSource: request.reviewedSource
   };
 }
 

@@ -133,3 +133,13 @@ Read-only reobservation never replaces a previously completed record receipt,
 including when its provider is temporarily unavailable; its returned outcome
 still reports that failure. New or uncertain effects retain durable progress
 writes through the existing record-publication path.
+
+
+Source preparation constructs the same fixed-message, push-enabled selected-path
+request used by retirement publication and calls the canonical
+readGitCommitPathsRequest before acquiring selected remote metadata or returning
+a preparation witness. The decoder validates every selected path and exact lease;
+the copied admitted reviewedSource is retained. Thus a native retirement cannot
+commit first and discover a supplier path-contract refusal afterwards. Existing
+candidate replay stays on its original receiving path. Git filenames remain
+literal throughout; neither this service nor the codec unquotes them.

@@ -100,3 +100,11 @@ from their exact immutable merge, without a new GitHub merge or push attempt.
 A transient read-only receiving failure MUST preserve the last completed
 receipt bytes and return the current observation failure separately, so the
 same retained invocation remains retryable.
+
+
+Before any first source-publishing retirement deletion or commit, the service
+MUST admit the complete selected-path request and its exact remote source lease
+through the selected canonical Git Source Reading request decoder. Supplier
+request refusal MUST leave local originals and Git state untouched. Preserve
+literal admitted Git filename bytes; do not rewrite paths to make them admissible.
+Retained candidate replay keeps its original immutable publication identity.
