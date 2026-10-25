@@ -76,6 +76,17 @@ test('overlapping sources and duplicate capability identities cannot be counted 
   assert.throws(() => compose(edit(fixture(),1,p=>{p.capabilities[0].id='first';})),/unique capability/u);
 });
 
+test('explicit upstream roots survive assembly and cannot be mixed or escape source', () => {
+  const input=fixture();
+  for(let i=0;i<2;i++)edit(input,i,p=>{p.sourceLegacyRoot='moved/legacy';});
+  const out=compose(input);
+  assert.equal(out.plan.sourceLegacyRoot,'moved/legacy');
+  assert.equal(out.receiving.source.sourceLegacyRoot,'moved/legacy');
+  assert.throws(()=>compose(edit(fixture(),1,p=>{p.sourceLegacyRoot='moved/legacy';})),/different source cuts/u);
+  for(const root of ['../legacy','/tmp/legacy','source/.git/legacy','source\\..\\legacy','source/legacy\n'])
+    assert.throws(()=>compose(edit(fixture(),0,p=>{p.sourceLegacyRoot=root;})),/confined source legacy root/u);
+});
+
 test('covered and deprecated judgments retain the ordinary authority contract', () => {
   assert.throws(() => compose(edit(fixture(),1,p=>{p.capabilities[0].evidence=[];})),/living implementation evidence/u);
   assert.throws(() => compose(edit(fixture(),1,p=>{p.capabilities[0].disposition='deprecated';})),/deprecation authority/u);

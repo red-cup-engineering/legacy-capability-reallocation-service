@@ -42,7 +42,7 @@ export async function prepareTrackedLegacySourcePublication({result, previousPub
   if (result?.kind !== 'legacy-capability-retirement-result/v1' || result.apply !== false) throw new TypeError('source preparation requires the read-only retirement result');
   const root = resolve(result.repositoryRoot);
   const entries = result.outcomes.filter(row => ['eligible', 'absent'].includes(row.state))
-    .map(row => ({path: result.legacyRoot + '/' + row.path, mode: row.mode, type: row.type, sha: row.blob}));
+    .map(row => ({path: (result.sourceLegacyRoot ?? result.legacyRoot) + '/' + row.path, mode: row.mode, type: row.type, sha: row.blob}));
   if (!entries.length) return undefined;
   const paths = entries.map(row => row.path);
   if (previousPublication?.candidate) {
@@ -68,6 +68,7 @@ export async function prepareTrackedLegacySourcePublication({result, previousPub
   return {
     kind: 'legacy-retirement-source-preparation/v1',
     repositoryRoot: root, legacyRoot: result.legacyRoot,
+    ...(result.sourceLegacyRoot === undefined ? {} : {sourceLegacyRoot:result.sourceLegacyRoot}),
     planRevision: result.revision, origin, ref: 'refs/heads/main',
     reviewedSource: request.reviewedSource
   };
@@ -78,6 +79,7 @@ export async function reviewedSourceForTrackedLegacyRetirement(result, selected)
   const prepared = result.sourcePreparation;
   if (prepared?.kind !== 'legacy-retirement-source-preparation/v1' || prepared.repositoryRoot !== resolve(result.repositoryRoot)
       || prepared.legacyRoot !== result.legacyRoot || prepared.planRevision !== result.revision
+      || (prepared.sourceLegacyRoot ?? prepared.legacyRoot) !== (result.sourceLegacyRoot ?? result.legacyRoot)
       || !/^[a-f0-9]{40}$/u.test(prepared.reviewedSource?.revision ?? '') || !Array.isArray(prepared.reviewedSource.entries))
     throw new TypeError('qualified remote source preparation required before retirement publication');
   const {gitSync, gitRepositoryObservationPlan} = await sourceReader();
@@ -86,7 +88,7 @@ export async function reviewedSourceForTrackedLegacyRetirement(result, selected)
   if (origin !== prepared.origin) throw new TypeError('original source origin changed after retirement preparation');
   const qualified = new Map(prepared.reviewedSource.entries.map(entry => [entry.path, entry]));
   const entries = selected.map(row => {
-    const path = result.legacyRoot + '/' + row.path, entry = qualified.get(path);
+    const path = (result.sourceLegacyRoot ?? result.legacyRoot) + '/' + row.path, entry = qualified.get(path);
     if (!entry || entry.mode !== row.mode || entry.type !== row.type || entry.sha !== row.blob)
       throw new TypeError('prepared source preimage differs from retirement: ' + path);
     return entry;
