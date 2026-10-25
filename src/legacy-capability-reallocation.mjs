@@ -508,3 +508,4 @@ export function applyLegacyCapabilityAllocations({ ledgerPath, declarationsPath 
 
 export {inventoryTrackedLegacyCapabilities, readTrackedLegacyRetirementPlan, retireTrackedLegacyCapabilities, commitTrackedLegacyRetirement, publishTrackedLegacyRetirement, prepareTrackedLegacyRecordPublication, publishTrackedLegacyRecords} from "./tracked-legacy-retirement.mjs";
 export {composeTrackedLegacyRetirementBatch, prepareTrackedLegacyRetirementBatch} from "./tracked-legacy-batch.mjs";
+export {prepareTrackedLegacySourcePublication} from "./tracked-legacy-source-publication.mjs";

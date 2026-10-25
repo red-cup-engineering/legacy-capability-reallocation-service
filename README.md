@@ -81,6 +81,32 @@ Publication requires a durable output; a local commit alone remains available
 without `--publish`. Before restoring an unexpected deletion, consult its
 commit and receiving record.
 
+The command qualifies those original preimages at the advertised remote main
+before deleting locally. Its immutable plan revision may be a local-only
+review cut: `sourcePreparation` retains that review identity separately from
+the remote lease used by Fabrication. An unavailable or mismatched original
+source refuses before deletion/commit. Local-only apply needs no remote.
+
+The package's public root also exports `prepareTrackedLegacySourcePublication`
+for library consumers. Prepare before applying; publication refuses a fresh
+retirement without this witness and never silently prepares after deletion:
+
+```js
+const preview = retireTrackedLegacyCapabilities({plan});
+const sourcePreparation = await prepareTrackedLegacySourcePublication({result: preview});
+const result = retireTrackedLegacyCapabilities({plan, apply: true});
+result.sourcePreparation = sourcePreparation;
+result.landing = commitTrackedLegacyRetirement({result});
+// Save result in the owner's durable output before the external source effect.
+result.publication = await publishTrackedLegacyRetirement({result});
+// Save the returned receiving result, including any retained candidate.
+```
+
+For replay, pass the retained `publication` as `previousPublication` to both
+preparation and publication, and retain its original `sourcePreparation`.
+An existing candidate is received as originally named rather than re-leased
+or pushed again. The ordinary CLI performs this custody automatically.
+
 Add `--publish-records=REQUEST.json --records-output=RECEIPT.json` to finish
 the plan/result/supporting-record publication in the same invocation.
 REQUEST contains their actual `repositoryRoot` and Fabrication's ordinary
