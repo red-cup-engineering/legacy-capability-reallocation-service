@@ -191,9 +191,14 @@ export async function publishTrackedLegacyRetirement({result, previousPublicatio
   const selected = result.outcomes.filter(row => ['removed', 'absent'].includes(row.state));
   if (!selected.length) return {ok: true, phase: 'unchanged', paths: []};
   const paths = selected.map(row => result.legacyRoot + '/' + row.path);
+  let reviewedSource;
+  if (!previousPublication?.candidate) {
+    const {reviewedSourceForTrackedLegacyRetirement} = await import('./tracked-legacy-source-publication.mjs');
+    reviewedSource = await reviewedSourceForTrackedLegacyRetirement(result, selected);
+  }
   return publishRetirementPaths({root: result.repositoryRoot, previousPublication, maker, request: {
     paths, message: 'Retire reviewed Git-preserved legacy capabilities', push: true,
-    reviewedSource: {revision: result.revision, entries: selected.map(row => ({path: result.legacyRoot + '/' + row.path, mode: row.mode, type: row.type, sha: row.blob}))}
+    ...(reviewedSource ? {reviewedSource} : {})
   }});
 }
 

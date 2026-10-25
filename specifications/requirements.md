@@ -52,6 +52,17 @@ completed external effect when receiving fails. Repeating the same request
 and durable output shall reconcile the original publication without another
 push or review. A local-only invocation remains available.
 
+Before a new `--apply --publish` retirement removes or commits any source,
+the service MUST qualify the selected original mode/type/blob preimages at an
+actual advertised original remote commit. The accepted local immutable plan
+cut need not itself exist at that remote. Retain both the reviewed plan cut
+and the independently received remote source lease; never substitute local
+HEAD for remote source identity. If remote observation, acquisition or any
+selected preimage check fails, refuse before deletion or commit. Local-only
+apply shall not require an origin or remote availability. A retained source
+candidate or completed merge shall continue its original receiving path on
+replay, without preparing a replacement candidate or push.
+
 The same command shall optionally publish the retirement's plan, completed
 result and explicitly selected supporting records through the existing maker.
 The caller supplies their actual repository and the maker's reviewed-path

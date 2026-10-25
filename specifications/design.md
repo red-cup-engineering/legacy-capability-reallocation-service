@@ -56,11 +56,27 @@ regular-file, non-legacy and SHA-256 checks. Record its owner in the witness
 receipt. Omitted owners retain the original same-repository behavior.
 
 `--apply --publish --output=RESULT.json` composes the existing local retirement
-and Fabrication's public source maker. The result's immutable original
-mode/type/blob entries become the maker's `reviewedSource`; removed and
-previously absent selected paths form the complete publication cut. This
+and Fabrication's public source maker. Before its first deletion, source
+preparation reads the original origin's advertised main commit and uses the
+existing Fabrication/Git source reader to compare every selected original
+mode/type/blob against that independently acquired commit. The accepted plan
+revision remains the local review identity; the distinct remote revision and
+origin become a retained source-preparation witness and the maker's
+`reviewedSource`. A local-only immutable plan cut therefore does not have to
+be fetchable from the original remote. Unknown remote state or mismatched
+selected preimages refuses before local effects. Removed and previously
+absent selected paths form the complete publication cut. This
 service contains no GitHub publication or merge algorithm. Save the local
 receipt before publication and the returned source result afterwards.
+The receiving root is the plan's validated actual `repositoryRoot`, passed
+explicitly as Fabrication's `packageRoot`; process cwd does not choose the
+retirement or publication owner. The selected Fabrication0.4.15-dev.243
+provider owns `git-objects.mjs` and its bounded immutable metadata transport.
+Resolve that exact sibling from its public `git/github-candidate` selection;
+do not copy its fetch/shallow/readback machinery. This is an explicitly
+qualified internal supplier boundary, not a claim that the helper has a
+published public export. Promoting that shared reader to a public API remains
+a separate conformance concern.
 Retain a failed receiving result's candidate and merge identity; on replay,
 check the retained root and path set, then ask the same maker to receive that
 candidate. No working-tree reinterpretation or replacement review is needed.

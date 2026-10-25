@@ -3,6 +3,7 @@ import {accessSync, constants, readFileSync, lstatSync, writeFileSync} from 'nod
 import {dirname, resolve} from 'node:path';
 import {retireTrackedLegacyCapabilities, commitTrackedLegacyRetirement, publishTrackedLegacyRetirement, prepareTrackedLegacyRecordPublication, publishTrackedLegacyRecords} from '../src/tracked-legacy-retirement.mjs';
 import {prepareTrackedLegacyRetirementBatch} from '../src/tracked-legacy-batch.mjs';
+import {prepareTrackedLegacySourcePublication} from '../src/tracked-legacy-source-publication.mjs';
 
 let [path, ...args] = process.argv.slice(2);
 if (!path || args.some(x => !['--apply','--publish'].includes(x) && !['--output=','--publish-records=','--records-output='].some(prefix => x.startsWith(prefix)))) throw new TypeError('usage: retire-tracked-legacy-capabilities PLAN.json [--apply [--publish]] [--output=RESULT.json] [--publish-records=REQUEST.json --records-output=RECEIPT.json]');
@@ -48,8 +49,12 @@ if (recordsRequest) {
   records = await prepareTrackedLegacyRecordPublication({request:JSON.parse(readFileSync(recordsRequest,'utf8')), planPath:path, planBytes, resultPath:output, receiptPath:recordsOutput, previousPublication:priorRecords});
   if (records.replay && (!prior?.publication?.ok || !['committed','already-landed'].includes(prior?.landing?.state))) throw new TypeError('record publication replay requires its completed retirement result');
 }
+const sourcePreparation = !records?.replay && args.includes('--publish')
+  ? await prepareTrackedLegacySourcePublication({result:retireTrackedLegacyCapabilities({plan}), previousPublication:prior?.publication})
+  : undefined;
 const result = records?.replay ? prior : retireTrackedLegacyCapabilities({plan, apply: args.includes('--apply')});
 if (result.apply && !records?.replay) {
+  if (sourcePreparation ?? prior?.sourcePreparation) result.sourcePreparation = sourcePreparation ?? prior.sourcePreparation;
   try { result.landing = commitTrackedLegacyRetirement({result}); }
   catch (error) { result.landing = {state: 'uncommitted', error: error.message}; process.exitCode = 1; }
 }
