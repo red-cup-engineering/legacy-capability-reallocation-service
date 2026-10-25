@@ -10,6 +10,24 @@ async function sourceReader() {
   return {...codec, ...await import(new URL('./git-objects.mjs', maker).href)};
 }
 
+/** Capture fresh record destinations through the selected source reader. */
+export async function prepareTrackedLegacyRecordSource({repositoryRoot, paths}) {
+  const root = resolve(repositoryRoot);
+  const {gitCommitPathsPlan, gitSync, entryAtSync, withSourceReadTransportSync} = await sourceReader();
+  const plan = gitCommitPathsPlan.originBranchHead('main');
+  const advertised = String(gitSync(root, plan.arguments, {input:plan.input, env:plan.environment})).trim();
+  const match = /^([a-f0-9]{40})\s+refs\/heads\/main$/u.exec(advertised);
+  if (!match) throw new TypeError('record preparation requires one advertised immutable origin/main');
+  const reviewedSource = {revision:match[1], entries:paths.map(path => ({path, absent:true}))};
+  await readTrackedLegacySourcePublicationRequest({paths, reviewedSource});
+  withSourceReadTransportSync(root, [match[1]], source => {
+    for (const path of paths) {
+      if (entryAtSync(source, match[1], path) !== null) throw new TypeError('fresh batch record already exists at source: ' + path);
+    }
+  });
+  return reviewedSource;
+}
+
 /** Use the publisher's canonical request contract before local effects. */
 export async function readTrackedLegacySourcePublicationRequest({paths, reviewedSource}) {
   const {readGitCommitPathsRequest} = await import('@red-cup-engineering/git-source-reading-service/git-command-codec');

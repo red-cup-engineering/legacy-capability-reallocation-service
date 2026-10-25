@@ -135,9 +135,13 @@ retire-tracked-legacy-capabilities batch.json --apply --publish
 The batch names `id`, the actual record-owner `repositoryRoot`, owner-relative
 `plans` and `supportingRecords` arrays, and `outputs` with five owner-relative
 paths: `plan`, `receiving`, `result`, `publicationRequest`, `publicationReceipt`.
-Its `publication` contains the existing maker's `message`, optional `candidate`
-and exact `reviewedSource` for the three published outputs (plan, receiving,
-result). These output files and the batch manifest must have separate addresses;
+Its `publication` contains the existing maker's `message` and optional `candidate`.
+Omit `reviewedSource` for fresh outputs: the command observes origin/main and
+checks the three exact destinations are absent before writing prepared files.
+It retains that immutable lease in the generated publication request and reuses
+it on every replay, even after main advances or the records land. Existing
+source destinations require an explicitly reviewed `reviewedSource`.
+These output files and the batch manifest must have separate addresses;
 their parent directories already exist. Do not add output flags in batch mode.
 
 Preparation combines only the same immutable source cut with disjoint paths

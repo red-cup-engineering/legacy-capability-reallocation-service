@@ -129,6 +129,7 @@ process.stdout.write(output);
     NODE_OPTIONS:`--import ${resolver} --max-old-space-size=192`,
     RETIREMENT_TEST_PROVIDER:path.join(fabrication, 'test/fixtures/github-candidate-provider.mjs'),
     RETIREMENT_TEST_NODE:process.execPath,
+    RETIREMENT_TEST_OUTAGE:'0',
     RETIREMENT_TEST_GIT_PORT:path.join(fabrication, 'test/fixtures/source-candidate-git-port.sh'),
     SOURCE_CANDIDATE_PROVIDER_FIXTURE:JSON.stringify({selection:{repository:'fixture/source'}, remote, reviews:reviewsPath}),
     SOURCE_CANDIDATE_FIXTURE_ORIGIN:'https://github.com/fixture/source.git', SOURCE_CANDIDATE_FIXTURE_REMOTE:remote,
@@ -345,6 +346,72 @@ function effectsSnapshot(f) {
     recordsReviews:existsSync(f.recordsReviewsPath)?readFileSync(f.recordsReviewsPath):null,
     staging:f.git('diff','--cached','--raw','-z'), recordsStaging:f.recordsGit('diff','--cached','--raw','-z')};
 }
+
+function automaticBatch(f) {
+  const outputs={plan:'data/compiled-plan.json',receiving:'data/batch-receiving.json',result:'data/result.json',
+    publicationRequest:'data/automatic-request.json',publicationReceipt:'data/automatic-receipt.json'};
+  const batch={kind:'legacy-capability-retirement-batch/v1',id:'automatic-record-lease',repositoryRoot:f.recordsRepository,
+    plans:['data/plan.json'],supportingRecords:[],outputs,publication:{message:'Receive automatically prepared retirement records'}};
+  const file=path.join(f.recordsRepository,'data/batch.json');
+  writeFileSync(file,JSON.stringify(batch));
+  const run=(apply=false)=>spawnSync(process.execPath,[cli,file,...(apply?['--apply','--publish']:[])],
+    {cwd:f.root,env:{...f.env,RETIREMENT_TEST_RECORDS_PHYSICAL_ROOT:f.recordsRepository,RETIREMENT_TEST_OUTAGE:'0'},
+      encoding:'utf8',timeout:60000,maxBuffer:2*1024*1024});
+  return {batch,file,run,at:key=>path.join(f.recordsRepository,outputs[key])};
+}
+
+test('batch captures the actual remote lease, resumes partial preparation, publishes and replays without new effects',t=>{
+  const f=fixture(t,{withRecords:true}), b=automaticBatch(f);
+  const source=f.recordsUpstream('rev-parse','main'), before=effectsSnapshot(f);
+  assert.notEqual(source,f.recordsGit('rev-parse','HEAD'));
+  const prepared=b.run(); assert.equal(prepared.status,0,prepared.stderr||prepared.stdout);
+  const request=readFileSync(b.at('publicationRequest'));
+  assert.equal(JSON.parse(request).reviewedSource.revision,source);
+  assert.deepEqual(JSON.parse(request).reviewedSource.entries,
+    [b.batch.outputs.plan,b.batch.outputs.receiving,b.batch.outputs.result].map(path=>({path,absent:true})));
+  assert.deepEqual(effectsSnapshot(f),before);
+  assert.equal(existsSync(b.at('result')),true,'preview owns the ordinary result');
+  rmSync(b.at('plan'));
+  const partial=b.run(); assert.equal(partial.status,0,partial.stderr||partial.stdout);
+  assert.deepEqual(readFileSync(b.at('publicationRequest')),request);
+  const applied=b.run(true); assert.equal(applied.status,0,applied.stderr||applied.stdout);
+  const result=JSON.parse(readFileSync(b.at('result'))), receipt=JSON.parse(readFileSync(b.at('publicationReceipt')));
+  assertLocalCut(f,result); assertReceivedCut(f,result);
+  assert.equal(receipt.ok,true);
+  assert.equal(receipt.candidate.receiving.allUnselectedPreserved,true);
+  for(const key of ['plan','receiving','result']) assert.deepEqual(f.recordsBytes(b.batch.outputs[key]),readFileSync(b.at(key)));
+  const fixed=Object.fromEntries(Object.keys(b.batch.outputs).map(key=>[key,readFileSync(b.at(key))]));
+  const landed=effectsSnapshot(f);
+  assert.notEqual(f.recordsUpstream('rev-parse','main'),source);
+  const replay=b.run(true); assert.equal(replay.status,0,replay.stderr||replay.stdout);
+  assert.deepEqual(effectsSnapshot(f),landed);
+  for(const key of Object.keys(fixed)) assert.deepEqual(readFileSync(b.at(key)),fixed[key]);
+  writeFileSync(b.file,JSON.stringify({...b.batch,publication:{message:'A different operation'}}));
+  const changed=b.run(true); assert.notEqual(changed.status,0);
+  assert.match(changed.stderr,/existing prepared bytes changed/u);
+  assert.deepEqual(effectsSnapshot(f),landed);
+});
+
+test('automatic batch lease refuses occupied source outputs and unavailable origin before preparation or retirement',async t=>{
+  for(const defect of ['occupied','unavailable']) await t.test(defect,t=>{
+    const f=fixture(t,{withRecords:true}), b=automaticBatch(f);
+    if(defect==='occupied') {
+      const writer=path.join(f.root,'occupied-record-writer');
+      execFileSync('git',['clone','-q','--branch','main',f.recordsRemote,writer]);
+      mkdirSync(path.join(writer,'data'));
+      writeFileSync(path.join(writer,b.batch.outputs.plan),'another operation owns this record\n');
+      execFileSync('git',['-C',writer,'add','data/compiled-plan.json']);
+      execFileSync('git',['-C',writer,'-c','user.name=Other writer','-c','user.email=other@example.invalid','commit','-qm','Occupied destination']);
+      execFileSync('git',['-C',writer,'push','-q','origin','main']);
+    } else f.recordsGit('remote','set-url','origin',path.join(f.root,'missing-source.git'));
+    const before=effectsSnapshot(f), refused=b.run(true);
+    assert.notEqual(refused.status,0,refused.stderr||refused.stdout);
+    if(defect==='occupied') assert.match(refused.stderr,/fresh batch record already exists at source/u);
+    assert.deepEqual(effectsSnapshot(f),before);
+    for(const key of Object.keys(b.batch.outputs)) assert.equal(existsSync(b.at(key)),false);
+    for(const file of ['first.md','second.md']) assert.equal(existsSync(path.join(f.repository,'lib/legacy/batch',file)),true);
+  });
+});
 
 test('completed record publication survives a physical owner move without effects or receipt rewrites',t=>{
   const f=fixture(t,{withRecords:true}), first=f.run();

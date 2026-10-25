@@ -3,6 +3,7 @@ import {accessSync, constants, lstatSync, readFileSync, realpathSync, writeFileS
 import {dirname, isAbsolute, relative, resolve, sep} from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {readTrackedLegacyRetirementPlan, hasReceivedTrackedLegacyPublication} from './tracked-legacy-retirement.mjs';
+import {prepareTrackedLegacyRecordSource} from './tracked-legacy-source-publication.mjs';
 
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const textBytes = value => Buffer.from(JSON.stringify(value, null, 2) + '\n');
@@ -151,8 +152,16 @@ export async function prepareTrackedLegacyRetirementBatch({batch, batchPath}) {
   const publication = batch.publication;
   if (!publication || Object.keys(publication).some(key => !['message','candidate','reviewedSource'].includes(key))) fail('explicit existing-maker publication declaration required');
   const paths = [outputs.plan,outputs.receiving,outputs.result];
+  // The generated request retains the original lease across every replay.
+  let reviewedSource = publication.reviewedSource;
+  if (reviewedSource === undefined) {
+    reviewedSource = stat(targets[3])
+      ? JSON.parse(readFileSync(targets[3],'utf8')).reviewedSource
+      : await prepareTrackedLegacyRecordSource({repositoryRoot:root,paths});
+    if (reviewedSource === undefined) fail('retained publication request lacks its original preimages');
+  }
   const request = {repositoryRoot:root, paths, message:publication.message, push:true,
-    ...(publication.candidate === undefined ? {} : {candidate:publication.candidate}), reviewedSource:publication.reviewedSource};
+    ...(publication.candidate === undefined ? {} : {candidate:publication.candidate}), reviewedSource};
   const decoded = readGitCommitPathsRequest(request);
   if (!decoded.reviewedSource || !decoded.push) fail('reviewed publication preimages required');
   const generated = [[targets[0],result.planBytes],[targets[1],result.receivingBytes],[targets[3],textBytes(request)]];
