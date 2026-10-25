@@ -140,3 +140,18 @@ restore retired files. Preserve every unrelated staged relocation and edit.
 Recheck the moved cut before committing, detect recreation after committing,
 and allow replay only when both original and moved copies remain absent.
 Batch composition MUST retain this local mapping and refuse mixed mappings.
+
+## Selected-source owner discovery
+
+The service shall compare explicitly selected immutable Git source files with
+explicitly named living source modules without walking either directory tree.
+It shall reuse the existing source-signal reader and committed-subtree inventory,
+retain original blob/mode and SHA-256 identities, and report every observed owner
+once with indexed candidate links. A shared symbol is a discovery hint, never a
+coverage verdict or retirement authority. Sources without a match remain visible.
+
+The read shall refuse mutable revisions, unknown or repeated selections, legacy
+or linked owner paths, nonregular owner files, and exceeded per-file or combined
+byte limits. It shall read committed bytes even when native source is edited or
+already retired. It shall perform no import evaluation, network request, index
+change or deletion. Literal source filenames shall remain unchanged.

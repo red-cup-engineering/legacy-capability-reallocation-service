@@ -16,7 +16,8 @@
     "reconcile-copy-with-owner": "./scripts/reconcile-copy-with-owner.mjs",
     "reconcile-wave": "./scripts/reconcile-wave.mjs",
     "retire-wave": "./scripts/retire-wave.mjs",
-    "retire-tracked-legacy-capabilities": "./scripts/retire-tracked-legacy-capabilities.mjs"
+    "retire-tracked-legacy-capabilities": "./scripts/retire-tracked-legacy-capabilities.mjs",
+    "observe-tracked-legacy-owners": "./scripts/observe-tracked-legacy-owners.mjs"
   },
   "files": [
     "README.md",

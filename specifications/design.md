@@ -177,3 +177,20 @@ changes remain staged. A failed commit retains the same missing-file cut for
 recovery; a completed replay requires both sides absent and creates no commit.
 The result carries `workingLegacyRoot`; the batch composer includes it in its
 common-cut comparison and passes it to the ordinary consumer unchanged.
+
+## Bounded owner candidates
+
+The ordinary source-record builder accepts bytes as well as a native path, so
+selected committed blobs use the same imports, symbols and capability hints as
+the existing inventory. The tracked inventory supplies immutable path/blob/mode
+metadata; only the caller's selected regular blobs are read through native Git.
+Check blob sizes before reading and cap both individual and cumulative bytes.
+
+Named living modules belong to explicit actual Git owners. Read only their
+confined regular files, reject linked ancestors, and retain their byte hashes.
+The comparison returns shared direct-JavaScript-export hints and indexes into
+one owner table. Private helper names do not manufacture owner candidates.
+It deliberately supplies no semantic-equivalence or deletion decision. The
+existing reviewed plan, retirement and publication operations remain unchanged.
+The CLI takes one bounded JSON request and optionally creates one new output;
+it never enumerates a package workspace or resolves a presumed owner by name.

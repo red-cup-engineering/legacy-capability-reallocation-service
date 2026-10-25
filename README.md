@@ -231,6 +231,19 @@ Each `data/restorations/*.ledger.json` names the files one restoration returned 
 
 ## Copies retired for their owners
 
+For bounded discovery, `observe-tracked-legacy-owners REQUEST.json [NEW-OUTPUT.json]`
+reads selected committed files and explicitly named living modules. The request
+contains `repositoryRoot`, `legacyRoot`, exact `revision`, `sourcePaths` (1–64),
+and `owners` (1–64 `{repositoryRoot, path}` records). Optional `maximumFileBytes`
+and `maximumTotalBytes` bound the read. No directory tree is walked.
+
+One owner table carries actual paths, source signals and SHA-256 identities;
+each source lists indexed candidates with shared directly declared JavaScript
+exports. Private helper names do not create candidates. An unmatched
+source remains visible. These are review hints, including same-name functions
+whose behavior differs; the report always carries `retirementAuthorized: false`.
+After comparison, use the existing reviewed retirement and publication command.
+
 A package defined both here and in a repository that owns it (DRC-2, one owner) is reconciled into the owner and its copy here retired, wave by wave.
 
 ```sh
