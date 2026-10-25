@@ -81,3 +81,27 @@ continue the original maker candidate using the same shared publication path.
 An unresolved record effect retains its own original candidate and leaves
 the completed retirement source effect intact. No new GitHub algorithm,
 source acquisition, repository census or cross-repository transaction is added.
+
+The same CLI also accepts a `legacy-capability-retirement-batch/v1` input.
+Its actual record `repositoryRoot` owns relative `plans`, `supportingRecords`
+and five `outputs`: `plan`, `receiving`, `result`, `publicationRequest` and
+`publicationReceipt`. `publication` supplies the existing maker's message,
+optional candidate and exact reviewedSource. No field requests execution;
+the existing CLI flags still select preview, apply and publication.
+
+A pure composer validates the canonical plan declarations, common source cut
+and disjoint selections. It retains exact UTF-8 plan/record text and SHA-256
+in a bounded receiving snapshot, without promoting a review status. Explicitly
+embedded record witnesses are rebound to that snapshot after their original
+digest is checked; all other witnesses remain unchanged. The existing canonical
+Git Source Reading decoder validates the complete three-record maker request.
+
+Preparation reads only named regular files inside the actual record owner.
+It validates every output and input alias before any write. The three generated
+files are created exclusively, or reused only when byte-identical; result and
+publication-receipt files remain owned by the existing CLI. A partial preparation
+can therefore resume. Changed input or prepared bytes refuse before retirement.
+No checkout, dependency graph, directory census, private dispatcher or alternate
+source integration path is introduced. Pure counterexamples exercise mismatched
+cuts, overlaps, authority and evidence failures; the ordinary CLI consumes the
+prepared products on the actual pending legacy work.

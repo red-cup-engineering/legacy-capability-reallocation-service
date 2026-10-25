@@ -2,17 +2,25 @@
 import {accessSync, constants, readFileSync, lstatSync, writeFileSync} from 'node:fs';
 import {dirname, resolve} from 'node:path';
 import {retireTrackedLegacyCapabilities, commitTrackedLegacyRetirement, publishTrackedLegacyRetirement, prepareTrackedLegacyRecordPublication, publishTrackedLegacyRecords} from '../src/tracked-legacy-retirement.mjs';
+import {prepareTrackedLegacyRetirementBatch} from '../src/tracked-legacy-batch.mjs';
 
-const [path, ...args] = process.argv.slice(2);
+let [path, ...args] = process.argv.slice(2);
 if (!path || args.some(x => !['--apply','--publish'].includes(x) && !['--output=','--publish-records=','--records-output='].some(prefix => x.startsWith(prefix)))) throw new TypeError('usage: retire-tracked-legacy-capabilities PLAN.json [--apply [--publish]] [--output=RESULT.json] [--publish-records=REQUEST.json --records-output=RECEIPT.json]');
-const output = args.find(x => x.startsWith('--output='))?.slice('--output='.length);
-const recordsRequest = args.find(x => x.startsWith('--publish-records='))?.slice('--publish-records='.length);
-const recordsOutput = args.find(x => x.startsWith('--records-output='))?.slice('--records-output='.length);
+let output = args.find(x => x.startsWith('--output='))?.slice('--output='.length);
+let recordsRequest = args.find(x => x.startsWith('--publish-records='))?.slice('--publish-records='.length);
+let recordsOutput = args.find(x => x.startsWith('--records-output='))?.slice('--records-output='.length);
+let planBytes = readFileSync(path);
+let plan = JSON.parse(planBytes.toString('utf8'));
+if (plan.kind === 'legacy-capability-retirement-batch/v1') {
+  if (output || recordsRequest || recordsOutput) throw new TypeError('batch outputs belong to its declared custody; do not mix output flags');
+  if (args.includes('--publish') && !args.includes('--apply')) throw new TypeError('--publish requires --apply');
+  const batch = await prepareTrackedLegacyRetirementBatch({batch:plan,batchPath:path});
+  path = batch.planPath; output = batch.resultPath; plan = batch.plan; planBytes = batch.planBytes;
+  if (args.includes('--publish')) { recordsRequest = batch.recordsRequest; recordsOutput = batch.recordsOutput; }
+}
 if (args.includes('--publish') && (!args.includes('--apply') || !output)) throw new TypeError('--publish requires --apply and a durable --output receipt');
 if ((recordsRequest || recordsOutput) && (!recordsRequest || !recordsOutput || !args.includes('--publish'))) throw new TypeError('record publication requires --publish, --publish-records and a separate --records-output');
 if (recordsRequest && [resolve(output),resolve(recordsOutput)].includes(resolve(recordsRequest))) throw new TypeError('record request and receipt destinations must be separate files');
-const planBytes = readFileSync(path);
-const plan = JSON.parse(planBytes.toString('utf8'));
 let prior;
 // Refuse a known unusable receipt destination before unlinking or committing.
 if (output) {
@@ -20,11 +28,10 @@ if (output) {
   try {
     if (!lstatSync(output).isFile()) throw new TypeError('retirement result output must be a file');
     accessSync(output, constants.W_OK);
-    if (args.includes('--publish')) {
-      if (lstatSync(output).size > 2 * 1024 * 1024) throw new TypeError('retirement receipt exceeds its bounded size');
-      prior = JSON.parse(readFileSync(output, 'utf8'));
-      if (prior.repositoryRoot !== resolve(plan.repositoryRoot) || prior.legacyRoot !== plan.legacyRoot || prior.revision !== plan.revision) throw new TypeError('retained receipt belongs to another retirement');
-    }
+    if (lstatSync(output).size > 2 * 1024 * 1024) throw new TypeError('retirement receipt exceeds its bounded size');
+    prior = JSON.parse(readFileSync(output, 'utf8'));
+    if (prior.repositoryRoot !== resolve(plan.repositoryRoot) || prior.legacyRoot !== plan.legacyRoot || prior.revision !== plan.revision) throw new TypeError('retained receipt belongs to another retirement');
+    if (prior.publication !== undefined && !args.includes('--publish')) throw new TypeError('retained source publication requires --apply --publish replay; its receipt cannot be replaced by preview or local apply');
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }

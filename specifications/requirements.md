@@ -63,3 +63,20 @@ After a record publication retains an interrupted candidate, replay shall receiv
 candidate without rewriting the completed retirement result, recommitting
 deletions or opening another review. Changed record bytes, a substituted owner
 or a different path set shall stop that replay before any effects.
+
+Batch preparation shall belong to this same command. Given explicitly reviewed
+canonical plans, explicitly named supporting JSON records and exact output
+custody, it shall assemble one canonical plan, an exact-input snapshot and a
+complete existing-maker record request. Only plans with the same source owner,
+legacy subtree and immutable revision may combine. Duplicate capability IDs,
+overlapping source paths, changed evidence, absent deprecation authority and
+incomplete publication preimages shall refuse preparation. Assembly adds no
+capability judgment, authority, source publisher or installed-use claim.
+
+Preserve original UTF-8 input bytes, their hashes and direct living-code
+witnesses. Only explicitly snapshotted record witnesses may be replaced by
+the assembled snapshot witness. Refuse output/input aliases, linked paths,
+foreign output owners and changed existing prepared files before writing.
+Preparation and replay must be deterministic, bounded and restartable without
+overwriting another worker's data. Apply/publication continue through the
+unchanged retirement and Fabrication operations, including ordinary recovery.

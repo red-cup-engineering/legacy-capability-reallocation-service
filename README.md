@@ -91,6 +91,38 @@ while the published retirement result stays fixed. Repeating this invocation
 receives a retained record candidate without rerunning retirement or changing
 the published result. Changed record bytes or custody require reconciliation.
 
+The same command accepts a `legacy-capability-retirement-batch/v1` JSON input
+to prepare and consume a batch without a separate composition script:
+
+```sh
+retire-tracked-legacy-capabilities batch.json          # prepare + preview
+retire-tracked-legacy-capabilities batch.json --apply --publish
+```
+
+The batch names `id`, the actual record-owner `repositoryRoot`, owner-relative
+`plans` and `supportingRecords` arrays, and `outputs` with five owner-relative
+paths: `plan`, `receiving`, `result`, `publicationRequest`, `publicationReceipt`.
+Its `publication` contains the existing maker's `message`, optional `candidate`
+and exact `reviewedSource` for the three published outputs (plan, receiving,
+result). These output files and the batch manifest must have separate addresses;
+their parent directories already exist. Do not add output flags in batch mode.
+
+Preparation combines only the same immutable source cut with disjoint paths
+and capability identities. Its receiving snapshot preserves exact original
+UTF-8 plans and supporting JSON bytes with SHA-256. Explicitly embedded record
+witnesses require their original reviewed digest; direct living-code witnesses
+remain direct. This is mechanical assembly, not another capability judgment.
+The generated maker request always includes `push: true` and is decoded by
+the original Git Source Reading provider before preparation writes anything.
+
+Up to32 plans and64 supporting records may total one MiB; the resulting snapshot
+is at most two MiB. Named files, owner boundaries, aliases and existing output
+bytes are checked first. Identical prepared files are reused; different files
+are preserved and refused. Partial preparation may resume. Publication/recovery
+then uses the same ordinary path described above. A retained source-publication
+result can only be replayed with `--apply --publish`; a later preview or local
+apply cannot overwrite it. For a separate preview, use a separate result path.
+
 The older full-ledger verifier below performs a repository reference walk;
 use this bounded path on Bare Cedar Fog. A source witness and file removal
 do not assert independent deployment or living-owner architectural conformance.
