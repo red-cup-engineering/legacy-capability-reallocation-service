@@ -46,9 +46,26 @@ export function inventoryTrackedLegacyCapabilities({repositoryRoot, legacyRoot, 
   return {kind: 'tracked-legacy-capability-inventory/v1', repositoryRoot: root, legacyRoot, revision: commit, entries};
 }
 
+/** Shared declaration contract; this validates no capability judgment or Git custody. */
+export function readTrackedLegacyRetirementPlan(plan) {
+  if (plan?.kind !== 'legacy-capability-retirement-plan/v1' || !Array.isArray(plan.capabilities)) throw new TypeError('capability retirement plan required');
+  const ids = new Set(), paths = new Set();
+  for (const cap of plan.capabilities) {
+    if (typeof cap?.id !== 'string' || !cap.id.trim() || ids.has(cap.id) || !['covered', 'deprecated'].includes(cap.disposition) || !cap.reason?.trim() || !Array.isArray(cap.sourcePaths) || !cap.sourcePaths.length) throw new TypeError('unique capability, disposition, reason and sources required');
+    ids.add(cap.id);
+    if (cap.disposition === 'deprecated' && !cap.authorization?.trim()) throw new TypeError('deprecation authority required');
+    if (cap.disposition === 'covered' && (!Array.isArray(cap.evidence) || !cap.evidence.length)) throw new TypeError('living implementation evidence required');
+    for (const path of cap.sourcePaths) {
+      if (!validPath(path) || paths.has(path)) throw new TypeError('unknown, repeated or unsafe source: ' + path);
+      paths.add(path);
+    }
+  }
+  return plan;
+}
+
 /** Reviewer judgments remain explicit; Git custody and local edits are checked mechanically. */
 export function retireTrackedLegacyCapabilities({plan, apply = false}) {
-  if (plan?.kind !== 'legacy-capability-retirement-plan/v1' || !Array.isArray(plan.capabilities)) throw new TypeError('capability retirement plan required');
+  readTrackedLegacyRetirementPlan(plan);
   const inventory = inventoryTrackedLegacyCapabilities(plan);
   if (plan.revision !== inventory.revision) throw new TypeError('retirement requires an immutable commit revision');
   const root = inventory.repositoryRoot;
@@ -58,13 +75,9 @@ export function retireTrackedLegacyCapabilities({plan, apply = false}) {
     return [row.slice(tab + 1), row.slice(0, tab)];
   }));
   const algorithm = git(root, ['rev-parse', '--show-object-format']).toString().trim();
-  const seen = new Set(), ids = new Set(), outcomes = [], capabilities = [], evidenceRoots = new Set([root]);
+  const seen = new Set(), outcomes = [], capabilities = [], evidenceRoots = new Set([root]);
   // Validate the entire declaration before any effects.
   for (const cap of plan.capabilities) {
-    if (!cap?.id || ids.has(cap.id) || !['covered', 'deprecated'].includes(cap.disposition) || !cap.reason?.trim() || !Array.isArray(cap.sourcePaths) || !cap.sourcePaths.length) throw new TypeError('unique capability, disposition, reason and sources required');
-    ids.add(cap.id);
-    if (cap.disposition === 'deprecated' && !cap.authorization?.trim()) throw new TypeError('deprecation authority required');
-    if (cap.disposition === 'covered' && (!Array.isArray(cap.evidence) || !cap.evidence.length)) throw new TypeError('living implementation evidence required');
     for (const path of cap.sourcePaths) {
       if (!validPath(path) || !entries.has(path) || seen.has(path)) throw new TypeError('unknown, repeated or unsafe source: ' + path);
       seen.add(path);
