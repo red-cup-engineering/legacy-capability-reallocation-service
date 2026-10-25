@@ -105,3 +105,15 @@ No checkout, dependency graph, directory census, private dispatcher or alternate
 source integration path is introduced. Pure counterexamples exercise mismatched
 cuts, overlaps, authority and evidence failures; the ordinary CLI consumes the
 prepared products on the actual pending legacy work.
+A record-owner root alias is admitted only for retained, fully received
+retirement and record publications, with all five existing output files and the
+same physical Git root. Prepared bytes still pass the ordinary exact equality
+checks. Fresh or incomplete custody retains the canonical-root requirement.
+Completed source effects use Fabrication's existing immutable merge receiver;
+uncertain effects keep its existing candidate-landing recovery. Historical
+absolute addresses and receipt bytes are preserved rather than rewritten after
+a workspace move.
+Read-only reobservation never replaces a previously completed record receipt,
+including when its provider is temporarily unavailable; its returned outcome
+still reports that failure. New or uncertain effects retain durable progress
+writes through the existing record-publication path.

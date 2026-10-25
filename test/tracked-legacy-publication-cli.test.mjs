@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFileSync, spawnSync} from 'node:child_process';
-import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync, symlinkSync, linkSync} from 'node:fs';
+import {mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync, symlinkSync, linkSync, renameSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -80,7 +80,7 @@ function fixture(t, {withRecords = false} = {}) {
 set -eu
 records_owner=0
 if [ -n "\${RETIREMENT_TEST_RECORDS_ROOT:-}" ]; then
- case "$PWD $*" in *"$RETIREMENT_TEST_RECORDS_ROOT"*|*fixture/records*)
+ case "$PWD $*" in *"$RETIREMENT_TEST_RECORDS_ROOT"*|*"$RETIREMENT_TEST_RECORDS_PHYSICAL_ROOT"*|*fixture/records*)
   records_owner=1
   export SOURCE_CANDIDATE_PROVIDER_FIXTURE="$RETIREMENT_TEST_RECORDS_PROVIDER"
   export SOURCE_CANDIDATE_FIXTURE_ORIGIN='https://github.com/fixture/records.git'
@@ -104,7 +104,7 @@ import {appendFileSync} from 'node:fs';
 const args=process.argv.slice(2);
 if(args[0]==='api'&&args[1]?.includes('/git/commits/'))throw Error('merge receiving must not issue REST commit reads');
 const recordsOwner = process.env.RETIREMENT_TEST_RECORDS_ROOT &&
-  (process.cwd().startsWith(process.env.RETIREMENT_TEST_RECORDS_ROOT) || args.some(arg=>arg.includes('fixture/records')));
+  (process.cwd().startsWith(process.env.RETIREMENT_TEST_RECORDS_ROOT) || process.cwd().startsWith(process.env.RETIREMENT_TEST_RECORDS_PHYSICAL_ROOT) || args.some(arg=>arg.includes('fixture/records')));
 const env = {...process.env, ...(recordsOwner ? {SOURCE_CANDIDATE_PROVIDER_FIXTURE:process.env.RETIREMENT_TEST_RECORDS_PROVIDER,
   SOURCE_CANDIDATE_FIXTURE_ORIGIN:'https://github.com/fixture/records.git', SOURCE_CANDIDATE_FIXTURE_REMOTE:process.env.RETIREMENT_TEST_RECORDS_REMOTE} : {})};
 const output=String(execFileSync(process.execPath,[process.env.RETIREMENT_TEST_PROVIDER,...args],{encoding:'utf8',env}));
@@ -153,9 +153,9 @@ process.stdout.write(output);
     writeFileSync(path.join(concurrent, 'upstream-only.txt'), 'independent records source\n');
     raw(concurrent, ['add', '.']); raw(concurrent, ['commit', '-qm', 'Concurrent unselected records source']); raw(concurrent, ['push', '-q', 'origin', 'main']);
   }
-  const run = ({outage=false, extraArgs=[], recordsReceipt=recordsOutput, mutateRecord}={}) => {
+  const run = ({outage=false, extraArgs=[], recordsReceipt=recordsOutput, mutateRecord, physicalRecordsRoot=recordsRepository}={}) => {
     const execution = spawnSync(process.execPath, [cli, planPath, '--apply', '--publish', '--output='+output, ...(withRecords ? ['--publish-records='+recordsRequestPath, '--records-output='+recordsReceipt] : []), ...extraArgs],
-      {cwd:repository, env:{...env, RETIREMENT_TEST_OUTAGE:outage===true?'1':outage||'0', ...(mutateRecord?{RETIREMENT_TEST_MUTATE_RECORD:path.join(recordsRepository,mutateRecord)}:{})}, encoding:'utf8', timeout:60000, maxBuffer:2*1024*1024});
+      {cwd:repository, env:{...env, RETIREMENT_TEST_RECORDS_PHYSICAL_ROOT:physicalRecordsRoot, RETIREMENT_TEST_OUTAGE:outage===true?'1':outage||'0', ...(mutateRecord?{RETIREMENT_TEST_MUTATE_RECORD:path.join(recordsRepository,mutateRecord)}:{})}, encoding:'utf8', timeout:60000, maxBuffer:2*1024*1024});
     return {...execution, result:existsSync(output)?JSON.parse(readFileSync(output,'utf8')):undefined, records:existsSync(recordsOutput)?JSON.parse(readFileSync(recordsOutput,'utf8')):undefined};
   };
   const upstream = (...args) => raw(root, ['--git-dir', remote, ...args]);
@@ -269,6 +269,36 @@ function effectsSnapshot(f) {
     recordsReviews:existsSync(f.recordsReviewsPath)?readFileSync(f.recordsReviewsPath):null,
     staging:f.git('diff','--cached','--raw','-z'), recordsStaging:f.recordsGit('diff','--cached','--raw','-z')};
 }
+
+test('completed record publication survives a physical owner move without effects or receipt rewrites',t=>{
+  const f=fixture(t,{withRecords:true}), first=f.run();
+  assert.equal(first.status,0,first.stderr||first.stdout);
+  const fixed=readFileSync(f.output), receipt=readFileSync(f.recordsOutput), effects=effectsSnapshot(f);
+  const physicalRecordsRoot=f.recordsRepository+'-physical';
+  renameSync(f.recordsRepository,physicalRecordsRoot); symlinkSync(physicalRecordsRoot,f.recordsRepository,'dir');
+  assert.equal(f.recordsGit('rev-parse','--show-toplevel'),physicalRecordsRoot);
+  const outage=f.run({physicalRecordsRoot,outage:'records'});
+  assert.equal(outage.status,1,outage.stderr||outage.stdout);
+  assert.equal(JSON.parse(outage.stdout).recordsPublication.ok,false);
+  assert.equal(JSON.parse(outage.stdout).recordsPublication.phase,'receiving');
+  assert.deepEqual(readFileSync(f.output),fixed);
+  assert.deepEqual(readFileSync(f.recordsOutput),receipt);
+  assert.deepEqual(effectsSnapshot(f),effects);
+  const replay=f.run({physicalRecordsRoot});
+  assert.equal(replay.status,0,replay.stderr||replay.stdout);
+  assert.deepEqual(readFileSync(f.output),fixed);
+  assert.deepEqual(readFileSync(f.recordsOutput),receipt);
+  assert.deepEqual(effectsSnapshot(f),effects);
+  assertRecordsReceived(f,replay.records);
+  const newReceipt=path.join(f.root,'not-yet-published-records.json');
+  const fresh=f.run({physicalRecordsRoot,recordsReceipt:newReceipt});
+  assert.notEqual(fresh.status,0);
+  assert.match(fresh.stderr,/record repositoryRoot must be its actual Git root/u);
+  assert.equal(existsSync(newReceipt),false);
+  assert.deepEqual(readFileSync(f.output),fixed);
+  assert.deepEqual(readFileSync(f.recordsOutput),receipt);
+  assert.deepEqual(effectsSnapshot(f),effects);
+});
 
 // Two genuine source owners are routed through the unchanged provider/Git
 // fixtures. Neither source receives the other owner's unrelated local state.

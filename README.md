@@ -123,6 +123,14 @@ then uses the same ordinary path described above. A retained source-publication
 result can only be replayed with `--apply --publish`; a later preview or local
 apply cannot overwrite it. For a separate preview, use a separate result path.
 
+If the record owner's physical directory moves and its old address remains a
+symlink to the same Git root, completed batches can replay with their original
+bytes. All five output files and both fully received publications must exist.
+This path only reobserves the original immutable merges. New or incomplete
+operations must use the current physical root.
+A failed read-only recheck returns its failure while preserving the last
+completed record receipt for another attempt.
+
 The older full-ledger verifier below performs a repository reference walk;
 use this bounded path on Bare Cedar Fog. A source witness and file removal
 do not assert independent deployment or living-owner architectural conformance.

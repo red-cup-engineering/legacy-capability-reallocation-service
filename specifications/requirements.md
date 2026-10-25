@@ -80,3 +80,12 @@ foreign output owners and changed existing prepared files before writing.
 Preparation and replay must be deterministic, bounded and restartable without
 overwriting another worker's data. Apply/publication continue through the
 unchanged retirement and Fabrication operations, including ordinary recovery.
+Completed retirement and record publications MUST remain reobservable when an
+old explicit record-owner path becomes a symlink to the same physical Git root.
+This recovery MUST preserve the original plan, input snapshots, result and
+publication request bytes. It MUST NOT authorize a fresh retirement or source
+publication through an aliased root. Completed publications MUST be received
+from their exact immutable merge, without a new GitHub merge or push attempt.
+A transient read-only receiving failure MUST preserve the last completed
+receipt bytes and return the current observation failure separately, so the
+same retained invocation remains retryable.
