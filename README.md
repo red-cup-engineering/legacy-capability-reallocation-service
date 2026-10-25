@@ -1,5 +1,12 @@
 # Legacy capability reallocation service
 
+For an unchanged legacy subtree moved in the index before its relocation is
+committed, a reviewed plan can specify `workingLegacyRoot` alongside its original
+`legacyRoot` and immutable `revision`. The same command checks both cuts, removes
+the selected new staged additions, commits their original-path deletions and
+publishes the original source cut. Changed files or index entries are held;
+unrelated relocation work stays staged. Omit the field for an ordinary retirement.
+
 <!-- 561-group-standards:badges:start -->
 [![Red Cup Engineering](https://img.shields.io/badge/561%20Group-Red%20Cup%20Engineering-c0392b)](https://github.com/red-cup-engineering)
 [![License: MIT](https://img.shields.io/badge/license-MIT-c0392b)](LICENSE)
@@ -7,6 +14,14 @@
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
 ## Lightweight committed-folder review
+
+If origin has already relocated the subtree while the local review and index
+still name its earlier cut, declare `sourceLegacyRoot` for its current upstream
+location. `legacyRoot` and `revision` keep the native review identity;
+`workingLegacyRoot` independently selects the unchanged staged local move.
+The command checks every mapped upstream mode/blob before local deletion and
+publishes only those mapped paths. It never infers a move or changes the mapping
+of a retained publication; replay keeps its original source identity.
 
 For a local legacy folder, start with `inventoryTrackedLegacyCapabilities`.
 It reads only the explicitly selected Git subtree's metadata. Review folder
@@ -54,6 +69,11 @@ previews or removes just reviewed committed files. The plan names
 `authorization`. Evidence paths are repository-relative actual source files.
 Bind their SHA-256 after inspection. Git history provides recoverability;
 the reviewer provides the capability judgment.
+When the living evidence belongs to another repository, its item additionally
+names that actual Git `repositoryRoot`; `path` stays relative to that owner.
+The same confinement, symlink refusal and byte checks apply there. The service
+does not copy receiving records or living code into the archive to satisfy a
+same-repository path constraint.
 
 Apply checks committed blobs, index identity, working bytes and native Git
 executable/symlink modes. It preserves local changes, unknown files and
@@ -66,8 +86,96 @@ reporting success: a positive `removed` count alone is insufficient. Report
 `landing.commit` for committed paths and keep holds explicit. An `uncommitted`
 or `committed-with-recreated-files` landing needs resolution before handoff.
 Commit the receiving evidence, plan and result in their owning repository too.
-Upstream publication is separate from the local retirement commit. Before
-restoring an unexpected deletion, consult that commit and its receiving record.
+With `--apply --publish --output=RESULT.json`, the same command commits locally
+and sends its exact reviewed mode/blob set to Fabrication's existing source
+maker. It lands the source review and receives the complete immutable merge,
+preserving unselected source changes. A changed reviewed source preimage refuses
+publication. The receipt retains any completed effect awaiting readback; rerun
+the same command and output to receive it without another push or review.
+Publication requires a durable output; a local commit alone remains available
+without `--publish`. Before restoring an unexpected deletion, consult its
+commit and receiving record.
+
+The command qualifies those original preimages at the advertised remote main
+before deleting locally. Its immutable plan revision may be a local-only
+review cut: `sourcePreparation` retains that review identity separately from
+the remote lease used by Fabrication. An unavailable or mismatched original
+source refuses before deletion/commit. Local-only apply needs no remote.
+
+The package's public root also exports `prepareTrackedLegacySourcePublication`
+for library consumers. Prepare before applying; publication refuses a fresh
+retirement without this witness and never silently prepares after deletion:
+
+```js
+const preview = retireTrackedLegacyCapabilities({plan});
+const sourcePreparation = await prepareTrackedLegacySourcePublication({result: preview});
+const result = retireTrackedLegacyCapabilities({plan, apply: true});
+result.sourcePreparation = sourcePreparation;
+result.landing = commitTrackedLegacyRetirement({result});
+// Save result in the owner's durable output before the external source effect.
+result.publication = await publishTrackedLegacyRetirement({result});
+// Save the returned receiving result, including any retained candidate.
+```
+
+For replay, pass the retained `publication` as `previousPublication` to both
+preparation and publication, and retain its original `sourcePreparation`.
+An existing candidate is received as originally named rather than re-leased
+or pushed again. The ordinary CLI performs this custody automatically.
+
+Add `--publish-records=REQUEST.json --records-output=RECEIPT.json` to finish
+the plan/result/supporting-record publication in the same invocation.
+REQUEST contains their actual `repositoryRoot` and Fabrication's ordinary
+`paths`, `message`, `push: true` and exact `reviewedSource` fields. Select
+the plan and result plus any supporting records explicitly. RECEIPT must
+remain outside that cut: it holds the record merge and any unresolved effect,
+while the published retirement result stays fixed. Repeating this invocation
+receives a retained record candidate without rerunning retirement or changing
+the published result. Changed record bytes or custody require reconciliation.
+
+The same command accepts a `legacy-capability-retirement-batch/v1` JSON input
+to prepare and consume a batch without a separate composition script:
+
+```sh
+retire-tracked-legacy-capabilities batch.json          # prepare + preview
+retire-tracked-legacy-capabilities batch.json --apply --publish
+```
+
+The batch names `id`, the actual record-owner `repositoryRoot`, owner-relative
+`plans` and `supportingRecords` arrays, and `outputs` with five owner-relative
+paths: `plan`, `receiving`, `result`, `publicationRequest`, `publicationReceipt`.
+Its `publication` contains the existing maker's `message` and optional `candidate`.
+Omit `reviewedSource` for fresh outputs: the command observes origin/main and
+checks the three exact destinations are absent before writing prepared files.
+It retains that immutable lease in the generated publication request and reuses
+it on every replay, even after main advances or the records land. Existing
+source destinations require an explicitly reviewed `reviewedSource`.
+These output files and the batch manifest must have separate addresses;
+their parent directories already exist. Do not add output flags in batch mode.
+
+Preparation combines only the same immutable source cut with disjoint paths
+and capability identities. Its receiving snapshot preserves exact original
+UTF-8 plans and supporting JSON bytes with SHA-256. Explicitly embedded record
+witnesses require their original reviewed digest; direct living-code witnesses
+remain direct. This is mechanical assembly, not another capability judgment.
+The generated maker request always includes `push: true` and is decoded by
+the original Git Source Reading provider before preparation writes anything.
+
+Up to32 plans and64 supporting records may total one MiB; the resulting snapshot
+is at most two MiB. Named files, owner boundaries, aliases and existing output
+bytes are checked first. Identical prepared files are reused; different files
+are preserved and refused. Partial preparation may resume. Publication/recovery
+then uses the same ordinary path described above. A retained source-publication
+result can only be replayed with `--apply --publish`; a later preview or local
+apply cannot overwrite it. For a separate preview, use a separate result path.
+
+If the record owner's physical directory moves and its old address remains a
+symlink to the same Git root, completed batches can replay with their original
+bytes. All five output files and both fully received publications must exist.
+This path only reobserves the original immutable merges. New or incomplete
+operations must use the current physical root.
+A failed read-only recheck returns its failure while preserving the last
+completed record receipt for another attempt.
+
 The older full-ledger verifier below performs a repository reference walk;
 use this bounded path on Bare Cedar Fog. A source witness and file removal
 do not assert independent deployment or living-owner architectural conformance.
@@ -122,6 +230,19 @@ Each `data/restorations/*.ledger.json` names the files one restoration returned 
 `data/legacy-unit-inventory.json` lists every legacy unit with source code, its languages, tests, package names and any active package of the same name; a unit's `activation` stays `pending` until its capability is carried into its owner and that migration is recorded here.
 
 ## Copies retired for their owners
+
+For bounded discovery, `observe-tracked-legacy-owners REQUEST.json [NEW-OUTPUT.json]`
+reads selected committed files and explicitly named living modules. The request
+contains `repositoryRoot`, `legacyRoot`, exact `revision`, `sourcePaths` (1–64),
+and `owners` (1–64 `{repositoryRoot, path}` records). Optional `maximumFileBytes`
+and `maximumTotalBytes` bound the read. No directory tree is walked.
+
+One owner table carries actual paths, source signals and SHA-256 identities;
+each source lists indexed candidates with shared directly declared JavaScript
+exports. Private helper names do not create candidates. An unmatched
+source remains visible. These are review hints, including same-name functions
+whose behavior differs; the report always carries `retirementAuthorized: false`.
+After comparison, use the existing reviewed retirement and publication command.
 
 A package defined both here and in a repository that owns it (DRC-2, one owner) is reconciled into the owner and its copy here retired, wave by wave.
 

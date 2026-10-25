@@ -16,7 +16,8 @@
     "reconcile-copy-with-owner": "./scripts/reconcile-copy-with-owner.mjs",
     "reconcile-wave": "./scripts/reconcile-wave.mjs",
     "retire-wave": "./scripts/retire-wave.mjs",
-    "retire-tracked-legacy-capabilities": "./scripts/retire-tracked-legacy-capabilities.mjs"
+    "retire-tracked-legacy-capabilities": "./scripts/retire-tracked-legacy-capabilities.mjs",
+    "observe-tracked-legacy-owners": "./scripts/observe-tracked-legacy-owners.mjs"
   },
   "files": [
     "README.md",
@@ -31,6 +32,10 @@
     "node": ">=22"
   },
   "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/git-source-reading-service": "0.1.4",
+    "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.4.15-dev.243"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/legacy-capability-reallocation-service.git"
