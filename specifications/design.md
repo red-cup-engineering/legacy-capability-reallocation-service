@@ -1,5 +1,14 @@
 # Bounded committed-source retirement
 
+The native review root, native working root and remote source root are separate
+explicit coordinates. `sourceLegacyRoot`, when supplied, changes only the prefix
+used for preimage qualification and the existing maker's publication paths.
+Original local inventory and commit paths retain `legacyRoot`; staged-move checks
+retain `workingLegacyRoot`. The same source mode/blob checks admit the mapping.
+Preparation/result snapshots bind it, and retained receipt and batch common-cut
+checks prevent substitution on replay. Omitting the field preserves old bytes
+and behavior, including already completed publications at the previous location.
+
 Extend the existing reallocation service, preserving its allocation and
 reconciliation exports. Git's native `ls-tree -rz` on an exact commit and
 explicit legacy path supplies inventory. No directory enumeration or

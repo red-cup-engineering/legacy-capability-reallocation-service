@@ -1,5 +1,14 @@
 # Legacy capability retirement
 
+An explicit `sourceLegacyRoot` MAY name an upstream relocation independently of
+the immutable native review cut and any staged local `workingLegacyRoot`.
+Validate the confined legacy root, qualify every mapped upstream mode/type/blob
+before local effects, and publish only that mapped cut through the same maker.
+Preserve native review and commit paths and unrelated local staging. Retain the
+source mapping in results, preparation and batch snapshots; refuse mixed source
+mappings and changes to a retained operation. Unknown or edited mapped preimages
+MUST refuse before deletion. Do not infer a relocation from a filename match.
+
 The Leader's 2026-10-23 request is to revive information in
 `lib/emsenn/services/561-group/lib/legacy` into living services. Review a
 folder's capabilities briefly, find their living owners even when names,

@@ -52,7 +52,7 @@ export function composeTrackedLegacyRetirementBatch({id, repositoryRoot, receivi
     if (typeof plan.repositoryRoot !== 'string' || !isAbsolute(plan.repositoryRoot) || resolve(plan.repositoryRoot) !== plan.repositoryRoot
         || !pathOk(plan.legacyRoot) || !plan.legacyRoot.split('/').includes('legacy')
         || !/^(?:[a-f0-9]{40}|[a-f0-9]{64})$/u.test(plan.revision ?? '')) fail('immutable normalized source cut required');
-    const cut = [plan.repositoryRoot, plan.legacyRoot, plan.revision, plan.workingLegacyRoot];
+    const cut = [plan.repositoryRoot, plan.legacyRoot, plan.revision, plan.workingLegacyRoot, plan.sourceLegacyRoot];
     if (common && JSON.stringify(common) !== JSON.stringify(cut)) fail('plans name different source cuts');
     common = cut;
     for (const cap of plan.capabilities) {
@@ -67,11 +67,13 @@ export function composeTrackedLegacyRetirementBatch({id, repositoryRoot, receivi
     }
   }
   const plan = {kind:'legacy-capability-retirement-plan/v1', repositoryRoot:common[0], legacyRoot:common[1], revision:common[2],
-    ...(common[3] === undefined ? {} : {workingLegacyRoot:common[3]}), capabilities:combined};
+    ...(common[3] === undefined ? {} : {workingLegacyRoot:common[3]}),
+    ...(common[4] === undefined ? {} : {sourceLegacyRoot:common[4]}), capabilities:combined};
   // Reuse the ordinary declaration contract, including overlap and deprecation checks.
   readTrackedLegacyRetirementPlan(plan);
   const receiving = {kind:'legacy-capability-retirement-batch-receiving/v1', id,
-    source:{repositoryRoot:common[0], legacyRoot:common[1], revision:common[2], ...(common[3] === undefined ? {} : {workingLegacyRoot:common[3]})},
+    source:{repositoryRoot:common[0], legacyRoot:common[1], revision:common[2], ...(common[3] === undefined ? {} : {workingLegacyRoot:common[3]}),
+      ...(common[4] === undefined ? {} : {sourceLegacyRoot:common[4]})},
     claim:'Mechanical assembly of supplied judgments; no new capability, authority, installation or independent-review assertion.',
     plans:originals.map(({value, ...raw}) => raw),
     supportingRecords:records.map(({value, ...raw}) => raw)};

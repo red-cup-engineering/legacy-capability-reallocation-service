@@ -172,6 +172,11 @@ process.stdout.write(output);
   writeFileSync(path.join(advance,'upstream-only.txt'),'independent new source\n');
   if(remoteChange==='blob')writeFileSync(path.join(advance,'lib/legacy/batch/first.md'),'changed original source\n');
   if(remoteChange==='absent')rmSync(path.join(advance,'lib/legacy/batch/first.md'));
+  if(remoteChange?.startsWith('relocated')) {
+    if(remoteChange==='relocated-edited') writeFileSync(path.join(advance,'lib/legacy/batch/first.md'),'edited after relocation\n');
+    mkdirSync(path.join(advance,'moved'));
+    renameSync(path.join(advance,'lib/legacy'),path.join(advance,'moved/legacy'));
+  }
   raw(advance,['add','.']);
   if(remoteChange==='mode')raw(advance,['update-index','--chmod=+x','lib/legacy/batch/first.md']);
   raw(advance,['commit','-qm','Concurrent unselected source']); raw(advance,['push','-q','origin','main']);
@@ -311,6 +316,47 @@ test('public root consumers prepare before apply, retain both identities and pub
   assert.equal(result.sourcePreparation.planRevision,f.revision);
   assert.notEqual(result.sourcePreparation.reviewedSource.revision,f.revision);
   assertLocalCut(f,result);assertReceivedCut(f,result);
+});
+
+test('explicit upstream relocation preserves native review and staging and receives only the mapped source cut',t=>{
+  const f=fixture(t,{remoteChange:'relocated'});
+  const before={head:f.git('rev-parse','HEAD'),staging:f.git('diff','--cached','--raw','-z'),refs:f.refs(),pushes:f.pushes()};
+  const unmapped=f.run(); assert.notEqual(unmapped.status,0);
+  assert.match(unmapped.stderr,/source preimage differs/u);
+  assert.equal(existsSync(f.output),false);
+  assert.deepEqual({head:f.git('rev-parse','HEAD'),staging:f.git('diff','--cached','--raw','-z'),refs:f.refs(),pushes:f.pushes()},before);
+  const plan=JSON.parse(readFileSync(f.planPath,'utf8')); plan.sourceLegacyRoot='moved/legacy';
+  writeFileSync(f.planPath,JSON.stringify(plan));
+  const applied=f.run(); assert.equal(applied.status,0,applied.stderr||applied.stdout);
+  assertLocalCut(f,applied.result);
+  assert.equal(applied.result.legacyRoot,'lib/legacy');
+  assert.equal(applied.result.sourceLegacyRoot,'moved/legacy');
+  assert.equal(applied.result.sourcePreparation.sourceLegacyRoot,'moved/legacy');
+  const candidate=applied.result.publication.candidate;
+  assert.equal(candidate.receiving.allUnselectedPreserved,true);
+  assert.deepEqual(candidate.receiving.entries.map(x=>x.path).sort(),['moved/legacy/batch/first.md','moved/legacy/batch/second.md']);
+  assert(candidate.receiving.entries.every(x=>x.after===null));
+  assert.equal(f.upstream('show','main:moved/legacy/batch/unreceived.md'),'separate unreceived source');
+  assert.equal(f.upstream('show','main:moved/legacy/batch/held.md'),'held authored information');
+  const landed={head:f.git('rev-parse','HEAD'),refs:f.refs(),pushes:f.pushes()};
+  const replay=f.run(); assert.equal(replay.status,0,replay.stderr||replay.stdout);
+  assert.equal(replay.result.publication.candidate.mergeCommit,candidate.mergeCommit);
+  assert.deepEqual({head:f.git('rev-parse','HEAD'),refs:f.refs(),pushes:f.pushes()},landed);
+  plan.sourceLegacyRoot='another/legacy'; writeFileSync(f.planPath,JSON.stringify(plan));
+  const changed=f.run(); assert.notEqual(changed.status,0);
+  assert.match(changed.stderr,/retained receipt belongs to another retirement/u);
+  assert.deepEqual({head:f.git('rev-parse','HEAD'),refs:f.refs(),pushes:f.pushes()},landed);
+});
+
+test('a mapped upstream edit refuses before any local retirement effect',t=>{
+  const f=fixture(t,{remoteChange:'relocated-edited'}),plan=JSON.parse(readFileSync(f.planPath,'utf8'));
+  plan.sourceLegacyRoot='moved/legacy'; writeFileSync(f.planPath,JSON.stringify(plan));
+  const before={head:f.git('rev-parse','HEAD'),staging:f.git('diff','--cached','--raw','-z'),refs:f.refs(),pushes:f.pushes()};
+  const refused=f.run(); assert.notEqual(refused.status,0);
+  assert.match(refused.stderr,/source preimage differs/u);
+  assert.equal(existsSync(f.output),false);
+  assert.deepEqual({head:f.git('rev-parse','HEAD'),staging:f.git('diff','--cached','--raw','-z'),refs:f.refs(),pushes:f.pushes()},before);
+  for(const p of ['first.md','second.md']) assert(existsSync(path.join(f.repository,'lib/legacy/batch',p)));
 });
 
 function assertRecordsReceived(f, received) {

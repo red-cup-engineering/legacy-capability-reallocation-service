@@ -31,7 +31,8 @@ if (output) {
     accessSync(output, constants.W_OK);
     if (lstatSync(output).size > 2 * 1024 * 1024) throw new TypeError('retirement receipt exceeds its bounded size');
     prior = JSON.parse(readFileSync(output, 'utf8'));
-    if (prior.repositoryRoot !== resolve(plan.repositoryRoot) || prior.legacyRoot !== plan.legacyRoot || prior.revision !== plan.revision) throw new TypeError('retained receipt belongs to another retirement');
+    if (prior.repositoryRoot !== resolve(plan.repositoryRoot) || prior.legacyRoot !== plan.legacyRoot || prior.revision !== plan.revision
+        || prior.workingLegacyRoot !== plan.workingLegacyRoot || prior.sourceLegacyRoot !== plan.sourceLegacyRoot) throw new TypeError('retained receipt belongs to another retirement');
     if (prior.publication !== undefined && !args.includes('--publish')) throw new TypeError('retained source publication requires --apply --publish replay; its receipt cannot be replaced by preview or local apply');
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;

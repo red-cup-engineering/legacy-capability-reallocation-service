@@ -15,6 +15,14 @@ unrelated relocation work stays staged. Omit the field for an ordinary retiremen
 <!-- 561-group-standards:badges:end -->
 ## Lightweight committed-folder review
 
+If origin has already relocated the subtree while the local review and index
+still name its earlier cut, declare `sourceLegacyRoot` for its current upstream
+location. `legacyRoot` and `revision` keep the native review identity;
+`workingLegacyRoot` independently selects the unchanged staged local move.
+The command checks every mapped upstream mode/blob before local deletion and
+publishes only those mapped paths. It never infers a move or changes the mapping
+of a retained publication; replay keeps its original source identity.
+
 For a local legacy folder, start with `inventoryTrackedLegacyCapabilities`.
 It reads only the explicitly selected Git subtree's metadata. Review folder
 capabilities against actual living source, including installed suppliers

@@ -79,6 +79,10 @@ export function inventoryTrackedLegacyCapabilities({repositoryRoot, legacyRoot, 
 /** Shared declaration contract; this validates no capability judgment or Git custody. */
 export function readTrackedLegacyRetirementPlan(plan) {
   if (plan?.kind !== 'legacy-capability-retirement-plan/v1' || !Array.isArray(plan.capabilities)) throw new TypeError('capability retirement plan required');
+  if (plan.sourceLegacyRoot !== undefined && (!validPath(plan.sourceLegacyRoot)
+      || /[\0\r\n\t]/u.test(plan.sourceLegacyRoot) || !plan.sourceLegacyRoot.split('/').includes('legacy')
+      || plan.sourceLegacyRoot.split(/[\\/]/u).some(part => part.toLowerCase() === '.git' || part === '..')))
+    throw new TypeError('confined source legacy root required');
   if (plan.workingLegacyRoot !== undefined) {
     const moved = plan.workingLegacyRoot, original = plan.legacyRoot;
     if (!validPath(moved) || /[\0\r\n\t]/u.test(moved) || moved.split('/').some(part => part.toLowerCase() === '.git')
@@ -163,6 +167,7 @@ export function retireTrackedLegacyCapabilities({plan, apply = false}) {
   const counts = outcomes.reduce((all, row) => ({...all, [row.state]: (all[row.state] ?? 0) + 1}), {});
   return {kind: 'legacy-capability-retirement-result/v1', repositoryRoot: root, legacyRoot: plan.legacyRoot,
     ...(plan.workingLegacyRoot === undefined ? {} : {workingLegacyRoot:plan.workingLegacyRoot}),
+    ...(plan.sourceLegacyRoot === undefined ? {} : {sourceLegacyRoot:plan.sourceLegacyRoot}),
     revision: inventory.revision, apply, inventoryFiles: entries.size, selectedFiles: seen.size, unselectedFiles: entries.size - seen.size, counts, capabilities, outcomes};
 }
 
@@ -236,7 +241,7 @@ export async function publishTrackedLegacyRetirement({result, previousPublicatio
   if (result?.apply !== true || !['committed', 'already-landed'].includes(result.landing?.state)) throw new TypeError('committed retirement required before source publication');
   const selected = result.outcomes.filter(row => ['removed', 'absent'].includes(row.state));
   if (!selected.length) return {ok: true, phase: 'unchanged', paths: []};
-  const paths = selected.map(row => result.legacyRoot + '/' + row.path);
+  const paths = selected.map(row => (result.sourceLegacyRoot ?? result.legacyRoot) + '/' + row.path);
   let reviewedSource;
   if (!previousPublication?.candidate) {
     const {reviewedSourceForTrackedLegacyRetirement} = await import('./tracked-legacy-source-publication.mjs');
