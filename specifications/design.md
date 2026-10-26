@@ -180,6 +180,18 @@ common-cut comparison and passes it to the ordinary consumer unchanged.
 
 ## Bounded owner candidates
 
+An owner descriptor may add `receivedSource: {owner, path}` to select a member
+from its named JSON receipt. The same confined actual-Git-root reader holds the
+record bytes once; a receipt cache parses them once for all selected members.
+The combined budget charges the full record once and all native/source reads;
+each selected member separately obeys the file bound. The pure received-source
+decoder admits the existing pinned-owner and published-owner record shapes,
+checks the selected bytes and their recorded Git/archive identity, and returns
+source provenance without evaluating code. The ordinary matcher then uses the
+same direct-export comparison and owner table. Root/directory Git ownership
+observations are reused within the invocation. No acquisition, alternate package
+installer or retirement path is introduced.
+
 The ordinary source-record builder accepts bytes as well as a native path, so
 selected committed blobs use the same imports, symbols and capability hints as
 the existing inventory. The tracked inventory supplies immutable path/blob/mode
