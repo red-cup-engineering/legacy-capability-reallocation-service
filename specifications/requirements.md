@@ -16,6 +16,19 @@ package boundaries or repository mounts are malformed, and remove covered
 legacy files. Lean material is explicitly deprecated. Git history supplies
 recovery, not evidence of a replacement capability.
 
+The same originating instruction says: "For each code thing, we need to assume
+it has a proper home, that home likely has better code, but is in some ways
+non-conformant, i.e. not its own repo, malformed package name, other issues."
+Review shall therefore compare folder-level capabilities and actual living
+owner responsibilities, rather than require endpoint-by-endpoint or test-by-test
+equivalence. Once that capability home is evidenced, unfinished owner conformance
+or an unverified historical detail alone shall not retain a duplicate legacy
+implementation. State the authorized assumption and unverified properties in the
+retirement reason; do not claim those properties are implemented or installed.
+Meaningful unique information and genuinely missing capabilities still require
+integration. Exact Git preimages, selected-path commits and independent source
+and canonical-record receiving remain mandatory.
+
 The service shall inventory an explicitly selected committed subtree without
 walking the host or reading every source body. It shall retain exact Git
 revision, path, object identity and executable/symlink modes. A retirement

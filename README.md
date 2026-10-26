@@ -15,6 +15,15 @@ unrelated relocation work stays staged. Omit the field for an ordinary retiremen
 <!-- 561-group-standards:badges:end -->
 ## Lightweight committed-folder review
 
+Compare the folder's purpose with the living owner's responsibility. Once actual
+living source establishes that home, the Leader's legacy-revival instruction
+assumes its implementation is better. Exact parity with every historical helper,
+endpoint, test or dependency is not a retirement prerequisite. Keep genuine
+missing capabilities and unique information for integration; do not turn this
+review into reconstruction of the old implementation. Record any unverified
+endpoint, installation or production property as a limitation of the claim.
+Repository/package conformance is separate work at the living owner.
+
 If origin has already relocated the subtree while the local review and index
 still name its earlier cut, declare `sourceLegacyRoot` for its current upstream
 location. `legacyRoot` and `revision` keep the native review identity;
