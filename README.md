@@ -270,6 +270,14 @@ Concrete discovered unit: `emsenn/emsenn-archive-code/topical/science/mathematic
 
 Completion is separately witnessed at four boundaries: source accounted for; owner implementation integrated; consuming parent/section relationship corrected; and qualified installation independently received. Record each boundary distinctly, and leave downstream statuses unknown where execution or customer receiving is unavailable.
 
+The ordinary owner matcher accepts pinned and published owner receipts: an `owners` entry
+`{"repositoryRoot":"/actual/record/repository","path":"records/owner.json","receivedSource":{"owner":"owner","path":"src/owner.mjs"}}`
+selects a pinned owner ID and source member. Published-owner receipts use their
+package name as `receivedSource.owner`. Multiple entries can select different
+members of one receipt, which is read and charged against the byte budget once.
+Results retain the receipt hash and source identity; candidates still require
+capability review and grant no retirement authority.
+
 Receive owner implementations that are not checked out locally with `receive-pinned-legacy-owners REQUEST.json NEW-OUTPUT.json`. For example:
 
 ```json
