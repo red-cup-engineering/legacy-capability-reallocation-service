@@ -143,6 +143,16 @@ Batch composition MUST retain this local mapping and refuse mixed mappings.
 
 ## Selected-source owner discovery
 
+Owner discovery shall also consume explicitly selected source members from
+existing pinned-Git or published-owner receiving records. It shall not require
+copies of living code or another native checkout. Read each named receipt once,
+within the combined byte budget, and retain its SHA-256 and exact selected member
+provenance. Verify text length/hash, Git blob identity or archive member identity,
+and the original review-only status. Refuse ambiguous selections, altered bodies,
+credentials in source locators, linked records and exceeded bounds. Preserve
+unknown sources and the existing direct-export hint semantics; receipt claims
+are evidence for review, never semantic coverage or deletion authorization.
+
 The service shall compare explicitly selected immutable Git source files with
 explicitly named living source modules without walking either directory tree.
 It shall reuse the existing source-signal reader and committed-subtree inventory,

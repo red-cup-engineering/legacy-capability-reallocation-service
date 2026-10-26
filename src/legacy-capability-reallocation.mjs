@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { closeSync, constants, existsSync, fstatSync, lstatSync, mkdirSync, openSync, readFileSync, readSync, readdirSync, realpathSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { basename, dirname, isAbsolute, relative, resolve, sep } from "node:path";
 import { inventoryTrackedLegacyCapabilities as trackedInventory } from "./tracked-legacy-retirement.mjs";
+import { createReceivedOwnerSourceReader } from "./received-owner-source.mjs";
 
 const IGNORED_DIRECTORIES = new Set([".git", ".hg", ".svn", "node_modules", ".venv", "venv", "__pycache__", ".pytest_cache", ".mypy_cache", "dist", "build", "coverage"]);
 const TEXT_EXTENSIONS = new Set([".c", ".cc", ".cpp", ".cs", ".css", ".go", ".h", ".hpp", ".html", ".java", ".js", ".json", ".jsonl", ".jsx", ".md", ".mjs", ".org", ".py", ".rb", ".rs", ".rst", ".sh", ".sql", ".tex", ".toml", ".ts", ".tsx", ".mts", ".el", ".rkt", ".scm", ".lean", ".txt", ".yaml", ".yml"]);
@@ -151,22 +152,38 @@ export function observeTrackedLegacyOwnerCandidates({ repositoryRoot, legacyRoot
     if (!entry || entry.type !== "blob" || !["100644", "100755"].includes(entry.mode)) throw new TypeError("selected source must be a committed regular blob: " + path);
     return entry;
   });
-  const seen = new Set();
+  const seen = new Set(), roots = new Map(), directories = new Map();
   const namedOwners = owners.map(owner => {
     if (!owner || typeof owner.repositoryRoot !== "string" || !isAbsolute(owner.repositoryRoot) || typeof owner.path !== "string" || isAbsolute(owner.path) || owner.path.includes("\0") || owner.path.split("/").some(part => !part || [".", "..", "legacy"].includes(part))) throw new TypeError("a confined non-legacy owner module is required");
     const root = resolve(owner.repositoryRoot), file = resolve(root, owner.path);
-    const actual = execFileSync("git", ["-C", root, "rev-parse", "--show-toplevel"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+    if (!roots.has(root)) roots.set(root, execFileSync("git", ["-C", root, "rev-parse", "--show-toplevel"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim());
+    const actual = roots.get(root);
     if (root !== actual || realpathSync(file) !== file) throw new TypeError("owner must use its actual Git root and no linked path");
-    const actualFileOwner = execFileSync("git", ["-C", dirname(file), "rev-parse", "--show-toplevel"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
-    if (actualFileOwner !== root || seen.has(file)) throw new TypeError("owner module is duplicated or belongs to a different Git owner");
-    seen.add(file);
-    return { repositoryRoot: root, path: owner.path, file };
+    if (!directories.has(dirname(file))) directories.set(dirname(file), execFileSync("git", ["-C", dirname(file), "rev-parse", "--show-toplevel"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim());
+    const actualFileOwner = directories.get(dirname(file));
+    const key = JSON.stringify([file, owner.receivedSource?.owner ?? null, owner.receivedSource?.path ?? null]);
+    if (actualFileOwner !== root || seen.has(key)) throw new TypeError("owner module is duplicated or belongs to a different Git owner");
+    seen.add(key);
+    return { repositoryRoot: root, path: owner.path, ...(owner.receivedSource === undefined ? {} : { receivedSource: owner.receivedSource }), file };
   });
   let remaining = maximumTotalBytes;
+  const receipts = new Map();
   const observedOwners = namedOwners.map(({ file, ...owner }) => {
-    const bytes = boundedOwnerBytes(file, Math.min(maximumFileBytes, remaining));
-    remaining -= bytes.length;
-    return freeze({ ...owner, ...recordFromBytes(owner.path, bytes), directExports: directExportNames(bytes) });
+    let bytes, receipt;
+    if (owner.receivedSource === undefined) {
+      bytes = boundedOwnerBytes(file, Math.min(maximumFileBytes, remaining));
+      remaining -= bytes.length;
+    } else {
+      if (!receipts.has(file)) {
+        const held = boundedOwnerBytes(file, remaining);
+        remaining -= held.length;
+        receipts.set(file, { held, read: createReceivedOwnerSourceReader(held) });
+      }
+      const { held, read } = receipts.get(file), source = read(owner.receivedSource, maximumFileBytes);
+      bytes = source.bytes;
+      receipt = freeze({ sha256: hash(held), bytes: held.length, source: freeze(source.identity), reviewRequired: true });
+    }
+    return freeze({ ...owner, ...(receipt ? { receipt } : {}), ...recordFromBytes(owner.receivedSource?.path ?? owner.path, bytes), directExports: directExportNames(bytes) });
   });
   const records = selected.map(entry => {
     const size = Number(execFileSync("git", ["-C", inventory.repositoryRoot, "cat-file", "-s", entry.blob], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim());

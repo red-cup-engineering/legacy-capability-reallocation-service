@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { execFileSync, spawnSync } from "node:child_process";
 import { mkdtempSync, mkdirSync, readFileSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -89,4 +90,32 @@ test("the ordinary CLI writes a new discovery record and refuses to replace it",
   assert.equal(JSON.parse(retained).retirementAuthorized, false);
   assert.notEqual(run().status, 0);
   assert.deepEqual(readFileSync(output), retained);
+});
+
+test('one received owner record supplies several members without native source copies or repeated byte charges', t => {
+  const { root, git, request } = fixture(t);
+  const commit = 'a'.repeat(40), repository = 'https://example.invalid/source.git';
+  const files = ['projectPackage', 'unrelated'].map(name => {
+    const path = 'src/' + name + '.mjs', text = 'export function ' + name + '() { return 2; }\n', bytes = Buffer.from(text);
+    return { path, text, bytes: bytes.length, mode: '100644', sha256: createHash('sha256').update(bytes).digest('hex'),
+      source: { repository, commit, path, object: createHash('sha1').update('blob ' + bytes.length + '\0').update(bytes).digest('hex') } };
+  });
+  const receipt = Buffer.from(JSON.stringify({ kind: 'legacy-pinned-owner-evidence/v1', reviewRequired: true,
+    retirementAuthorized: false, owners: [{ id: 'received', repository, commit, files }] }));
+  writeFileSync(join(root, 'living/source.json'), receipt);
+  rmSync(join(root, 'living/module.mjs'));
+  const before = git('status', '--porcelain', '--untracked-files=no');
+  const owners = files.map(file => ({ repositoryRoot: root, path: 'living/source.json', receivedSource: { owner: 'received', path: file.path } }));
+  const result = observe({ ...request, owners });
+  assert.deepEqual(result.records.map(row => row.candidates.map(c => c.owner)), [[0], [1]]);
+  assert.equal(result.bytesRead, receipt.length + Buffer.byteLength('export function projectPackage() { return 1; }\n') + Buffer.byteLength('export const unrelated = 1;\n'));
+  assert.equal(result.owners[0].receipt.sha256, createHash('sha256').update(receipt).digest('hex'));
+  assert.equal(result.owners[1].receipt.source.commit, commit);
+  assert.equal(result.owners[1].source.path, files[1].path);
+  assert.equal(result.retirementAuthorized, false);
+  assert.equal(git('status', '--porcelain', '--untracked-files=no'), before);
+  assert.throws(() => observe({ ...request, owners, maximumTotalBytes: receipt.length - 1 }), /byte limits/u);
+  assert.throws(() => observe({ ...request, owners: [owners[0], { ...owners[0], receivedSource: { path: files[0].path, owner: 'received' } }] }), /duplicated/u);
+  symlinkSync('source.json', join(root, 'living/linked.json'));
+  assert.throws(() => observe({ ...request, owners: [{ ...owners[0], path: 'living/linked.json' }] }));
 });
