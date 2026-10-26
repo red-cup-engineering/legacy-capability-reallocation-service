@@ -36,6 +36,16 @@ the receiving result. Their existence is a source witness, not a proof of
 semantic parity or live installation. The plan records those judgments and
 their limitations. Source classification recognizes the estate's MTS,
 Elisp, Racket, Scheme and Lean as code, rather than opaque binaries.
+
+Capability judgment compares the old folder's purpose against the actual living
+owner's responsibility. Under the originating Leader instruction, that owner's
+implementation is assumed better; reviewing every old endpoint is unnecessary.
+The existing plan's reason records this assumption and any known limitations.
+An unverified historical detail is not silently promoted to a missing capability
+or a current production claim. Preserve genuinely unique jobs/information, and
+handle the living owner's repository/package conformance at that owner. This is
+a review rule over the existing plan, not new automatic deletion authority or a
+change to its Git, custody, publication or receiving checks.
 When writing the full result to a named output, CLI stdout contains only counts
 and source identity; large per-capability witnesses stay in that result file.
 
