@@ -1,5 +1,124 @@
 # Legacy capability retirement
 
+## Current preservation correction
+
+Authored 2026-10-29T06:58:36.258Z by Codex /root/pdf_receiving in red-cup-engineering/legacy-capability-reallocation-service. This is the original requirement family, not another retirement method or authority. The continuing Leader instructions below supersede every earlier covered, deprecated, presumed-better-owner or Git-history deletion criterion that conflicts with exact duplicate-only preservation. The complete original source is retained verbatim below; its non-conflicting positive source, custody, publication, bound and replay obligations remain operative.
+
+The formal native input at data/records/service-records/requirements-management-service-records/legacy-capability-retirement.json projects this same authored requirement into the original Specification producer. It retains the complete original source and five exact current asks with source identities and is not a second authoritative policy. The native output at specifications/legacy-capability-retirement.md remains a separately unadmitted Specification candidate.
+
+## Current Leader instructions, verbatim
+
+### Ask 1
+
+~~~~text
+services/science-services-section/content/text/documents/bibliographies/sources/windows-content/pdf
+
+look we shuold have this shit in one spot one name this isn't fucking it you keep fucking moving shit and like half this shit are our own products not even fucking sources we cite
+
+DELETE NTOHING unless it's a duplicate file, RELOCATE SHIT to where they go: 6e is for tabletop roleplaying game science, 30 days of worldbuilding for media science, etc.
+~~~~
+
+### Ask 2
+
+~~~~text
+STOP ALLOWING BARE CEDAR FOG TO BE ANYTHING LESS THAN WHAT I KEEP DEMANDING IT BE: A COMPLETE CONTAINER OF ALL OUR RESOURCES ACROSS ALL FIVE MAJOR ORGANIZATIONS.
+
+NO LOCAL DIRT
+
+NO LOCAL BRANCHES THAT HAVE CODE NOT INTEGRATED INTO THE LIVE SYSTEMS
+
+NO ARCHIVED TAGGED BRANCHES ON REMOTE THAT SECRETLY HIDE CODE THAT YOU WERE TOO LAZY TOO MERGE IN
+
+NO BRANCHES AT ALL ON REMOTE THAT YOU ARE JUST DECLINING TO MERGE IN
+
+NO DOING THIS BY HAND
+
+YES IMPROVE OUR GIT AND GITHUB SHIT TO ACTUALLY BE ABLE TO HANDLE REAL SDLC DEVOPS
+~~~~
+
+### Ask 3
+
+~~~~text
+We need to recover all the lib/legacy stuff you or soemone deleted from across all our repos. You and other agents keep trying to handle that legacy content by simply deleting it outright, and, well, that's nonsense.
+~~~~
+
+### Ask 4
+
+~~~~text
+you need to be like using git or something so this shit actually gets into the appropriate repositories, so I have a clean slate once your'e done to start actually processing this stuff for real, without you doing unauthorized mass deletions.
+~~~~
+
+### Ask 5
+
+~~~~text
+Include existing work in separate commits
+~~~~
+
+## Operative completion conditions
+
+### legacy-capability-retirement:existing-contract
+
+Every non-conflicting obligation in the original specifications/requirements.md remains required, including exact source identity, confined literal paths, source modes, unrelated-index preservation, independent eligible-file handling, output preflight, bounded deterministic batch assembly, selected supplier decoding, remote preimages, publication receiving and original replay. The full original UTF-8 source and its immutable Git identity remain retained as dated provenance. Covered, deprecated, presumed-better-owner and Git-recoverability deletion criteria and their positive deletion tests are superseded by the current exact-duplicate condition and corresponding refusal cases.
+
+### legacy-capability-retirement:exact-duplicate-boundary
+
+Before unlinking, removing, purging a source carrier or committing its deletion, the original producer independently verifies at action time that every selected source is an exact duplicate of a destination actually received by its proper canonical owner. The proof binds original repository identity, immutable source revision, literal path, Git object and raw-byte identity, regular or executable mode and symlink target, together with authenticated destination repository identity, exact destination path, received default revision and physical receiving. Original bytes, modes, link targets, meaningful source identity and provenance remain available there; path mappings are explicit. A filename, symbol, capability label or semantic similarity is insufficient.
+
+### legacy-capability-retirement:dispositions-are-not-authority
+
+Covered or deprecated dispositions, an asserted better implementation, archive labels, tests, publication receipts, age, tier, Git recoverability, empty merge results and the existence of another owner do not authorize deletion of a unique resource. Caller reasons, earlier permissions and historical receipts cannot bypass the current duplicate-only preservation condition. Distinct useful implementations and historical resources are actually received and retained at their proper owner; capability coverage does not make differing source bytes an exact duplicate.
+
+### legacy-capability-retirement:preserve-all-variants
+
+Original intake and reallocation preserve every unique, unknown, unsupported, changed or unpublished source and all staged, partially staged, unstaged, untracked and ignored variants within the authorized selected scope. Regular files, executable intent, symlink targets, nested Git contexts and source provenance remain distinguishable. Concurrent source or index changes invalidate the affected expected cut instead of being overwritten, silently omitted, blanket-staged, reset or force-cleaned. Unknown siblings and unrelated work retain their existing custody.
+
+### legacy-capability-retirement:recover-prior-erasures
+
+The same original generic inventory, ledger, pinned-source and reallocation producers recover unique resources previously erased under coverage, deprecation or history-only criteria from their retained Git, index and original source carriers. Recovery preserves complete original bytes, modes, links, original author and source identities, deleting revision and explicit original-to-current path mapping through the actual subject owner and native writers. Historical source receiving does not reinstall obsolete packages, units, workloads, implementation or authority. A Git object reference, summary or recovery receipt without the actual received resource bytes is insufficient.
+
+### legacy-capability-retirement:canonical-receiving
+
+Each proper canonical owner receives selected resources on its actual default source and intended physical working clone, with stable repository identity and name-derived home qualified through the original placement and repository owners. Required parent and ordinary consumer selections receive their exact source separately; content meaning, historical custody and operating behavior each retain the appropriate receiving condition. An archive, task snapshot, alias, uninitialized mount, receipt or Gitlink is no substitute for actual receiving. Current, rollback and unresolved historical variants remain usable; source receiving does not imply installation, activation or whole-estate completion.
+
+### legacy-capability-retirement:effect-boundaries-and-races
+
+Before any file effect the original producer admits the entire planned effect set, current authority, owners, literal paths, supported modes, input and output identities, usable durable evidence locations and finite resource bounds through existing typed boundaries. Providers, policies, accounts, hosts, paths, names, budgets and owners are checked parameters rather than constants in a task-specific mover. Immediately before each effect it rechecks source, selected index and working variants and destination receiving against the admitted cut. Changed, missing, unsupported, foreign or ambiguous evidence refuses the affected effect and preserves its source; completed partial effects remain explicitly recoverable instead of being described as an untouched operation.
+
+### legacy-capability-retirement:uncertain-effects-and-replay
+
+The original producer retains its admitted operation and durable receiving context before an external or destructive effect. Failure, interruption, cancellation and uncertainty preserve source and operation identities, expected preimages, completed actions, unresolved obligations and distinct provider and physical readback. Replay reconciles the same operation without repeating uncertain deletion or publication, replacing its retained source lease, losing the last valid receipt, rewriting shared history or allocating a substitute source copy. Dated candidate status remains historical evidence rather than a current receiving claim.
+
+### legacy-capability-retirement:producer-lifetime
+
+Each original producer owns one bounded resumable preparation and terminal disposition across success, refusal, failure, cancellation and interruption. It reuses held source objects, selected material, qualified dependency contexts and original evidence while retaining current, rollback, necessary offline inputs and meaningful unpublished work. Scratch, receipt and disposal conditions are explicit checked native-owner parameters. Repeated clones, installations, payload copies, replacement ledgers, timer expiry, abandonment, global prune and forced removal of unknown files do not substitute for preventing waste or receiving unique resources.
+
+### legacy-capability-retirement:generic-native-automation
+
+The existing legacy capability reallocation service remains the reusable owner of selected-batch discovery, classification, original-source recovery, canonical relocation and duplicate-only disposition. Ordinary callers use its original ledger, typed source readers, File, Git, Data-law, publication and receiving ports with explicit parameters and complete selected-resource coverage. Sessions do not author a separate migration script, deletion dispatcher, private archive or policy method for each case. The original operation retains unmatched sources and resumes subsequent qualified lots through those same producers.
+
+### legacy-capability-retirement:original-generation-chain
+
+Necessary generic producer and caller repairs are derived at this original owner from the corrected requirement through the original native Specification, Architecture, high-level design, low-level design and source fabrication chain with independent source and consumer receiving. A missing generator or supplier is repaired at its original owner rather than supplied by handwritten code, manual Specification clauses, compatibility shims, fabricated admission or relabelled old candidates. Every selected reader, generator, writer and public entrance exists in the exact supplier selected by its consumer before the corresponding capability is claimed.
+
+### legacy-capability-retirement:actual-consumer-cases
+
+The ordinary generic consumer receives a positive exact-duplicate case only after authenticated canonical default and physical destination readback, and receives unique historical bytes through the same reusable recovery operation. Refusal and continuation cases include covered but different content, deprecation without a duplicate, mode or link-target mismatch, absent or foreign destination identity, moved or uninitialized owners, partial staging, concurrent changes, unsupported modes, unknown siblings, unusable output destinations, interrupted or uncertain publication, cancellation and same-operation replay. Unrelated files and meaningful variants remain preserved. Source tests, generated documents, removal counts, commits, archive tags and closed tickets alone do not satisfy actual consumer receiving.
+
+### legacy-capability-retirement:authorship-and-separate-commits
+
+Recovery and preservation repairs reach their appropriate repositories through existing exact-source integration with truthful agent authorship and original provenance. Pre-existing unrelated deployment, instruction, implementation and baseline work remains preserved and is integrated in separate commits, rather than bundled into the recovery cut. Branches or archived references containing unreceived useful source remain unresolved rather than substituting for integration or being retired without their actual receiving and exact expected-reference protection.
+
+### legacy-capability-retirement:scope-and-truthful-results
+
+The complete-container recovery requirement covers all five major Group organizations and their actual resources through original-owner parameters for selected organizations, machines, repository identities, source cuts, bounds and policy. Discovery, source judgment, generated candidates, default and physical source receiving, parent selection, installation, runtime operation and independent acceptance remain distinct outcomes. Unknown coverage and local dirt remain explicit obligations rather than absence, success or permission to discard source. This first requirement and native Specification proposal confers no governing authority, implementation acceptance or operating completion.
+
+## Original source retained verbatim
+
+Original repository: red-cup-engineering/legacy-capability-reallocation-service. Original revision: 58737ba646d84015f89b9ced24cd5cb6bef78987. Original path: specifications/requirements.md. Git blob: 0e727ae8069ea14d13ca8383d791b91755297db6. SHA-256: 9d74f4d72ed4cdc782b292316b23313e67d1abdc844a76fe793baea97a7da6f8. This complete original text is dated provenance; conflicting deletion criteria are superseded by the current correction, and are not permission to rerun old deletion behavior.
+
+~~~~markdown
+# Legacy capability retirement
+
 An explicit `sourceLegacyRoot` MAY name an upstream relocation independently of
 the immutable native review cut and any staged local `workingLegacyRoot`.
 Validate the confined legacy root, qualify every mapped upstream mode/type/blob
@@ -180,3 +299,4 @@ already retired. It shall perform no import evaluation, network request, index
 change or deletion. Literal source filenames shall remain unchanged.
 
 A named owner may have a proper repository without a native checkout. Receive its explicitly selected textual files through the existing pinned Git source reader, at an exact immutable commit, without checkout, import evaluation, lifecycle execution or gitlink traversal. Validate all requests before acquisition. Bound owner count, paths, tree metadata and individual/aggregate bytes. Refuse missing, duplicate, non-regular, incorrectly attributed, invalid UTF-8 or object-mismatched files. Retain the actual Git identity, executable mode, text and SHA-256 of every file. Credentials belong only to the transient reader environment; evidence grants no retirement or runtime authority. Dispose only the reader's own scratch after all readers stop, including failed receiving. The ordinary CLI must produce an exclusive new JSON evidence record suitable for the existing retirement batch's supportingRecords.
+~~~~

@@ -1,0 +1,99 @@
+{
+  "identity": {
+    "id": "legacy-capability-retirement",
+    "title": "Legacy capability retirement preserves original resources",
+    "seat": "red-cup-engineering/legacy-capability-reallocation-service",
+    "carrier": "specifications/legacy-capability-retirement.md",
+    "authors": [
+      "Codex /root/pdf_receiving"
+    ]
+  },
+  "interpretations": [
+    {
+      "cell": "legacy-capability-retirement:existing-contract",
+      "clauseId": "existing-contract",
+      "keyword": "MUST",
+      "actor": "The original legacy reallocation producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:exact-duplicate-boundary",
+      "clauseId": "exact-duplicate-boundary",
+      "keyword": "MUST",
+      "actor": "The original retirement producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:dispositions-are-not-authority",
+      "clauseId": "dispositions-are-not-authority",
+      "keyword": "MUST",
+      "actor": "The original retirement producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:preserve-all-variants",
+      "clauseId": "preserve-all-variants",
+      "keyword": "MUST",
+      "actor": "The original source intake and reallocation producers"
+    },
+    {
+      "cell": "legacy-capability-retirement:recover-prior-erasures",
+      "clauseId": "recover-prior-erasures",
+      "keyword": "MUST",
+      "actor": "The original source recovery and reallocation producers"
+    },
+    {
+      "cell": "legacy-capability-retirement:canonical-receiving",
+      "clauseId": "canonical-receiving",
+      "keyword": "MUST",
+      "actor": "The canonical source and consumer receiving owners"
+    },
+    {
+      "cell": "legacy-capability-retirement:effect-boundaries-and-races",
+      "clauseId": "effect-boundaries-and-races",
+      "keyword": "MUST",
+      "actor": "The original file-effect producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:uncertain-effects-and-replay",
+      "clauseId": "uncertain-effects-and-replay",
+      "keyword": "MUST",
+      "actor": "The original source and publication producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:producer-lifetime",
+      "clauseId": "producer-lifetime",
+      "keyword": "MUST",
+      "actor": "The original data producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:generic-native-automation",
+      "clauseId": "generic-native-automation",
+      "keyword": "MUST",
+      "actor": "The original reallocation service and its callers"
+    },
+    {
+      "cell": "legacy-capability-retirement:original-generation-chain",
+      "clauseId": "original-generation-chain",
+      "keyword": "MUST",
+      "actor": "The original Requirement, Specification, Architecture, design and Fabrication owners"
+    },
+    {
+      "cell": "legacy-capability-retirement:actual-consumer-cases",
+      "clauseId": "actual-consumer-cases",
+      "keyword": "MUST",
+      "actor": "The original generic consumer and its independent receiver"
+    },
+    {
+      "cell": "legacy-capability-retirement:authorship-and-separate-commits",
+      "clauseId": "authorship-and-separate-commits",
+      "keyword": "MUST",
+      "actor": "The original source integration producer"
+    },
+    {
+      "cell": "legacy-capability-retirement:scope-and-truthful-results",
+      "clauseId": "scope-and-truthful-results",
+      "keyword": "MUST",
+      "actor": "The original estate and resource receiving producers"
+    }
+  ],
+  "at": "2026-10-29T06:58:36.258Z",
+  "reviewedBy": "Codex /root/pdf_receiving; explicit source interpretations proposed; independent source receiving and native governing admission remain unreceived"
+}
