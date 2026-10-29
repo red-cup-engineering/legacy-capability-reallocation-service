@@ -147,6 +147,236 @@
       "implementation": false,
       "installation": false,
       "runtimeRepair": false
+    },
+    "preserve-only-recovery-supplier-inquiry": {
+      "recordedAt": "2026-10-29T10:14:16.899Z",
+      "recordedBy": "Codex /root/pdf_receiving / Engineering repository steward bounded source-receiving inquiry",
+      "purpose": "Qualify original preserve-only recovery suppliers for the continuing complete-estate recovery request without creating a second policy, scanner, mover or retirement authority.",
+      "scope": {
+        "selectedLegacyCommit": "f14337e7e2c36b918dcacd28ae5af41a6f016dbb",
+        "sourceAndMetadataOnly": true,
+        "fullLedgerStream": false,
+        "freshEstateOrFilesystemScan": false,
+        "historyWalk": false,
+        "sourceOrIndexOrRefMutation": false,
+        "recoveryOrRetirementApiInvoked": false,
+        "newCloneOrInstallation": false,
+        "currentCoverageOrRuntimeAcceptance": false
+      },
+      "historicalCheckpoint": {
+        "ownerRepository": "561-group/internal-services-section",
+        "path": "data/records/source-maintenance-records/2026-10-28-lib-legacy-recovery-checkpoint.json",
+        "date": "2026-10-28",
+        "status": "interrupted before final audit; completed restorations retained; additional recovery remains",
+        "recordedRestoredFiles": 160626,
+        "distinctRestoredPaths": 160626,
+        "recordedRestoredBytes": 2551421341,
+        "recordedSourceFilesDeleted": 0,
+        "recordedExistingSourceFilesOverwritten": 0,
+        "verification": "Each recorded restored file was compared with its immutable Git blob at write time; Git executable bits and symbolic-link targets were preserved. A final independent readback and complete deletion census were not completed.",
+        "placementLimit": "Some historical section paths were routed by matching section directory names. Those mappings have not all been checked against source identity and need review; original source repository/path and destination remain in the receipts.",
+        "scope": "The checked-out repository/submodule family, available committed histories, declared uninitialized sources and nested archive references; not a claim that every repository in every GitHub account has been recovered.",
+        "publication": "Local source recovery only. No commits, pushes, deployments or capability-integration claims were made.",
+        "sourceObjectRepositoryCount": 101,
+        "destinationOwnerIndexSummary": {
+          "path": "data/state/legacy-recovery-2026-10-28/recovery-index-ownership.json",
+          "rows": 166,
+          "counts": {
+            "alreadyIndexedExact": 100867,
+            "untrackedRecovered": 59759
+          }
+        },
+        "ledger": {
+          "path": "data/records/source-maintenance-records/2026-10-28-lib-legacy-recovery-files.jsonl.gz",
+          "format": "gzip-compressed JSON Lines",
+          "declaredSha256": "ff0cbd3862581c397c3175252833846d0aea735b294e697a31c5b8ccec38cef2",
+          "declaredSha256Reverified": false,
+          "actualGzipMetadata": {
+            "compressedBytes": 14976881,
+            "uncompressedBytes": 186714695,
+            "producer": "Original gzip -l metadata observation during this inquiry; not a complete integrity/decode check",
+            "notAssumed54Megabytes": true
+          },
+          "decodeScope": "Only the first JSON Lines record was decoded with the existing gzip/head tools; no full ledger stream, count or checksum verification.",
+          "firstRecordSchema": {
+            "repository": "Original physical repository/object-source address",
+            "path": "Literal original selected path",
+            "source": "index in the observed first row",
+            "headAtRecovery": "Historical observation, not proof that a selected index blob occurs at this commit",
+            "mode": "Original recorded Git mode",
+            "sourceBlob": "Selected object identity; retains type interpretation from mode",
+            "sha256": "Write-time recorded raw content digest",
+            "bytes": "Write-time recorded byte count",
+            "destination": "Historical receiving path, not current canonical identity proof",
+            "status": "Historical write outcome",
+            "phase": "Original recovery producer phase"
+          },
+          "firstRecord": {
+            "repository": "/home/emsenn/bare-cedar-fog/services/public-services-section/services/public-ecological-services-section/services/public-climate-services-section",
+            "path": "lib/legacy/restored-from-main/2026-09-01-04e6250/services/climate-place-market-service/src/local-a2a-membrane.mjs",
+            "source": "index",
+            "headAtRecovery": "e56f792d9cf2f5e5ee4fa38e970ea22822f071f8",
+            "mode": "100644",
+            "sourceBlob": "fbdcdbe57762f6f1bb3b6d2d982c7164ecd374c1",
+            "sha256": "a54eae8d2b31052b5724b2bf1cd03dea9e685545a66a713f4ec4f153825a3dfb",
+            "bytes": 2902,
+            "status": "restored",
+            "phase": "bcf-legacy-recovery-restored-current.json"
+          }
+        },
+        "remainingKnownMissingEntriesAtCheckpoint": 2326,
+        "firstMissingEntry": {
+          "destination": "/home/emsenn/bare-cedar-fog/services/engineering-services-section/lib/legacy/2026-06-17-archive-emsenn-net/preservation/wsl-home-archive/src/lib/local/superrepo-legacy/engine/contracts/semiotic-git",
+          "sourceRepository": "/home/emsenn/bare-cedar-fog/services/engineering-services-section/lib/legacy/2026-06-17-archive-emsenn-net",
+          "sourceUrl": "https://github.com/red-cup-engineering/2026-06-17-archive-emsenn-net.git",
+          "commit": "09e2e37cdd7553df002bad16350614de5bf32cb0",
+          "path": "preservation/wsl-home-archive/src/lib/local/superrepo-legacy/engine/contracts/semiotic-git",
+          "mode": "160000",
+          "blob": "d5960b3e6ec7ea763ae678b0e9567a8b215a534e",
+          "source": "pinned-current-tree"
+        },
+        "firstMissingEntryMeaning": "Mode160000 names a Gitlink commit. The historical field named blob does not turn that commit into a blob for file materialization.",
+        "remainingUnavailableSourcePinsAtCheckpoint": 5,
+        "finalAuditStillRequiredAtCheckpoint": [
+          "Verify all restored paths against their receipts and Git modes.",
+          "Review source-identity evidence for historical path routing.",
+          "Finish pending nested source recovery and inspect any further references it reveals.",
+          "Recheck tracked deletions across the recovered source family."
+        ],
+        "old709RepositoryInventory": {
+          "path": "data/state/legacy-recovery-2026-10-28/current-git-repositories.json",
+          "scope": "Historical {repositories,declaredMissingPaths}; not current canonical coverage, not a live filesystem census."
+        },
+        "limits": "All counts and outcomes above are historical product metadata, not reverified current source presence, canonical ownership, source default or physical receiving."
+      },
+      "apiContracts": [
+        {
+          "operation": "materializeLegacyCapabilityCarriers",
+          "publicPort": "Legacy package root export; materialize-legacy-capability-carriers bin",
+          "source": {
+            "commit": "f14337e7e2c36b918dcacd28ae5af41a6f016dbb",
+            "path": "src/legacy-capability-reallocation.mjs",
+            "blob": "87a078c26e1e46ec63d5ae829d7a39893114de62"
+          },
+          "input": "{ledgerPath,repositoryRoot}; JSON kind legacy-capability-reallocation-ledger/v3, legacyRoot string, records[], capabilities[], capability.sourcePaths and declared materializations {sourcePath,destinationPath} or roots, allocation.state must equal retired.",
+          "behavior": "Walks declared materializations; SHA-checks a regular original file; confines source and destination lexically to supplied repository/legacy roots; refuses differing occupied destinations, changed sources, multiple declarations and a simultaneous source+exact destination; otherwise mkdir then renameSync, returning moved paths.",
+          "modeAndIdentity": "Ledger source records carry path/SHA/bytes but not immutable repository/revision/blob/mode binding. Only regular-file predicates are checked. Native rename preserves a file inode/mode but no recorded executable-mode comparison or symlink/Gitlink receiving is provided.",
+          "variantsAndCollisions": "Does not capture stage-zero/partial/unstaged/untracked/ignored variants, authenticate proper canonical repository identities, or preflight the complete lot before the first move. Later failure can follow earlier moves; both copies even when exact require separate explicit duplicate judgment.",
+          "publicationAndState": "No source commit, authenticated default/CAS, parent selection, physical receiving receipt or same-operation durable partial-state protocol. The checkpoint schema is not accepted. Calling this preservation-only intake retired merely to pass its branch would fabricate disposition.",
+          "qualifiedEndToEndPreserveOnlyCheckpointDelivery": false
+        },
+        {
+          "operation": "reconcile",
+          "publicPort": "Public reconcile-copy-with-owner bin, exported from scripts/reconcile-copy-with-owner.mjs",
+          "source": {
+            "commit": "f14337e7e2c36b918dcacd28ae5af41a6f016dbb",
+            "path": "scripts/reconcile-copy-with-owner.mjs",
+            "blob": "492f2af8003b3f12590b89aa918a90d5767a6e4f"
+          },
+          "input": "{copyRepository,copyPath,copyRevision=HEAD,ownerRepository,ownerPath,nestedCopy=[],nestedOwner=[],apply=false,resolutions={}}; copy revision is resolved, owner is its checked-out HEAD.",
+          "behavior": "Lists committed package files/modes, excludes nested package boundaries and nested lib/legacy, walks path history and selected rename history, proposes identical/owner-newer/copy-newer/copy-added/owner-added/merged/conflict or explicit resolved outcomes. Structured JSON merges may union lists or select dependency specifiers. Apply can write nonconflicting results while other paths remain held.",
+          "modeAndIdentity": "Supports regular/executable and symlink target output modes from committed metadata, but does not authenticate the proper canonical owner/default or require a source path from the historical checkpoint. Historical-blob containment is a proposal, not proof that distinct original knowledge is received.",
+          "variantsAndCollisions": "Current working files differing from the committed owner can be automatically merged and replaced; distinct raw working/index/staged/ignored variants are not retained as a complete source cut. It does not check all ancestor links or expected action-time owner HEAD/index variants. Replacement unlinks existing targets; a clean merge is not duplicate-file authority.",
+          "publicationAndState": "No commit/default/parent/physical-source receiving. History work has no caller-supplied finite walk bound; scratch defaults to tmpdir and is removed recursively with force by its original finally block. No checkpoint decoder or durable whole-lot partial-effect/replay contract.",
+          "qualifiedForThisRecoveryApply": false
+        },
+        {
+          "operation": "receivePinnedLegacyOwnerEvidence",
+          "publicPort": "Legacy package root export; receive-pinned-legacy-owners bin",
+          "source": {
+            "commit": "f14337e7e2c36b918dcacd28ae5af41a6f016dbb",
+            "path": "src/pinned-legacy-owner-evidence.mjs",
+            "blob": "78fbf353eb32802ee7f2c071bfa13060440881e9"
+          },
+          "input": "kind legacy-pinned-owner-evidence-request/v1;1..32 explicit {id,credential-free HTTPS repository,exact commit,paths};1..64 distinct paths per owner/512 overall. Existing canonical scratchParent plus finite per-file/total/tree limits.",
+          "behavior": "Original createPinnedSourceReader acquires exact source without checkout/import evaluation or Gitlink traversal, verifies provenance and original Git blob identity, mode and byte bounds, and decodes UTF-8 fatally while preserving a BOM. Returns reviewRequired:true and retirementAuthorized:false.",
+          "modeAndIdentity": "Only textual100644/100755 members are accepted. Binary undecodable content, symlinks and Gitlinks are not a whole-estate delivery path.",
+          "variantsAndCollisions": "Produces evidence for explicit original owner/source selections; no mutable working/index variant capture or destination placement/collision transaction.",
+          "publicationAndState": "No canonical owner publication or physical receiving. Original child scratch is disposed after the read in finally using recursive force; scratchParent must be explicitly bound under the owning section, not left at its tmpdir fallback.",
+          "qualifiedEndToEndPreserveOnlyCheckpointDelivery": false
+        },
+        {
+          "operation": "readGitBlobObjectsSync and receivePinnedRepositoryCommitSync",
+          "publicPort": "@red-cup-engineering/git-source-reading-service/pinned-source-files",
+          "heldSupplier": {
+            "version": "0.1.4",
+            "path": "/home/emsenn/bare-cedar-fog/services/internal-services-section/services/internal-operations-services-section/services/bare-cedar-fog-services-section/node_modules/.pnpm/@red-cup-engineering+git-source-reading-service@0.1.4/node_modules/@red-cup-engineering/git-source-reading-service/src/pinned-source-files.mjs",
+            "sha256": "1dd3a3ed8c56b667369599a4738e29268ed95742f4d0948b7b5c17927515b2be",
+            "publicExportPresent": true,
+            "entireSelectedFunctionSourceRead": true
+          },
+          "canonicalSourceDistinction": {
+            "repository": "red-cup-engineering/git-source-reading-service",
+            "commit": "16b31ce1c61f356d0bee335dfcb519a5c601ffbc",
+            "version": "0.1.7",
+            "workingModuleSha256": "827c2853ccc7f183b5ded098e94b4c27e87f32cac1d3054b5c047f299a7e4ecf",
+            "sameBytesAsHeld014": false,
+            "parentSelectedPinAtObservation": "16b31ce1c61f356d0bee335dfcb519a5c601ffbc"
+          },
+          "input": "readGitBlobObjectsSync({directory,objects,receiveMissing:false,maxPaths,maxBytes,timeoutMs,environment}); an explicit existing original Git/object repository plus a finite exact OID set. receivePinnedRepositoryCommitSync additionally binds repository/commit/create and requires its original bare store.",
+          "behavior": "The existing0.1.4 binary reader checks requested object metadata/type/size and total-byte bounds, reads exact selected blob bodies through native cat-file, and returns an OID→Buffer map. Default local mode requests no explicit fetch/store/worktree/branch creation; explicit receiveMissing hydrates only selected missing objects. Pinned commit receiving reuses its exact bare metadata cache and checks format/origin before acquisition.",
+          "modeAndIdentity": "A blob body can carry arbitrary bytes or recorded symlink-target bytes, but mode/path/source ownership remain independently bound caller data.160000 is a commit and is correctly refused as a blob. An index sourceBlob is not automatically a path in headAtRecovery.",
+          "variantsAndCollisions": "No worktree/index/variant snapshots, destination mapping, File mutation or canonical receiving. Caller must qualify the current original store identity and missing/foreign/unsupported contexts, preserve the receipt mode and compare original digests; no old physical name is current ownership proof.",
+          "consumerBinding": "Legacy package declares reader0.1.4 but has no current installed resolution in its own existing dependency context. The same original0.1.4 supplier is held in Bare Cedar Fog Operations and can be reused through its actual native public boundary; no dependency install or manual link was attempted.",
+          "qualifiedNextPrimitive": "After original source-store/selected-cut qualification, the bounded local binary-blob reader is an existing reusable source-read primitive; it is not permission for a checkpoint importer or file delivery controller."
+        },
+        {
+          "operation": "prepareTrackedLegacyRecordPublication / publishTrackedLegacyRecords and original selected maker",
+          "publicPort": "Legacy package root exports from tracked-legacy-retirement.mjs; source preparation from tracked-legacy-source-publication.mjs",
+          "source": {
+            "commit": "f14337e7e2c36b918dcacd28ae5af41a6f016dbb",
+            "recordPublicationPath": "src/tracked-legacy-retirement.mjs",
+            "recordPublicationBlob": "d9dec0a2362a2ebe8b85db2cc356ac05113c0a72",
+            "sourcePreparationPath": "src/tracked-legacy-source-publication.mjs",
+            "sourcePreparationBlob": "218439f5279826b96ef74e42432870560f44cda8"
+          },
+          "input": "Actual record repositoryRoot, canonical decoded maker paths/message/push/reviewedSource request; exact planPath/planBytes/resultPath; separate receiptPath and durable save callback; named regular supporting files and retained prior candidate/publication for replay.",
+          "behavior": "Qualifies actual record Git root, confined non-linked regular paths, no legacy/receipt-in-cut/alias collisions, exact selected byte/mode identities and remote reviewed preimages; retains custody before calling the same original Fabrication maker and verifies received selected blobs/modes. Completed immutable receiving can be reobserved without replacing its valid receipt.",
+          "modeAndIdentity": "Regular record files only at this wrapper; no symlink record delivery. Actual supplier request and publication capabilities must exist in the consumer-selected provider. The original maker metadata/File/Git primitives can receive finite independently judged source; they are not a completed all-mode/all-owner checkpoint recovery engine.",
+          "variantsAndCollisions": "No checkpoint import, source recovery, classification, canonical owner derivation or complete staged/unstaged/ignored variant capture. The record protocol requires its named plan/result; it must not be satisfied by fabricating a retirement solely to adapt a recovery row.",
+          "publicationAndState": "These record functions can be composed without invoking unlink, and already provide useful positive publication/save/replay pieces. The source-preparation retirement helper itself expects a read-only retirement result and qualifies removal preimages. None of this authorizes unsafe retirement apply or history/coverage-based deletion.",
+          "qualifiedEndToEndPreserveOnlyCheckpointDelivery": false
+        }
+      ],
+      "originalRequirementResponsibilities": {
+        "legacy": {
+          "repository": "red-cup-engineering/legacy-capability-reallocation-service",
+          "commit": "f14337e7e2c36b918dcacd28ae5af41a6f016dbb",
+          "path": "data/records/service-records/requirements-management-service-records/legacy-capability-retirement.json",
+          "blob": "6d169e4e482c98018f444c250ef7926f1a816333",
+          "conditionCount": 14,
+          "cells": [
+            "preserve-all-variants",
+            "recover-prior-erasures",
+            "canonical-receiving",
+            "effect-boundaries-and-races",
+            "uncertain-effects-and-replay",
+            "producer-lifetime",
+            "generic-native-automation",
+            "original-generation-chain",
+            "actual-consumer-cases"
+          ],
+          "responsibility": "The existing generic service owns selected preserve-only intake, original-source recovery/classification and canonical-resource receiving; no separate Requirement, scanner or mover is needed."
+        },
+        "git": {
+          "repository": "red-cup-engineering/git-engineering-services-section",
+          "commit": "11f9cf9775a65d107c6d97d03bad14ec325a551c",
+          "path": "lib/agency/requirements/canonical-resource-alignment-preserves-source-and-composes-repositories.json",
+          "blob": "24be77ede4fe553eb09e79cad81bb87a20998d17",
+          "conditionCount": 12,
+          "responsibility": "Original naming/registry and existing canonical repository discovery; reuse/move held Git contexts rather than duplicate clones; preserve concurrent source/index/branches; exact declared child/default/physical receiving and same-operation effect reconciliation."
+        }
+      },
+      "conclusion": {
+        "endToEndQualifiedPreserveOnlyCheckpointToCanonicalOwnerOperationPresent": false,
+        "existingPiecesRemainUseful": true,
+        "nextSupportedNativePrimitive": "Bounded original selected binary-blob reading in an already-qualified held original object repository, with original source/path/mode/digest identity retained; this does not perform owner delivery.",
+        "earliestGenericRealization": "Continue the existing Legacy14 and GIT12 source requirements through their original native Specification, Architecture, design and Fabrication producers with this supplier evidence. The generic checkpoint→qualified selected recovery lot→canonical source/default/physical receiving boundary is not implemented by the inspected public APIs.",
+        "noAlternativePolicyOrController": true,
+        "noRetirementDispositionFabricated": true,
+        "noCoverageOrGitRecoverabilityDeletionPermission": true,
+        "discoveryAndSourceReadAndPublicationAndPhysicalAndRuntimeRemainSeparate": true
+      }
     }
   }
 }
