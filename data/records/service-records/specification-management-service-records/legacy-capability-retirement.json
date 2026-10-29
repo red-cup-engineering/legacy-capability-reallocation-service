@@ -13,7 +13,7 @@
     ],
     "profile": "prose"
   },
-  "whatThisIs": "An unadmitted candidate reading of Requirement legacy-capability-retirement at ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc. External authority and specification acceptance remain open.",
+  "whatThisIs": "An unadmitted candidate reading of Requirement legacy-capability-retirement at ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE. External authority and specification acceptance remain open.",
   "topics": [
     {
       "heading": "Source-owned requirement conditions",
@@ -25,7 +25,7 @@
           "actor": "The original legacy reallocation producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Every non-conflicting obligation in the original specifications/requirements.md remains required, including exact source identity, confined literal paths, source modes, unrelated-index preservation, independent eligible-file handling, output preflight, bounded deterministic batch assembly, selected supplier decoding, remote preimages, publication receiving and original replay. The full original UTF-8 source and its immutable Git identity remain retained as dated provenance. Covered, deprecated, presumed-better-owner and Git-recoverability deletion criteria and their positive deletion tests are superseded by the current exact-duplicate condition and corresponding refusal cases.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:existing-contract"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:existing-contract"
           ]
         },
         {
@@ -34,7 +34,7 @@
           "actor": "The original retirement producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Before unlinking, removing, purging a source carrier or committing its deletion, the original producer independently verifies at action time that every selected source is an exact duplicate of a destination actually received by its proper canonical owner. The proof binds original repository identity, immutable source revision, literal path, Git object and raw-byte identity, regular or executable mode and symlink target, together with authenticated destination repository identity, exact destination path, received default revision and physical receiving. Original bytes, modes, link targets, meaningful source identity and provenance remain available there; path mappings are explicit. A filename, symbol, capability label or semantic similarity is insufficient.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:exact-duplicate-boundary"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:exact-duplicate-boundary"
           ]
         },
         {
@@ -43,7 +43,7 @@
           "actor": "The original retirement producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Covered or deprecated dispositions, an asserted better implementation, archive labels, tests, publication receipts, age, tier, Git recoverability, empty merge results and the existence of another owner do not authorize deletion of a unique resource. Caller reasons, earlier permissions and historical receipts cannot bypass the current duplicate-only preservation condition. Distinct useful implementations and historical resources are actually received and retained at their proper owner; capability coverage does not make differing source bytes an exact duplicate.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:dispositions-are-not-authority"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:dispositions-are-not-authority"
           ]
         },
         {
@@ -52,7 +52,7 @@
           "actor": "The original source intake and reallocation producers",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Original intake and reallocation preserve every unique, unknown, unsupported, changed or unpublished source and all staged, partially staged, unstaged, untracked and ignored variants within the authorized selected scope. Regular files, executable intent, symlink targets, nested Git contexts and source provenance remain distinguishable. Concurrent source or index changes invalidate the affected expected cut instead of being overwritten, silently omitted, blanket-staged, reset or force-cleaned. Unknown siblings and unrelated work retain their existing custody.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:preserve-all-variants"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:preserve-all-variants"
           ]
         },
         {
@@ -61,7 +61,7 @@
           "actor": "The original source recovery and reallocation producers",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “The same original generic inventory, ledger, pinned-source and reallocation producers recover unique resources previously erased under coverage, deprecation or history-only criteria from their retained Git, index and original source carriers. Recovery preserves complete original bytes, modes, links, original author and source identities, deleting revision and explicit original-to-current path mapping through the actual subject owner and native writers. Historical source receiving does not reinstall obsolete packages, units, workloads, implementation or authority. A Git object reference, summary or recovery receipt without the actual received resource bytes is insufficient.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:recover-prior-erasures"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:recover-prior-erasures"
           ]
         },
         {
@@ -70,7 +70,7 @@
           "actor": "The canonical source and consumer receiving owners",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Each proper canonical owner receives selected resources on its actual default source and intended physical working clone, with stable repository identity and name-derived home qualified through the original placement and repository owners. Required parent and ordinary consumer selections receive their exact source separately; content meaning, historical custody and operating behavior each retain the appropriate receiving condition. An archive, task snapshot, alias, uninitialized mount, receipt or Gitlink is no substitute for actual receiving. Current, rollback and unresolved historical variants remain usable; source receiving does not imply installation, activation or whole-estate completion.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:canonical-receiving"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:canonical-receiving"
           ]
         },
         {
@@ -79,7 +79,7 @@
           "actor": "The original file-effect producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Before any file effect the original producer admits the entire planned effect set, current authority, owners, literal paths, supported modes, input and output identities, usable durable evidence locations and finite resource bounds through existing typed boundaries. Providers, policies, accounts, hosts, paths, names, budgets and owners are checked parameters rather than constants in a task-specific mover. Immediately before each effect it rechecks source, selected index and working variants and destination receiving against the admitted cut. Changed, missing, unsupported, foreign or ambiguous evidence refuses the affected effect and preserves its source; completed partial effects remain explicitly recoverable instead of being described as an untouched operation.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:effect-boundaries-and-races"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:effect-boundaries-and-races"
           ]
         },
         {
@@ -88,7 +88,7 @@
           "actor": "The original source and publication producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “The original producer retains its admitted operation and durable receiving context before an external or destructive effect. Failure, interruption, cancellation and uncertainty preserve source and operation identities, expected preimages, completed actions, unresolved obligations and distinct provider and physical readback. Replay reconciles the same operation without repeating uncertain deletion or publication, replacing its retained source lease, losing the last valid receipt, rewriting shared history or allocating a substitute source copy. Dated candidate status remains historical evidence rather than a current receiving claim.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:uncertain-effects-and-replay"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:uncertain-effects-and-replay"
           ]
         },
         {
@@ -97,7 +97,7 @@
           "actor": "The original data producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Each original producer owns one bounded resumable preparation and terminal disposition across success, refusal, failure, cancellation and interruption. It reuses held source objects, selected material, qualified dependency contexts and original evidence while retaining current, rollback, necessary offline inputs and meaningful unpublished work. Scratch, receipt and disposal conditions are explicit checked native-owner parameters. Repeated clones, installations, payload copies, replacement ledgers, timer expiry, abandonment, global prune and forced removal of unknown files do not substitute for preventing waste or receiving unique resources.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:producer-lifetime"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:producer-lifetime"
           ]
         },
         {
@@ -106,7 +106,7 @@
           "actor": "The original reallocation service and its callers",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “The existing legacy capability reallocation service remains the reusable owner of selected-batch discovery, classification, original-source recovery, canonical relocation and duplicate-only disposition. Ordinary callers use its original ledger, typed source readers, File, Git, Data-law, publication and receiving ports with explicit parameters and complete selected-resource coverage. Sessions do not author a separate migration script, deletion dispatcher, private archive or policy method for each case. The original operation retains unmatched sources and resumes subsequent qualified lots through those same producers.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:generic-native-automation"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:generic-native-automation"
           ]
         },
         {
@@ -115,7 +115,7 @@
           "actor": "The original Requirement, Specification, Architecture, design and Fabrication owners",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Necessary generic producer and caller repairs are derived at this original owner from the corrected requirement through the original native Specification, Architecture, high-level design, low-level design and source fabrication chain with independent source and consumer receiving. A missing generator or supplier is repaired at its original owner rather than supplied by handwritten code, manual Specification clauses, compatibility shims, fabricated admission or relabelled old candidates. Every selected reader, generator, writer and public entrance exists in the exact supplier selected by its consumer before the corresponding capability is claimed.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:original-generation-chain"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:original-generation-chain"
           ]
         },
         {
@@ -124,7 +124,7 @@
           "actor": "The original generic consumer and its independent receiver",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “The ordinary generic consumer receives a positive exact-duplicate case only after authenticated canonical default and physical destination readback, and receives unique historical bytes through the same reusable recovery operation. Refusal and continuation cases include covered but different content, deprecation without a duplicate, mode or link-target mismatch, absent or foreign destination identity, moved or uninitialized owners, partial staging, concurrent changes, unsupported modes, unknown siblings, unusable output destinations, interrupted or uncertain publication, cancellation and same-operation replay. Unrelated files and meaningful variants remain preserved. Source tests, generated documents, removal counts, commits, archive tags and closed tickets alone do not satisfy actual consumer receiving.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:actual-consumer-cases"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:actual-consumer-cases"
           ]
         },
         {
@@ -133,7 +133,7 @@
           "actor": "The original source integration producer",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “Recovery and preservation repairs reach their appropriate repositories through existing exact-source integration with truthful agent authorship and original provenance. Pre-existing unrelated deployment, instruction, implementation and baseline work remains preserved and is integrated in separate commits, rather than bundled into the recovery cut. Branches or archived references containing unreceived useful source remain unresolved rather than substituting for integration or being retired without their actual receiving and exact expected-reference protection.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:authorship-and-separate-commits"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:authorship-and-separate-commits"
           ]
         },
         {
@@ -142,7 +142,7 @@
           "actor": "The original estate and resource receiving producers",
           "statement": "ensure the following complete original condition is fulfilled in full, including every sentence and restriction: “The complete-container recovery requirement covers all five major Group organizations and their actual resources through original-owner parameters for selected organizations, machines, repository identities, source cuts, bounds and policy. Discovery, source judgment, generated candidates, default and physical source receiving, parent selection, installation, runtime operation and independent acceptance remain distinct outcomes. Unknown coverage and local dirt remain explicit obligations rather than absence, success or permission to discard source. This first requirement and native Specification proposal confers no governing authority, implementation acceptance or operating completion.”",
           "backedBy": [
-            "Original Requirement legacy-capability-retirement (ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc), cell legacy-capability-retirement:scope-and-truthful-results"
+            "Original Requirement legacy-capability-retirement (ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE), cell legacy-capability-retirement:scope-and-truthful-results"
           ]
         }
       ]
@@ -158,10 +158,10 @@
   "laws": [],
   "standards": [],
   "provenance": {
-    "derivedAt": "2026-10-29T06:58:36.258Z",
-    "derivedBy": "Codex /root/pdf_receiving; explicit source interpretations proposed; independent source receiving and native governing admission remain unreceived",
+    "derivedAt": "2026-10-29T10:14:16.899Z",
+    "derivedBy": "Codex /root/pdf_receiving; original14 explicit source interpretations retained for provenance-only supplier inquiry; independent source receiving pending and no native governing admission",
     "derivedFrom": [
-      "legacy-capability-retirement@ni:///sha-256;509oxTYQRW1vU-D4HrdYwpsLinkwUHqYO9Ut-l2Gtnc"
+      "legacy-capability-retirement@ni:///sha-256;wJmKz6SvZKuucRd9D7HdbdH3AMfLhE3vSGviF-GFzAE"
     ]
   }
 }
