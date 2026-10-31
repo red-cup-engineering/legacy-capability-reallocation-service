@@ -9,7 +9,7 @@ import {fileURLToPath} from 'node:url';
 const cli = fileURLToPath(new URL('../scripts/retire-tracked-legacy-capabilities.mjs', import.meta.url));
 const computer = fileURLToPath(new URL('../../../../../../../', import.meta.url));
 const fabrication = path.join(computer, 'services/computer-systems-engineering-services-section/services/computer-code-development-system-services-section/apps/computer-code-development-engine');
-const resolver = path.join(computer, 'services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/scripts/register-house-resolver.mjs');
+const resolver = path.join(computer, 'services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/scripts/register-group-resolver.mjs');
 
 // The service is the consumer under test. All source effects use native local
 // Git and Fabrication's existing provider fixtures through its public export.
@@ -114,18 +114,18 @@ process.stdout.write(output);
 `, {mode:0o700});
   // Keep an explicitly selected canonical Fabrication artifact. Otherwise use
   // the native maker; no counterfeit decoder or node_modules edits.
-  assert.ok(process.env.HOUSE_PACKAGE_BINDINGS, 'run with qualified house supplier bindings');
-  const bindings = JSON.parse(readFileSync(process.env.HOUSE_PACKAGE_BINDINGS, 'utf8'));
+  assert.ok(process.env.GROUP_PACKAGE_BINDINGS, 'run with qualified group supplier bindings');
+  const bindings = JSON.parse(readFileSync(process.env.GROUP_PACKAGE_BINDINGS, 'utf8'));
   const maker = JSON.parse(readFileSync(path.join(fabrication, 'package.json'), 'utf8'));
   if(!bindings.packages.some(row => row.name === maker.name))
     bindings.packages.push({name:maker.name, version:maker.version, directory:fabrication});
-  const bindingPath = path.join(root, 'house-bindings.json');
+  const bindingPath = path.join(root, 'group-bindings.json');
   writeFileSync(bindingPath, JSON.stringify(bindings));
   git('remote', 'set-url', 'origin', 'https://github.com/fixture/source.git');
   git('config', `url.${remote}.insteadOf`, 'https://github.com/fixture/source.git');
   const reviewsPath = path.join(root, 'reviews.json');
   const env = {...process.env, PATH:`${bin}:${path.dirname(process.execPath)}:${process.env.PATH}`,
-    HOUSE_PACKAGE_BINDINGS:bindingPath,
+    GROUP_PACKAGE_BINDINGS:bindingPath,
     NODE_OPTIONS:`--import ${resolver} --max-old-space-size=192`,
     RETIREMENT_TEST_PROVIDER:path.join(fabrication, 'test/fixtures/github-candidate-provider.mjs'),
     RETIREMENT_TEST_NODE:process.execPath,

@@ -120,7 +120,7 @@ export function mergeJson(base, owner, copy) {
 }
 
 const VERSION = /^(\d+)\.(\d+)\.(\d+)$/u;
-/** Two specifiers of one dependency that differ only in how they name it: a workspace link is how the house links
+/** Two specifiers of one dependency that differ only in how they name it: a workspace link is how the group links
  *  its own packages, so it settles a pinned version of the same package; of two plain versions the later stands. */
 function settledSpecifier(owner, copy) {
   if (typeof owner !== "string" || typeof copy !== "string") return undefined;
