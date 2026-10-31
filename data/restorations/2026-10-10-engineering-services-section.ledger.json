@@ -90944,8 +90944,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/agent-root-instructions-projection-service/content/shared-house-law.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/lib/legacy/restored-from-main/2026-09-19-4a0c49d/services/agent-root-instructions-projection-service/content/shared-house-law.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/services/agent-root-instructions-projection-service/content/shared-group-law.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/agent-harness-computer-system-engineering-services-section/lib/legacy/restored-from-main/2026-09-19-4a0c49d/services/agent-root-instructions-projection-service/content/shared-group-law.json",
      "gitBlob": "46a1a307b406291db181cc1af8ff81fdc7e7c91f",
      "sha256": "57290aedbb3ea925cbdef059cc9c8e80833046ceab6752eb25cbe8f62f7c1de8",
      "bytes": 13472,
@@ -122886,8 +122886,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-knowledge-systems-services-section/services/knowledge-vault-computer-system-services-section/services/vault-compiler/src/adapters/house-md.d.ts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-knowledge-systems-services-section/lib/legacy/restored-from-main/2026-09-21-174d705/services/knowledge-vault-computer-system-services-section/services/vault-compiler/src/adapters/house-md.d.ts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-knowledge-systems-services-section/services/knowledge-vault-computer-system-services-section/services/vault-compiler/src/adapters/group-md.d.ts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-knowledge-systems-services-section/lib/legacy/restored-from-main/2026-09-21-174d705/services/knowledge-vault-computer-system-services-section/services/vault-compiler/src/adapters/group-md.d.ts",
      "gitBlob": "cd22c123bde6c89cfd01bb7506df216fd65c60cd",
      "sha256": "64b3af165fc023df6862b541146fd34f2c2b8fb46a6801ed4ccbe2923b3b305c",
      "bytes": 534,
@@ -130569,7 +130569,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -130634,7 +130634,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -130847,7 +130847,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -130904,7 +130904,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -131261,7 +131261,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -131416,7 +131416,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -139616,7 +139616,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -142668,7 +142668,7 @@
     "date": "2026-09-22",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "House-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
+    "title": "Group-name imports and barrels out: MetroPlat, metrologic, relating and five faculties (916 paths)"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -144606,16 +144606,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/data/records/house-package-map.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/restored-from-main/2026-09-23-47074d5/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/data/records/house-package-map.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/data/records/group-package-map.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/restored-from-main/2026-09-23-47074d5/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/data/records/group-package-map.json",
      "gitBlob": "d6ae99e1cfd55fcf86fe4d7825979c74ac01f118",
      "sha256": "6dfce4a6af18bd77130511aaa607d38efacc903292fa81f24ea12ce38ca781aa",
      "bytes": 177942,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/scripts/project-house-package-map.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/restored-from-main/2026-09-23-47074d5/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/scripts/project-house-package-map.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/scripts/project-group-package-map.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/restored-from-main/2026-09-23-47074d5/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/scripts/project-group-package-map.mjs",
      "gitBlob": "8391f02b3ebc4156e4e716e44fb03e5d094d2073",
      "sha256": "986cb39161e0cbfbdd56e8b84bcaab61e595ae93f06bbb464c9bd707f4a91180",
      "bytes": 2954,
@@ -154708,7 +154708,7 @@
     "date": "2026-09-24",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "YouTube lesson production is rewritten on the house's capabilities. A lesson advances step by step (research through the engine's Codex provider with live web search, the channel notebook, the report "
+    "title": "YouTube lesson production is rewritten on the Group's capabilities. A lesson advances step by step (research through the engine's Codex provider with live web search, the channel notebook, the report "
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
@@ -157648,7 +157648,7 @@
     "date": "2026-09-25",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "FeltOS serves MCP through the house's one MCP server. Its three dispatchers (programMcpHandle over program surfaces, actionMcpHandle and actionMcpHandleAsync over action apexes), which each re-impleme"
+    "title": "FeltOS serves MCP through the Group's one MCP server. Its three dispatchers (programMcpHandle over program surfaces, actionMcpHandle and actionMcpHandleAsync over action apexes), which each re-impleme"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",

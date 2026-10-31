@@ -6303,7 +6303,7 @@
      "copyOnly": [],
      "ownerOnly": [],
      "differ": [
-      "data/records/house-layers.json",
+      "data/records/group-layers.json",
       "package.json",
       "scripts/audit-formal-object-copies.mjs",
       "src/invoke-typed-operation.mjs",
@@ -12353,7 +12353,7 @@
       "apps/market-561-group/scripts/compile-catalog.mjs",
       "apps/market-561-group/scripts/configure-cloudflare.mjs",
       "apps/market-561-group/scripts/derive-402index-registrations.mjs",
-      "apps/market-561-group/scripts/derive-house-catalog-additions.mjs",
+      "apps/market-561-group/scripts/derive-group-catalog-additions.mjs",
       "apps/market-561-group/scripts/derive-paid-sellers.mjs",
       "apps/market-561-group/scripts/purchase-publication.mjs",
       "apps/market-561-group/scripts/reconcile-402index-listings.mjs",

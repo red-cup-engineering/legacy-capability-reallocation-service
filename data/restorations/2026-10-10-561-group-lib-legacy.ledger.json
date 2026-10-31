@@ -24319,8 +24319,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/rsc-quiescent/services/brokerage-control-api-federation/.env.house-config",
-     "restoredPath": "lib/emsenn/services/561-group/lib/legacy/restored-from-main/2026-08-04-59dcc24/services/rsc-quiescent/services/brokerage-control-api-federation/.env.house-config",
+     "originalPath": "lib/emsenn/services/561-group/services/rsc-quiescent/services/brokerage-control-api-federation/.env.group-config",
+     "restoredPath": "lib/emsenn/services/561-group/lib/legacy/restored-from-main/2026-08-04-59dcc24/services/rsc-quiescent/services/brokerage-control-api-federation/.env.group-config",
      "gitBlob": "39b117519a41472a935a32c88e8ccec79758f0cf",
      "sha256": "6eb6d22784235b50f08dcf35a2a7c0c10c9a7c0790840c3021be1f688b090981",
      "bytes": 2186,

@@ -33250,8 +33250,8 @@
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-operations-services-section/services/561-group-enterprise-services-section/services/561-group-enterprise-project-management-services-section/data/records/2026-09-01-house-commerce-platform-seat-question.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-operations-services-section/lib/legacy/restored-from-main/2026-09-13-ccf2d7a/services/561-group-enterprise-services-section/services/561-group-enterprise-project-management-services-section/data/records/2026-09-01-house-commerce-platform-seat-question.json",
+     "originalPath": "lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-operations-services-section/services/561-group-enterprise-services-section/services/561-group-enterprise-project-management-services-section/data/records/2026-09-01-group-commerce-platform-seat-question.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-operations-services-section/lib/legacy/restored-from-main/2026-09-13-ccf2d7a/services/561-group-enterprise-services-section/services/561-group-enterprise-project-management-services-section/data/records/2026-09-01-group-commerce-platform-seat-question.json",
      "gitBlob": "f27ad4d354635a3ace9384f0a9ec00e4205684f2",
      "sha256": "2b70eee31e20fc66b5d82768257a56060b59a5983da66b06c0effb62d2c5cc83",
      "bytes": 9029,
