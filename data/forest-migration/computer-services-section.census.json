@@ -8739,13 +8739,13 @@
    "name": "@red-cup-engineering/npm-workspace-publication-service",
    "owner": {
     "repository": "red-cup-engineering/computer-code-engineering-services-section",
-    "path": "services/npm-workspace-publication-service",
+    "path": "services/npm-workspace-engineering-services-section",
     "version": "0.11.3",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-publication-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-engineering-services-section",
      "version": "0.11.3",
      "identical": false,
      "copyOnly": [

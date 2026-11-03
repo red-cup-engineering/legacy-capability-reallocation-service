@@ -15137,7 +15137,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-publication-service/lib/legacy/restored-from-main/2026-09-21-d5edd7b/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-d5edd7b/lib",
    "restored": true,
    "files": 2,
    "sourceFiles": 2,
@@ -20157,7 +20157,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-publication-service/lib/legacy/restored-from-main/2026-09-21-e5dd28b/test",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-e5dd28b/test",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -20172,7 +20172,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-publication-service/lib/legacy/restored-from-main/2026-09-22-e05f280/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -20185,7 +20185,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-publication-service/lib/legacy/restored-from-main/2026-09-25-df6811f/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-packaging-services-section/services/npm-services-section/services/npm-registry-services-section/services/npm-workspace-engineering-services-section/lib/legacy/restored-from-main/2026-09-25-df6811f/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
