@@ -8845,11 +8845,11 @@
       "carrier": "@red-cup-engineering/deno-deploy-free-compute-provider",
       "allocation": {
         "state": "retired",
-        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/deno-deploy-free-compute-provider",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/deno-deploy-free-compute-provider",
         "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
         "modernEvidence": [
           {
-            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/deno-deploy-free-compute-provider/package.json",
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/deno-deploy-free-compute-provider/package.json",
             "effect": "@red-cup-engineering/deno-deploy-free-compute-provider as its owner defines it"
           }
         ]
@@ -9072,11 +9072,11 @@
       "carrier": "@red-cup-engineering/hugging-face-cpu-compute-provider",
       "allocation": {
         "state": "retired",
-        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider",
         "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
         "modernEvidence": [
           {
-            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/package.json",
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/hugging-face-cpu-compute-provider/package.json",
             "effect": "@red-cup-engineering/hugging-face-cpu-compute-provider as its owner defines it"
           }
         ]
@@ -9173,11 +9173,11 @@
       "carrier": "@red-cup-engineering/jsnode-function-movement-cloud-provider",
       "allocation": {
         "state": "retired",
-        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/jsnode-function-movement-cloud-provider",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/jsnode-function-movement-cloud-provider",
         "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
         "modernEvidence": [
           {
-            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/cloud-services-section/services/jsnode-function-movement-cloud-provider/package.json",
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/cloud-services-section/services/jsnode-function-movement-cloud-provider/package.json",
             "effect": "@red-cup-engineering/jsnode-function-movement-cloud-provider as its owner defines it"
           }
         ]
@@ -9684,11 +9684,11 @@
       "carrier": "@red-cup-engineering/union-public-compute-assay",
       "allocation": {
         "state": "retired",
-        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target",
+        "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target",
         "rationale": "computer-services-section's forest owns this package. Wave 1 of the forest migration reconciled every file of this copy into the owner (csc #200, cdss #65, coding #17, web-services #44, semiotic-software #7, consumer-dependency-closure #4, csc #204, git-services #30 with csc #212); re-reconciled against the mounted owner, nothing remains to carry. The workspace resolves the package from the owner mounted at engineering-services-section/services/computer-services-section.",
         "modernEvidence": [
           {
-            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target/package.json",
+            "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/web-engineering-services-section/services/web-platform-services-section/services/web2-platform-services-section/services/web2-software-platform-services-section/services/github-services-section/services/github-actions-public-compute-provider/content/assay-target/package.json",
             "effect": "@red-cup-engineering/union-public-compute-assay as its owner defines it"
           }
         ]

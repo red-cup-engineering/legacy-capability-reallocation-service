@@ -2215,10 +2215,10 @@
    "title": "Flatten public web service sections",
    "intent": "deletion",
    "topDirectories": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-services-section/services/gaming-services-section/services/farstone-services-section/lib/legacy/apps-games-farstone",
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-services-section/services/gaming-services-section/services/farstone-services-section/lib/legacy/tab-2026-05-25-farstone",
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/gaming-services-section/services/farstone-services-section/lib/legacy/apps-games-farstone",
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/gaming-services-section/services/farstone-services-section/lib/legacy/tab-2026-05-25-farstone",
     "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services",
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/legacy/2026-08-03-turntide-islands-corpus"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/legacy/2026-08-03-turntide-islands-corpus"
    ],
    "deletedAbsentFromHead": 199,
    "restoredFromHistory": 4,

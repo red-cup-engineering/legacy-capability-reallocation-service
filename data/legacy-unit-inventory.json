@@ -7179,7 +7179,7 @@
    },
    "tests": 3,
    "packageNames": [
-    "@causeway-services/web-services-section"
+    "@causeway-services/web-engineering-services-section"
    ],
    "activeTwins": [
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/hive-ledger-services-section/apps"
@@ -24643,7 +24643,7 @@
    },
    "tests": 0,
    "packageNames": [
-    "@561-group/web-services-section"
+    "@561-group/web-engineering-services-section"
    ],
    "activeTwins": [],
    "activation": "pending"
