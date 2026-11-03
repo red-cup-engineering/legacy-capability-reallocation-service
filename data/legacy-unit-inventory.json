@@ -572,7 +572,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/tab",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/tab",
    "restored": false,
    "files": 131,
    "sourceFiles": 130,
@@ -2765,7 +2765,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-tab-2026-05-25",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-tab-2026-05-25",
    "restored": false,
    "files": 38,
    "sourceFiles": 37,
@@ -4037,7 +4037,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-windows-archive-tab-racket",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-windows-archive-tab-racket",
    "restored": false,
    "files": 75,
    "sourceFiles": 22,
@@ -5108,7 +5108,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-windows-archive-qtops-racket",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-windows-archive-qtops-racket",
    "restored": false,
    "files": 20,
    "sourceFiles": 15,
@@ -5494,7 +5494,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-559660d/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-559660d/services",
    "restored": true,
    "files": 23,
    "sourceFiles": 13,
@@ -6218,7 +6218,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-alfa-will-take-time-qtmud",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-alfa-will-take-time-qtmud",
    "restored": false,
    "files": 11,
    "sourceFiles": 11,
@@ -8078,7 +8078,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-alfa-will-take-time-qtmud2",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-alfa-will-take-time-qtmud2",
    "restored": false,
    "files": 7,
    "sourceFiles": 7,
@@ -9979,7 +9979,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-trash-tab",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-trash-tab",
    "restored": false,
    "files": 18,
    "sourceFiles": 5,
@@ -13255,7 +13255,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2022-10-27-fennel-old-groundhog-operating-system",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2022-10-27-fennel-old-groundhog-operating-system",
    "restored": false,
    "files": 277,
    "sourceFiles": 3,
@@ -13268,7 +13268,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2022-11-13-fennel-mud",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2022-11-13-fennel-mud",
    "restored": false,
    "files": 504,
    "sourceFiles": 3,
@@ -13281,7 +13281,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2023-04-01-fennel-groundhog-operating-system",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2023-04-01-fennel-groundhog-operating-system",
    "restored": false,
    "files": 322,
    "sourceFiles": 3,
@@ -23568,7 +23568,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-windows-archive-tab-fennel",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-windows-archive-tab-fennel",
    "restored": false,
    "files": 92,
    "sourceFiles": 1,
@@ -23581,7 +23581,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-windows-archive-tab-variants",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-windows-archive-tab-variants",
    "restored": false,
    "files": 36,
    "sourceFiles": 1,

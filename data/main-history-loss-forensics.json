@@ -1298,9 +1298,9 @@
    "intent": "deletion",
    "topDirectories": [
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2026-03-11-tab-2026-05-25",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/2022-05-26-qtops-google-drive-corpus",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-engineering-services-section/lib/legacy/tab"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2026-03-11-tab-2026-05-25",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2022-05-26-qtops-google-drive-corpus",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-game-system-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/tab"
    ],
    "deletedAbsentFromHead": 462,
    "notRestored": 61,
@@ -1464,7 +1464,7 @@
    "intent": "deletion",
    "topDirectories": [
     "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/2026-06-17-archive-emsenn-net",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/2020-01-06-racket-mud",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/2020-01-06-racket-mud",
     "lib/emsenn/services/561-group/services/science-services-section/lib/legacy/2026-05-20-mypc-old-research-library-uncaptured-software-residue",
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-interface-system-services-section/services/emacs-services-section/lib/legacy/network-github"
    ],
@@ -4063,7 +4063,7 @@
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services",
     "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/2026-06-17-archive-emsenn-net",
     "lib/emsenn/services/561-group/services/operations-services-section/apps/metroplat",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-mud-engineering-services-section/lib/legacy/wheatstone"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/computer-mud-systems-engineering-services-section/lib/legacy/wheatstone"
    ],
    "deletedAbsentFromHead": 50,
    "restoredFromHistory": 19,
