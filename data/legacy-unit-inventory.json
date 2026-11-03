@@ -638,7 +638,7 @@
     "@red-cup-engineering/settlement-record-store-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service"
    ],
    "activation": "pending"
   },
@@ -1742,8 +1742,8 @@
     "@red-cup-engineering/relational-value-graph-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service"
    ],
    "activation": "pending"
   },
@@ -2104,7 +2104,7 @@
     "@red-cup-engineering/transfer-eavt-trace-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section"
    ],
    "activation": "pending"
   },
@@ -3082,8 +3082,8 @@
     "@red-cup-engineering/witness-journal-cross-feed-reading-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service"
    ],
    "activation": "pending"
   },
@@ -9459,7 +9459,7 @@
     "@red-cup-engineering/eavt-services-section"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section"
    ],
    "activation": "pending"
   },
@@ -9526,7 +9526,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/lib/legacy/restored-from-main/2026-09-23-44311f2/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/lib/legacy/restored-from-main/2026-09-23-44311f2/services",
    "restored": true,
    "files": 6,
    "sourceFiles": 5,
@@ -15309,7 +15309,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/lib/legacy/restored-from-main/2026-09-25-bc98f29/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/lib/legacy/restored-from-main/2026-09-25-bc98f29/lib",
    "restored": true,
    "files": 2,
    "sourceFiles": 2,
@@ -20817,7 +20817,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/lib/legacy/restored-from-main/2026-09-24-20a72f6/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/lib/legacy/restored-from-main/2026-09-24-20a72f6/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -20830,7 +20830,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/lib/legacy/restored-from-main/2026-09-23-2178fdd/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/lib/legacy/restored-from-main/2026-09-23-2178fdd/services",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -20843,7 +20843,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/lib/legacy/restored-from-main/2026-09-24-4f079ad/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/lib/legacy/restored-from-main/2026-09-24-4f079ad/services",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -20858,7 +20858,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-document-service/lib/legacy/restored-from-main/2026-09-23-2178fdd/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-document-service/lib/legacy/restored-from-main/2026-09-23-2178fdd/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -20871,7 +20871,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-document-service/lib/legacy/restored-from-main/2026-09-25-facc2d5/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-document-service/lib/legacy/restored-from-main/2026-09-25-facc2d5/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -20884,7 +20884,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service/lib/legacy/restored-from-main/2026-09-23-2178fdd/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service/lib/legacy/restored-from-main/2026-09-23-2178fdd/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -20897,7 +20897,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service/lib/legacy/restored-from-main/2026-09-23-2178fdd/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service/lib/legacy/restored-from-main/2026-09-23-2178fdd/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,

@@ -3880,7 +3880,7 @@
    "date": "2026-09-22",
    "pullRequest": null,
    "branch": "direct-to-main",
-   "title": "eavt is one section under jsonl: eavt-engineering-services-section is gone and @red-cup-engineering/eavt-services-section resolves to serialized-computer-data/json/jsonl/eavt-services-section; its settlement module an",
+   "title": "eavt is one section under jsonl: eavt-engineering-services-section is gone and @red-cup-engineering/eavt-services-section resolves to serialized-computer-data/json/jsonl/eavt-engineering-services-section; its settlement module an",
    "intent": "deletion",
    "topDirectories": [
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services"

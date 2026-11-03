@@ -145,13 +145,13 @@
    "name": "@lenticule-science/witness-journal-rdf-projection-service",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service",
     "version": "0.6.0",
     "occurrences": 2
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-rdf-projection-service",
      "version": "0.6.0",
      "identical": false,
      "copyOnly": [],
@@ -1350,13 +1350,13 @@
    "name": "@red-cup-engineering/category-reference-index-service",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/category-reference-index-service",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/category-reference-index-service",
     "version": "0.4.0",
     "occurrences": 2
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/category-reference-index-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/category-reference-index-service",
      "version": "0.4.0",
      "identical": false,
      "copyOnly": [],
@@ -3508,13 +3508,13 @@
    "name": "@red-cup-engineering/datom-services-section",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/datom-services-section",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/datom-services-section",
     "version": "0.1.0",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/datom-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/datom-services-section",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [],
@@ -3845,13 +3845,13 @@
    "name": "@red-cup-engineering/eavt-services-section",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section",
     "version": "0.10.4",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section",
      "version": "0.10.4",
      "identical": false,
      "copyOnly": [
@@ -6459,13 +6459,13 @@
    "name": "@red-cup-engineering/journal-checkpoint-projection-service",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/journal-checkpoint-projection-service",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/journal-checkpoint-projection-service",
     "version": "0.1.0",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/journal-checkpoint-projection-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/journal-checkpoint-projection-service",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [],
@@ -8965,13 +8965,13 @@
    "name": "@red-cup-engineering/operation-witness-admission-service",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/operation-witness-admission-service",
     "version": "0.1.4",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/operation-witness-admission-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/operation-witness-admission-service",
      "version": "0.1.4",
      "identical": false,
      "copyOnly": [],
@@ -9943,13 +9943,13 @@
    "name": "@red-cup-engineering/semiotic-eavt-services-section",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/semiotic-eavt-services-section",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/semiotic-eavt-services-section",
     "version": "0.1.0",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/semiotic-eavt-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/semiotic-eavt-services-section",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [
@@ -12181,13 +12181,13 @@
    "name": "@red-cup-engineering/witness-journal-document-service",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-document-service",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-document-service",
     "version": "0.1.0",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-document-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-document-service",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [],
@@ -12250,13 +12250,13 @@
    "name": "@red-cup-engineering/witness-journal-invocation-service",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service",
     "version": "0.1.1",
     "occurrences": 2
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section/services/witness-journal-invocation-service",
      "version": "0.1.1",
      "identical": false,
      "copyOnly": [],
@@ -12276,13 +12276,13 @@
    "name": "@red-cup-engineering/witness-journal-services-section",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section",
+    "path": "services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section",
     "version": "0.1.0",
     "occurrences": 2
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-serialized-content-engineering-services-section/services/json-services-section/services/jsonl-services-section/services/eavt-services-section/services/witness-journal-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/serialized-computer-data-engineering-services-section/services/serialized-triplet-computer-data-engineering-services-section/services/eavt-engineering-services-section/services/witness-journal-services-section",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [
