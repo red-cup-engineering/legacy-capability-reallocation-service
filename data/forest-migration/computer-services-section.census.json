@@ -1731,7 +1731,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-system-services-section/services/561-group-computer",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/561-group-computer",
      "version": "0.4.0",
      "identical": false,
      "copyOnly": [
@@ -10793,7 +10793,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-system-services-section/services/software-inventory-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/software-inventory-service",
      "version": "0.0.6",
      "identical": false,
      "copyOnly": [],
@@ -11327,7 +11327,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-system-services-section/services/linux-services-section/services/systemd-services-section/services/systemd-unit-inventory-observation-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-operating-systems-engineering-services-section/services/linux-services-section/services/systemd-services-section/services/systemd-unit-inventory-observation-service",
      "version": "0.3.2",
      "identical": false,
      "copyOnly": [
