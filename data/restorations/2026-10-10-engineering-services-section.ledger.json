@@ -143114,8 +143114,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -143129,48 +143129,48 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/codec/index.d.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/codec/index.d.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/codec/index.d.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/codec/index.d.mts",
      "gitBlob": "bb418ae49b4903e8258fbc7d3edfa2c559f73530",
      "sha256": "54719fabafe76b21d66fd26ad45fd0d3289364d5871611afb45f5337d4888126",
      "bytes": 1237,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/codec/index.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/codec/index.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/codec/index.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/codec/index.mjs",
      "gitBlob": "cda37245b24f04a7a9bd1647fddf0b9f7cbc5ab1",
      "sha256": "34a2d6142f552d46a69001a93e889357d67e68c9f6a251e9c2852ea054da4da0",
      "bytes": 1060,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/golden-vector/index.d.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/golden-vector/index.d.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/golden-vector/index.d.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/golden-vector/index.d.mts",
      "gitBlob": "366f7fd783f4c130ce7ca92573c29dec18104799",
      "sha256": "a8ceb6c6237398adc3586cd636028084c88eab40c6978a54d0f074cdb4f897cb",
      "bytes": 29,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/index.d.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/index.d.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/index.d.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/index.d.mts",
      "gitBlob": "4d4c2008b534427994f014613954c228758a4f50",
      "sha256": "a935225a1aa012ec2809ede9b2f54571d4a3b5c37dbcde3a2e9b4fc3825cc0b7",
      "bytes": 670,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/tex/codec.d.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/tex/codec.d.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/tex/codec.d.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/tex/codec.d.mts",
      "gitBlob": "36968aa0e5e498d11496370d9bd2d74f1aaa8541",
      "sha256": "e10223f5ed5bdb03431c369684918a48e725e5b3ffa7fe544f16dbf76d67fe5b",
      "bytes": 798,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/tex/codec.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/tex/codec.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/tex/codec.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-22-e05f280/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/tex/codec.mjs",
      "gitBlob": "5013e5a31cf969f85094b559f04ffbb8eebfea8a",
      "sha256": "95b36802bdf00d7ed97bb92f4e8e030dbdb5454b57b8a4a8d148b0071fdc0659",
      "bytes": 720,
@@ -154509,8 +154509,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-24-eabdc2e/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-24-eabdc2e/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -154524,8 +154524,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/fs-effects.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/lib/legacy/restored-from-main/2026-09-24-eabdc2e/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section/src/fs-effects.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/fs-effects.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/lib/legacy/restored-from-main/2026-09-24-eabdc2e/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-engineering-services-section/src/fs-effects.mjs",
      "gitBlob": "d0109c90401f3035e37bc7e6bb005bb4186b671d",
      "sha256": "3dfaca42c80a2ebbb50f13638c7114e2fb3e50a8d9f49c7c0c1e0d9e1df10555",
      "bytes": 2347,

@@ -9319,7 +9319,7 @@
    "date": "2026-09-11",
    "pullRequest": null,
    "branch": "direct-to-main",
-   "title": "Complete lean-system-services-section relocation: remove metroplat's 26 already-superseded local copies of the Lean/Blueprint/Verso/TeX domain now owned by @red-cup-engineering/lean-system-services-se",
+   "title": "Complete lean-engineering-services-section relocation: remove metroplat's 26 already-superseded local copies of the Lean/Blueprint/Verso/TeX domain now owned by @red-cup-engineering/lean-system-services-se",
    "intent": "deletion",
    "topDirectories": [
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services"
