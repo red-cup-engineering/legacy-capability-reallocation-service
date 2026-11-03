@@ -109698,8 +109698,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -109713,16 +109713,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/package.json",
      "gitBlob": "5696872549622f3c0826d6f2334ab1ac0d1b83ff",
      "sha256": "87f4aa3240de09183dca6c0e5a7a65086c1a25970d2e4a50fdd76e01988ebbc5",
      "bytes": 975,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/src/canonical-record.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/src/canonical-record.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/src/canonical-record.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/src/canonical-record.mjs",
      "gitBlob": "847bca543c46b0a1b4919ecb5527176bfd5b1d6a",
      "sha256": "426f41b9ed352ca0fc55ac0dcfcb07a9e7b7f2a3a351784a5403b42a6da605a7",
      "bytes": 2700,

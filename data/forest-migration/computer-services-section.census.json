@@ -3637,7 +3637,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section",
      "version": "0.1.1",
      "identical": false,
      "copyOnly": [

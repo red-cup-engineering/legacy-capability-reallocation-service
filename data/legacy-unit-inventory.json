@@ -19855,7 +19855,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section/lib/legacy/restored-from-main/2026-09-21-f772d37/lib",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -19867,7 +19867,7 @@
     "@red-cup-engineering/deployment-services-section"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-services-section"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/computer-code-development-services-section/services/deployment-engineering-services-section"
    ],
    "activation": "pending"
   },
