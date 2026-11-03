@@ -10666,7 +10666,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/agent-systems-engineering-services-section/services/openai-agent-systems-engineering-services-section/lib/legacy/openai-agent-tui",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/agent-systems-engineering-services-section/services/openai-agent-systems-engineering-services-section/lib/legacy/openai-engine",
    "restored": false,
    "files": 7,
    "sourceFiles": 4,
@@ -10678,7 +10678,7 @@
     "@red-cup-engineering/app-openai-agent-tui"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-interface-system-services-section/services/terminal-computer-interface-system-engineering-services-section/apps/openai-agent-tui"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-interface-system-services-section/services/terminal-computer-interface-system-engineering-services-section/apps/openai-engine"
    ],
    "activation": "pending"
   },
@@ -11322,7 +11322,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-inference-system-services-section/services/llm-services-section/services/openai-services-section/lib/legacy/openai-agent-tui",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-inference-system-services-section/services/llm-services-section/services/openai-services-section/lib/legacy/openai-engine",
    "restored": false,
    "files": 7,
    "sourceFiles": 4,
@@ -11334,7 +11334,7 @@
     "@emsenn/app-openai-agent-tui"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-interface-system-services-section/services/terminal-computer-interface-system-engineering-services-section/apps/openai-agent-tui"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-interface-system-services-section/services/terminal-computer-interface-system-engineering-services-section/apps/openai-engine"
    ],
    "activation": "pending"
   },
