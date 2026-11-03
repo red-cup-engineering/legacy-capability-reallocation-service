@@ -10980,13 +10980,13 @@
    "name": "@red-cup-engineering/specification-engineering-services-section",
    "owner": {
     "repository": "red-cup-engineering/computer-data-engineering-services-section",
-    "path": "services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/computer-article-engineering-services-section/services/specification-engineering-services-section",
+    "path": "services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/computer-article-engineering-services-section/services/engineering-content-engineering-services-section",
     "version": "0.1.0",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/computer-article-engineering-services-section/services/specification-engineering-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-data-engineering-services-section/services/computer-content-engineering-services-section/services/computer-documents-engineering-services-section/services/computer-article-engineering-services-section/services/engineering-content-engineering-services-section",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [

@@ -18854,7 +18854,7 @@
    "date": "2026-09-06",
    "pullRequest": null,
    "branch": "direct-to-main",
-   "title": "specification-engineering-services-section: substrate-import fix, real citation-link computation, re-fabricate SAS carrier",
+   "title": "engineering-content-engineering-services-section: substrate-import fix, real citation-link computation, re-fabricate SAS carrier",
    "intent": "deletion",
    "topDirectories": [
     "lib/emsenn/services/561-group/services/561-group-services-section/content/text/glossary"
