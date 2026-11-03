@@ -4845,8 +4845,8 @@
    "lostSourceFiles": 4
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/legacy/restored-from-main/2026-10-03-8856752",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/legacy/restored-from-main/2026-10-03-8856752",
    "placement": "restored-tree",
    "lossClass": "lost-by-merge-or-snapshot",
    "deletedBy": {
@@ -4859,24 +4859,24 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/agency/works/calling-chinese-makers.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/legacy/restored-from-main/2026-10-03-8856752/lib/agency/works/calling-chinese-makers.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/agency/works/calling-chinese-makers.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/legacy/restored-from-main/2026-10-03-8856752/lib/agency/works/calling-chinese-makers.json",
      "gitBlob": "0fe0766efef40fc167ff1e8b7f1001fbccf44d24",
      "sha256": "f5c56b1461285eea1657b8902252b6c78ffbbbff493767b2c4c5e18d743ebefb",
      "bytes": 384,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/agency/works/holding-fda-us-agent-roles.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/legacy/restored-from-main/2026-10-03-8856752/lib/agency/works/holding-fda-us-agent-roles.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/agency/works/holding-fda-us-agent-roles.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/legacy/restored-from-main/2026-10-03-8856752/lib/agency/works/holding-fda-us-agent-roles.json",
      "gitBlob": "11c9f1b15d4f4e1e6addd02c4d7c67d30af6f656",
      "sha256": "a935363e896c844ab9a9c91d24b0666b21606a528750e375135e62e02cb5d769",
      "bytes": 408,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/agency/works/selling-makers-lines.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section/lib/legacy/restored-from-main/2026-10-03-8856752/lib/agency/works/selling-makers-lines.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/agency/works/selling-makers-lines.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section/lib/legacy/restored-from-main/2026-10-03-8856752/lib/agency/works/selling-makers-lines.json",
      "gitBlob": "4fa11d2407432df6c5bc945ac560597d85e31ea9",
      "sha256": "2db243af14079fa3adf292f51b0c0cc5da5ab88d0eb54d7b7984cd7704a9e728",
      "bytes": 354,

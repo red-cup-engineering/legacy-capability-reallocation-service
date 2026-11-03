@@ -2862,7 +2862,7 @@
     "@red-cup-engineering/systemd-unit-inventory-observation-service",
     "@red-cup-engineering/tips-services-section",
     "@red-cup-engineering/union-brokerage-products-market-border",
-    "@red-cup-engineering/us-representation-services-section",
+    "@561-group/561-group-fda-agent-services-section",
     "@red-cup-engineering/virtuals-brokerage-products-border",
     "@red-cup-engineering/x402-services-section"
    ],
@@ -3298,7 +3298,7 @@
     "@red-cup-engineering/text-comparison-service"
    ],
    "consumers": [
-    "@red-cup-engineering/us-representation-services-section"
+    "@561-group/561-group-fda-agent-services-section"
    ],
    "level": 1
   },
@@ -6795,7 +6795,7 @@
     "@red-cup-engineering/tips-services-section",
     "@red-cup-engineering/treasury-observation-service",
     "@red-cup-engineering/ucan-invocation-verification-service",
-    "@red-cup-engineering/us-representation-services-section",
+    "@561-group/561-group-fda-agent-services-section",
     "@red-cup-engineering/x402-services-section"
    ],
    "level": 33
@@ -7884,7 +7884,7 @@
     "@red-cup-engineering/socializing",
     "@red-cup-engineering/structural-claims-register-services-section",
     "@red-cup-engineering/turtle-services-section",
-    "@red-cup-engineering/us-representation-services-section",
+    "@561-group/561-group-fda-agent-services-section",
     "@red-cup-engineering/web-theming-service",
     "@red-cup-engineering/witness-journal-document-service",
     "@red-cup-engineering/xml-document-rendering-service"
@@ -8957,7 +8957,7 @@
    ],
    "deps": [],
    "consumers": [
-    "@red-cup-engineering/us-representation-services-section"
+    "@561-group/561-group-fda-agent-services-section"
    ],
    "level": 0
   },
@@ -9205,7 +9205,7 @@
     "@red-cup-engineering/metroplat-operations-console",
     "@red-cup-engineering/public-personality-services-section",
     "@red-cup-engineering/structural-claims-register-services-section",
-    "@red-cup-engineering/us-representation-services-section"
+    "@561-group/561-group-fda-agent-services-section"
    ],
    "level": 14
   },
@@ -11869,17 +11869,17 @@
    ],
    "level": 1
   },
-  "@red-cup-engineering/us-representation-services-section": {
-   "name": "@red-cup-engineering/us-representation-services-section",
+  "@561-group/561-group-fda-agent-services-section": {
+   "name": "@561-group/561-group-fda-agent-services-section",
    "owner": {
     "repository": "red-cup-engineering/computer-engineering-services-section",
-    "path": "services/us-representation-services-section",
+    "path": "services/561-group-fda-agent-services-section",
     "version": "0.1.0",
     "occurrences": 1
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/us-representation-services-section",
+     "path": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/561-group-fda-agent-services-section",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [],
@@ -13092,7 +13092,7 @@
     "@red-cup-engineering/structural-claims-register-services-section",
     "@red-cup-engineering/treasury-observation-service",
     "@red-cup-engineering/union-brokerage-products-market-border",
-    "@red-cup-engineering/us-representation-services-section",
+    "@561-group/561-group-fda-agent-services-section",
     "@red-cup-engineering/virtuals-brokerage-products-border"
    ]
   },
