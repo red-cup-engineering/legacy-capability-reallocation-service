@@ -3079,8 +3079,8 @@
    "lostSourceFiles": 6
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
    "deletedBy": {
@@ -3093,48 +3093,48 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/advance-hourly-news.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/advance-hourly-news.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/advance-hourly-news.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/advance-hourly-news.mjs",
      "gitBlob": "083228df49afaedef14fe952753948958dc55eea",
      "sha256": "0547a3aa303f2c69138f4331af961bd51d0b5f61238a7879c0dea6e88345c9db",
      "bytes": 10767,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/community-source-topical-knowledge-cell.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/community-source-topical-knowledge-cell.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/community-source-topical-knowledge-cell.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/community-source-topical-knowledge-cell.mjs",
      "gitBlob": "a68daede8452944b5ce7801d8be44d5433553be8",
      "sha256": "5596d1b2c97add520fdcc2d5266152097abd2164f81deab1c7aebc2a00128c7d",
      "bytes": 204,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/install-hourly-news-recurrence.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/install-hourly-news-recurrence.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/install-hourly-news-recurrence.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/install-hourly-news-recurrence.mjs",
      "gitBlob": "2ce4b570d1c3b8be139971a1d2d54d4fd930373b",
      "sha256": "5d73ddd417fc916559ceb1b9049dae39d9a8d13b0490e92101329772fe13febe",
      "bytes": 5771,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/procure-steward-inference.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/procure-steward-inference.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/procure-steward-inference.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/procure-steward-inference.mjs",
      "gitBlob": "8116e4910704740e10be5c41e22fbcc32534f9f7",
      "sha256": "c2938c1ee099513412a8bfba32de13066d46003849d077e9ba5888be8a5b85dc",
      "bytes": 218,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/settlement-witness-journal-binding.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/settlement-witness-journal-binding.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/settlement-witness-journal-binding.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/settlement-witness-journal-binding.mjs",
      "gitBlob": "7073aa83737f09fc8759f6d1f71b18521c25979c",
      "sha256": "58909ca2c25c622a7d1e402fd6435410535b5c5b3e390950779c3e1b6cfa3b8b",
      "bytes": 303,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/union-media-syndication.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/union-media-syndication.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/union-media-syndication.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/lib/management/union-media-syndication.mjs",
      "gitBlob": "ddb7c360b7fe22d30e030b16246eab32dbf11e63",
      "sha256": "d1dfa826181e4999d472ad50da3892841980db6216deb7a0176ee82280c97efd",
      "bytes": 205,
@@ -3144,8 +3144,8 @@
    "lostSourceFiles": 6
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
    "deletedBy": {
@@ -3158,8 +3158,8 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services/web-engineering-services-section/services/web2-services-section/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
      "gitBlob": "9154f28c8c385bf0e6a2494e09ce8802864fce7b",
      "sha256": "119b479b3188637c9690a7e6d3b7b1d4d1c93a35badaf29b51541a8e02e38293",
      "bytes": 5696,
@@ -3169,8 +3169,8 @@
    "lostSourceFiles": 1
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
    "deletedBy": {
@@ -3183,72 +3183,72 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/knowledge-contribution-market.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/knowledge-contribution-market.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/knowledge-contribution-market.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/knowledge-contribution-market.mjs",
      "gitBlob": "385ceaa9774d38e6900396212349906f392bc485",
      "sha256": "5fdf53b774046ea141e31bb409b5034ff6fe8e4d9748d527508457b3ec060f15",
      "bytes": 9149,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-buyer-query-ingress.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-buyer-query-ingress.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-buyer-query-ingress.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-buyer-query-ingress.mjs",
      "gitBlob": "c3aae61122796b87f058101b62cdf882402a6ce5",
      "sha256": "f244f4223baf75d151880a0af4405cd5ec8612b3d37269eb6463139a4b18a141",
      "bytes": 11259,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-knowledge-product.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-knowledge-product.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-knowledge-product.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-knowledge-product.mjs",
      "gitBlob": "f82af4e0e4cf7f3d45093d0f6191555bb84ce4c3",
      "sha256": "09d3fa9a30bac061ef6b034794d99d570c297d2ab0c30d05bff519870a70abe3",
      "bytes": 14392,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-x402-settlement.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-x402-settlement.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-x402-settlement.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/locality-x402-settlement.mjs",
      "gitBlob": "9eb28cd61bb4b09867ad04e312cfc941d0981b9d",
      "sha256": "125f31c67362d1a540b02f9cc61a267039680f322a1759a884d185148b7e5a9e",
      "bytes": 25121,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-an-enterprise-in-claude/scripts/install-an-enterprise-in-claude.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-an-enterprise-in-claude/scripts/install-an-enterprise-in-claude.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-an-enterprise-in-claude/scripts/install-an-enterprise-in-claude.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-an-enterprise-in-claude/scripts/install-an-enterprise-in-claude.js",
      "gitBlob": "4fd9dfba1cbd32a292720f80fac5ad92c7d01c97",
      "sha256": "1c7257692a38d181006eb4a9ba04c34d5e1340163991ca5bb70b6e84efcf523e",
      "bytes": 39768,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-claude-as-an-agent/SKILL.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-claude-as-an-agent/SKILL.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-claude-as-an-agent/SKILL.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/installing-claude-as-an-agent/SKILL.md",
      "gitBlob": "303656b0a5a70d322442622d440243c4acd05d4a",
      "sha256": "bb0712f0b43d342e0c5f5c50ca110fb646e0970abac19742975a65b6f07a8f97",
      "bytes": 7699,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/list-open-obligations.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/list-open-obligations.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/list-open-obligations.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/skills/list-open-obligations.js",
      "gitBlob": "f170cc5bdc1393bc3479ea5b4294ec2b603cf0ca",
      "sha256": "ddffb7b9ebd7515d46ce068d13f2457f23e193cee058af0a508de1f4297ddea5",
      "bytes": 10697,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-market-circuit.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-market-circuit.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-market-circuit.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-market-circuit.mjs",
      "gitBlob": "3f00b0d8af222df838e908cf8a419c712229f145",
      "sha256": "e7bce491e4cb3267907b80755ae29049d79db0e9699c55a51a7d74cb0b5b52ec",
      "bytes": 5675,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-vault-payment-provider-compatibility.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-vault-payment-provider-compatibility.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-vault-payment-provider-compatibility.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/lib/management/verify-vault-payment-provider-compatibility.mjs",
      "gitBlob": "f36e6e7d50f504ffadb388732015139acfc1ee01",
      "sha256": "34d926dc2c03c14c27f49c883fd957e15878176394fe4117488fefe50319b1c8",
      "bytes": 10520,
@@ -3258,8 +3258,8 @@
    "lostSourceFiles": 9
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
    "deletedBy": {
@@ -3272,8 +3272,8 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web2-services-section/services/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services/public-web2-services-section/services/discord-services-section/turntide-islands/services/turntide-union-media-syndication-service/lib/management/verify-market-circuit.mjs",
      "gitBlob": "3ee72b8e5b0daca9a6c6bc1dc8cedfbe4de87c06",
      "sha256": "aa124974950a2817d25b44b3b3f1dd1cef2fea54866d318446a69a91421ef12c",
      "bytes": 5694,
@@ -3862,8 +3862,8 @@
    "lostSourceFiles": 1
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
    "deletedBy": {
@@ -3876,40 +3876,40 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/asset-allocation-is-a-form-of-prophecy.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/asset-allocation-is-a-form-of-prophecy.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/asset-allocation-is-a-form-of-prophecy.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/asset-allocation-is-a-form-of-prophecy.md",
      "gitBlob": "b5bdd9a19136fcce2627540414a6e0487e3ba749",
      "sha256": "331127450214c3ce5b47c804f1a45b9640b9edbc186c910b81f30bff0faea96b",
      "bytes": 7495,
      "mode": "100755"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/first-steps-im-not-early-im-here.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/first-steps-im-not-early-im-here.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/first-steps-im-not-early-im-here.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/first-steps-im-not-early-im-here.md",
      "gitBlob": "2b03ae92d04959b652a48fc93784c37f932cf29c",
      "sha256": "4a0b5758e69697e01a44473671caebcc77eef9cc12d436f3ae6025c5d452a0d2",
      "bytes": 2934,
      "mode": "100755"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/misfiled-custody.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/misfiled-custody.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/misfiled-custody.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/misfiled-custody.md",
      "gitBlob": "4516b496d00485269a830e36b255e99eaeeda061",
      "sha256": "e9757fa064476644903650704ea23cb198bc706cab6ed7d691195151432edcbf",
      "bytes": 7723,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/youre-not-early-youre-in-the-middle-and-thats-where-leverage-lives.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/youre-not-early-youre-in-the-middle-and-thats-where-leverage-lives.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/youre-not-early-youre-in-the-middle-and-thats-where-leverage-lives.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/Sigmund Vexler's Content/youre-not-early-youre-in-the-middle-and-thats-where-leverage-lives.md",
      "gitBlob": "4bdc6d16d7e0dce0a5008a94ac67da12d40659df",
      "sha256": "7c8d8213729c38e87049dd1654f29e8e322618fd17cc04170cdcb1502b61414d",
      "bytes": 5576,
      "mode": "100755"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/sigmund-vexler.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/sigmund-vexler.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/services/agrodao/lib/agency/characters/sigmund-vexler/sigmund-vexler.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/agrodao/lib/agency/characters/sigmund-vexler/sigmund-vexler.md",
      "gitBlob": "f250044691eb8b3ed2b34c4970a094fe66712d03",
      "sha256": "54b2ee585737e76576b862b31a6e8a3d449667a222cc441426c1377bc5cefafc",
      "bytes": 6423,

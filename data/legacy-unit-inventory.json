@@ -1353,7 +1353,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services",
    "restored": true,
    "files": 95,
    "sourceFiles": 70,
@@ -1853,7 +1853,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services",
    "restored": true,
    "files": 103,
    "sourceFiles": 54,
@@ -1973,7 +1973,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-45838ae/services",
    "restored": true,
    "files": 60,
    "sourceFiles": 52,
@@ -2210,7 +2210,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services",
    "restored": true,
    "files": 51,
    "sourceFiles": 48,
@@ -2349,7 +2349,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-64cea88/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-29-64cea88/services",
    "restored": true,
    "files": 50,
    "sourceFiles": 45,
@@ -2413,7 +2413,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-11-2245e3f/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-11-2245e3f/services",
    "restored": true,
    "files": 56,
    "sourceFiles": 43,
@@ -4347,7 +4347,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services",
    "restored": true,
    "files": 21,
    "sourceFiles": 20,
@@ -7170,7 +7170,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-14-074034c/apps",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-14-074034c/apps",
    "restored": true,
    "files": 21,
    "sourceFiles": 9,
@@ -7693,7 +7693,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-web-game-services-section/services/farstone-services-section/lib/legacy/2026-08-17-windows-561-group-apps-games-farstone",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-web-game-services-section/services/farstone-services-section/lib/legacy/2026-08-17-windows-561-group-apps-games-farstone",
    "restored": true,
    "files": 15,
    "sourceFiles": 8,
@@ -8233,7 +8233,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-web-game-services-section/services/farstone-services-section/lib/legacy/farstone-harbor-mud-service",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-web-game-services-section/services/farstone-services-section/lib/legacy/farstone-harbor-mud-service",
    "restored": true,
    "files": 15,
    "sourceFiles": 7,
@@ -9004,7 +9004,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-07-73d17fb/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-07-73d17fb/services",
    "restored": true,
    "files": 9,
    "sourceFiles": 6,
@@ -10198,7 +10198,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services",
    "restored": true,
    "files": 5,
    "sourceFiles": 5,
@@ -11704,7 +11704,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-31-c728ca0/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-31-c728ca0/services",
    "restored": true,
    "files": 5,
    "sourceFiles": 4,
@@ -11721,7 +11721,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-14-074034c/services/public-web-divination-services-section/lib/legacy/2026-06-23-cassia-lorne-substack-publication",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-14-074034c/services/public-web-divination-services-section/lib/legacy/2026-06-23-cassia-lorne-substack-publication",
    "restored": true,
    "files": 6,
    "sourceFiles": 4,
@@ -17753,7 +17753,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-26-0bcda03/services",
    "restored": true,
    "files": 4,
    "sourceFiles": 2,
@@ -17766,7 +17766,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-31-22107ad/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-31-22107ad/services",
    "restored": true,
    "files": 4,
    "sourceFiles": 2,
@@ -24675,7 +24675,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-13-b1297dc/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-13-b1297dc/services",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -24690,7 +24690,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-16-48c96c9/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-08-16-48c96c9/services",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -24703,7 +24703,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-08-77f940c/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-08-77f940c/services",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -24716,7 +24716,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-08-e9c83ad/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-08-e9c83ad/services",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -24729,7 +24729,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-web-game-services-section/services/farstone-services-section/lib/legacy/apps-games-farstone",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-web-game-services-section/services/farstone-services-section/lib/legacy/apps-games-farstone",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -24744,7 +24744,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-05-6c03b29/services",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-systems-services-section/services/public-web-services-section/services/public-web3-services-section/lib/legacy/restored-from-main/2026-09-05-6c03b29/services",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
