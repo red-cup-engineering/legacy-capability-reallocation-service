@@ -3638,7 +3638,7 @@
    "lostSourceFiles": 1
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-financial-services-section",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/public-financial-services-section",
    "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-12-f486159",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
@@ -3652,7 +3652,7 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-financial-services-section/lib/agency/characters/wendell-thorp.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/public-financial-services-section/lib/agency/characters/wendell-thorp.json",
      "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-12-f486159/services/public-financial-services-section/lib/agency/characters/wendell-thorp.json",
      "gitBlob": "b82822517169641ca1afbf7974deeeccafcc7210",
      "sha256": "30d849138244772ae3ab2122cb041b77d04fc0832b9eaf560b40e7ef2ae4d09c",

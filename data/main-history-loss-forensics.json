@@ -608,7 +608,7 @@
    "topDirectories": [
     "lib/emsenn/services/561-group/services/science-services-section/lib/legacy/2026-07-31-lenticule-science-corpus",
     "lib/emsenn/services/561-group/services/science-services-section/lib/legacy/2026-08-17-archive-emsenn-net-research",
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-financial-services-section/data",
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-economic-services-section/services/public-financial-services-section/data",
     "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services"
    ],
    "deletedAbsentFromHead": 1721,
