@@ -1422,7 +1422,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/elisp-services-section/lib/legacy/2024-12-01-elisp",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/lisp-engineering-services-section/services/elisp-engineering-services-section/lib/legacy/2024-12-01-elisp",
    "restored": false,
    "files": 103,
    "sourceFiles": 66,
@@ -1451,7 +1451,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/elisp-services-section/lib/legacy/2026-06-17-elisp-corpus",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/lisp-engineering-services-section/services/elisp-engineering-services-section/lib/legacy/2026-06-17-elisp-corpus",
    "restored": false,
    "files": 97,
    "sourceFiles": 65,
@@ -19941,7 +19941,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/elisp-services-section/lib/legacy/2026-06-17-suros",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/lisp-engineering-services-section/services/elisp-engineering-services-section/lib/legacy/2026-06-17-suros",
    "restored": false,
    "files": 1,
    "sourceFiles": 1,
@@ -19954,7 +19954,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/elisp-services-section/lib/legacy/data-asset-manifest",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/lisp-engineering-services-section/services/elisp-engineering-services-section/lib/legacy/data-asset-manifest",
    "restored": false,
    "files": 6,
    "sourceFiles": 1,
