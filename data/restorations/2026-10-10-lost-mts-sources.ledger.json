@@ -13948,8 +13948,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/tidepool-services-section/sites/tidepool.emsenn.net",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services/public-web-game-services-section/services/tidepool-services-section/sites/tidepool.emsenn.net",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -13963,16 +13963,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-client.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services/public-web-game-services-section/services/tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-client.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-client.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-client.mts",
      "gitBlob": "17c9110d3820a8e0e7c6cdc08eca77c6ff6decd2",
      "sha256": "098bcad5c12fcbb71a9441f3affd2f5b30b97cfb483d90d7c2a9be027a0c474e",
      "bytes": 7653,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-retry.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services/public-web-game-services-section/services/tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-retry.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-retry.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-3621b94/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-retry.mts",
      "gitBlob": "2a0f72f1fb069c984837b243b08499e450d8ad88",
      "sha256": "0b3235bbf58c7e74261214f9c32a8e4e6922d56936ed2ac3025992ef6828b4eb",
      "bytes": 6222,
