@@ -7224,7 +7224,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-proofing-system-services-section/services/lean-system-services-section",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-information-systems-engineering-services-section/services/computer-math-systems-engineering-services-section/services/computer-proofing-systems-engineering-services-section/services/lean-system-services-section",
      "version": "0.2.0",
      "identical": false,
      "copyOnly": [
