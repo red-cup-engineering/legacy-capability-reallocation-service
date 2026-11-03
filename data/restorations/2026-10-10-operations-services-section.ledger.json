@@ -7506,7 +7506,7 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section",
+   "unit": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section",
    "restoredTo": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section",
    "placement": "restored-tree",
    "lostSourceFiles": 4,
@@ -7521,7 +7521,7 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section/README.md",
+     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section/README.md",
      "restoredPath": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section/README.md",
      "gitBlob": "cd32230895ba54478683cbd2a0eaf795228da147",
      "sha256": "1652ba2bc486d9604c6d375e238ef4dd2a73930255cf409538ff353efe934104",
@@ -7529,7 +7529,7 @@
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section/package.json",
      "restoredPath": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section/package.json",
      "gitBlob": "5b3bf0685baedd8be29abb2b445cb50934863a21",
      "sha256": "bb2a4f1cc099600206c85a8b360238cd55709163070aafc2da734b68622bf1e9",
@@ -7537,7 +7537,7 @@
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section/src/fleet-observation.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section/src/fleet-observation.mjs",
      "restoredPath": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section/src/fleet-observation.mjs",
      "gitBlob": "db1bdf5dd9790a6e3d035654c55c0b8ec4442a14",
      "sha256": "99a39ce6575aeba8e6f9b3a311ac4d28ae822c395de06c171d87be5786400f0e",
@@ -7545,7 +7545,7 @@
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section/src/journal-provider.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section/src/journal-provider.mjs",
      "restoredPath": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section/src/journal-provider.mjs",
      "gitBlob": "3e6f260a7064cc91dbe7b1204edb3c007b5170bb",
      "sha256": "a62f02bdfa954df655b149596dedea192c653dcd0f2c5b2c2c0ab63701e0007f",
@@ -7553,7 +7553,7 @@
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section/src/observation-mark.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section/src/observation-mark.mjs",
      "restoredPath": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section/src/observation-mark.mjs",
      "gitBlob": "42d329d6e3153530a69a5271085fddf8d38a7cf7",
      "sha256": "d2475f4be493ceee5b63b2373e91cbb16a01acd5818fad3b087a53a994edc97f",
@@ -7561,7 +7561,7 @@
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/hive-operations-services-section/test/fleet-observation.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/operations-services-section/services/computer-operations-services-section/services/computer-systems-operations-services-section/services/computer-blockchain-systems-operations-services-section/services/hive-operations-services-section/test/fleet-observation.test.mjs",
      "restoredPath": "lib/emsenn/services/561-group/services/operations-services-section/lib/legacy/restored-from-main/2026-10-07-f2ae8d5/services/hive-operations-services-section/test/fleet-observation.test.mjs",
      "gitBlob": "3fc17e8dc1488e84cd23fe1ac62a6eb438cddd48",
      "sha256": "2476a77dfa4748c550687d582039c435042e05f1c95838985ead025a53018168",
