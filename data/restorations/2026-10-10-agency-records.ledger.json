@@ -3754,8 +3754,8 @@
    "lostSourceFiles": 1
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/lib/legacy/restored-from-main/2026-09-13-e1c431c",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/lib/legacy/restored-from-main/2026-09-13-e1c431c",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
    "deletedBy": {
@@ -3768,8 +3768,8 @@
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/lib/agency/characters/rosa-pacioli.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/lib/legacy/restored-from-main/2026-09-13-e1c431c/lib/agency/characters/rosa-pacioli.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/lib/agency/characters/rosa-pacioli.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/lib/legacy/restored-from-main/2026-09-13-e1c431c/lib/agency/characters/rosa-pacioli.json",
      "gitBlob": "1851eafaa8ce0598eae9b9791cadd650c0ad93e5",
      "sha256": "845adb670f288f7e4d5ad5730bb5442d8d274f76deaebcebf640aac608a1e208",
      "bytes": 1043,

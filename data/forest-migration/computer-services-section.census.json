@@ -7998,7 +7998,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service",
      "version": "0.1.0",
      "identical": true,
      "copyOnly": [],
@@ -8282,7 +8282,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service",
      "version": "0.1.0",
      "identical": true,
      "copyOnly": [],
@@ -9358,7 +9358,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/pool-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/pool-service",
      "version": "0.6.0",
      "identical": false,
      "copyOnly": [
@@ -9413,7 +9413,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/position-sizing-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/position-sizing-service",
      "version": "0.3.1",
      "identical": false,
      "copyOnly": [],
@@ -11164,7 +11164,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/strategy-evaluation-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/strategy-evaluation-service",
      "version": "0.1.5",
      "identical": false,
      "copyOnly": [
@@ -11503,7 +11503,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service",
      "version": "0.1.1",
      "identical": true,
      "copyOnly": [],
@@ -11528,7 +11528,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/treasury-observation-service",
+     "path": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/treasury-observation-service",
      "version": "0.5.0",
      "identical": false,
      "copyOnly": [],

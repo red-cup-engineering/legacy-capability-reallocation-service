@@ -7123,7 +7123,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/services",
    "restored": true,
    "files": 17,
    "sourceFiles": 9,
@@ -7680,7 +7680,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/treasury-observation-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/treasury-observation-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 8,
    "sourceFiles": 8,
@@ -17469,7 +17469,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/lib/legacy/restored-from-main/2026-09-13-e1c431c/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/lib/legacy/restored-from-main/2026-09-13-e1c431c/services",
    "restored": true,
    "files": 3,
    "sourceFiles": 2,
@@ -17484,7 +17484,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/market-data-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/market-data-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/services",
    "restored": true,
    "files": 3,
    "sourceFiles": 2,
@@ -17499,7 +17499,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/position-sizing-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/position-sizing-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 3,
    "sourceFiles": 2,
@@ -17511,12 +17511,12 @@
     "@red-cup-engineering/position-sizing-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/position-sizing-service"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/position-sizing-service"
    ],
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 8,
    "sourceFiles": 2,
@@ -24299,7 +24299,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -24312,7 +24312,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/pool-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/pool-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 7,
    "sourceFiles": 1,
@@ -24325,7 +24325,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/trading-belief-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/trading-belief-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -24338,7 +24338,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/services",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/lib/legacy/restored-from-main/2026-09-19-32efbf0/services",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -24350,12 +24350,12 @@
     "@red-cup-engineering/brokerage-independent-witness-and-books"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/services/brokerage-independent-witness-and-books"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/services/brokerage-independent-witness-and-books"
    ],
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/services/alpha-portfolio-order-intent-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/services/alpha-portfolio-order-intent-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -24367,12 +24367,12 @@
     "@red-cup-engineering/alpha-portfolio-order-intent-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/services/alpha-portfolio-order-intent-service"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/services/alpha-portfolio-order-intent-service"
    ],
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/services/pluggable-venue-adapter-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/services/pluggable-venue-adapter-service/lib/legacy/restored-from-main/2026-09-19-32efbf0/lib",
    "restored": true,
    "files": 2,
    "sourceFiles": 1,
@@ -24384,12 +24384,12 @@
     "@red-cup-engineering/pluggable-venue-adapter-service"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/services/pluggable-venue-adapter-service"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/services/pluggable-venue-adapter-service"
    ],
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/financial-engineering-services-section/services/venue-algebra-services-section/services/pluggable-venue-adapter-service/lib/legacy/restored-from-main/2026-09-24-0f48c8a/lib",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/venue-algebra-services-section/services/pluggable-venue-adapter-service/lib/legacy/restored-from-main/2026-09-24-0f48c8a/lib",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,

@@ -558,9 +558,9 @@
   {
    "id": "@red-cup-engineering/model-tournament-service",
    "sourcePaths": [
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs"
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs"
    ],
    "effect": "the package @red-cup-engineering/model-tournament-service",
    "carrier": "@red-cup-engineering/model-tournament-service",
@@ -628,8 +628,8 @@
   {
    "id": "@red-cup-engineering/normalize-earning-opportunity-service",
    "sourcePaths": [
-    "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
-    "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs"
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs"
    ],
    "effect": "the package @red-cup-engineering/normalize-earning-opportunity-service",
    "carrier": "@red-cup-engineering/normalize-earning-opportunity-service",
@@ -970,10 +970,10 @@
   {
    "id": "@red-cup-engineering/transaction-cost-replay-service",
    "sourcePaths": [
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
-    "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs"
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
+    "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs"
    ],
    "effect": "the package @red-cup-engineering/transaction-cost-replay-service",
    "carrier": "@red-cup-engineering/transaction-cost-replay-service",

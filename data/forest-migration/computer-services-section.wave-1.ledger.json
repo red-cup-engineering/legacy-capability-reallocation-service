@@ -8400,9 +8400,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/package.json:e75001ba43ddd215",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/package.json:e75001ba43ddd215",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
         "sha256": "e75001ba43ddd215c94d6c61ecea390c3a6f545915ab2d1c9c5647482d73b8b4",
         "bytes": 434,
         "extension": ".json",
@@ -8420,9 +8420,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs:e5e38b3de9a12db5",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs:e5e38b3de9a12db5",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs",
         "sha256": "e5e38b3de9a12db5bce28465e93bdc79f972e5beaa42ac02333f332a1a595774",
         "bytes": 4228,
         "extension": ".mjs",
@@ -8447,9 +8447,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json:e9993b8dac3b7243",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json:e9993b8dac3b7243",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
         "sha256": "e9993b8dac3b7243c4a69e56423057d2d10992bdf8247a5550c28d6f26baec53",
         "bytes": 253,
         "extension": ".json",
@@ -8467,9 +8467,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json:ef7340fdc77f18e9",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json:ef7340fdc77f18e9",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
         "sha256": "ef7340fdc77f18e9abb134722b8d24709230292ded3ee5de34b49753f400e323",
         "bytes": 353,
         "extension": ".json",
@@ -8487,9 +8487,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs:6d7f2e39791098a2",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs:6d7f2e39791098a2",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs",
         "sha256": "6d7f2e39791098a28850026e2ede2e703c795706ca649d2cc2ad0741adaefc2e",
         "bytes": 2292,
         "extension": ".mjs",
@@ -8510,9 +8510,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json:3bd9755cf5d5132c",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json:3bd9755cf5d5132c",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
         "sha256": "3bd9755cf5d5132c0fc92e08d061a7ff0a08d57c2f1b13ba1b767a5e9feed130",
         "bytes": 267,
         "extension": ".json",
@@ -8530,9 +8530,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json:7debfbb13f182e7f",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json:7debfbb13f182e7f",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
         "sha256": "7debfbb13f182e7ff46c9be424a2b88b912c9e015d33ec5b83365c0c359437ef",
         "bytes": 398,
         "extension": ".json",
@@ -8550,9 +8550,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs:c8e39f1527ff6cb5",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs:c8e39f1527ff6cb5",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
         "sha256": "c8e39f1527ff6cb57c5c457899baae2d4d2f84386f36c1bb2255ece7c891aaba",
         "bytes": 4253,
         "extension": ".mjs",
@@ -8575,9 +8575,9 @@
       ]
     },
     {
-      "id": "legacy-source:services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs:dc0d11cd42f055c1",
+      "id": "legacy-source:services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs:dc0d11cd42f055c1",
       "source": {
-        "path": "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs",
+        "path": "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs",
         "sha256": "dc0d11cd42f055c1419de98e9f306461b57f13c097799f46a1f984c292ff3928",
         "bytes": 2315,
         "extension": ".mjs",
@@ -9205,9 +9205,9 @@
     {
       "id": "@red-cup-engineering/model-tournament-service",
       "sourcePaths": [
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs"
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package-lock.json",
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/package.json",
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/model-tournament-service/src/tournament.mjs"
       ],
       "effect": "the package @red-cup-engineering/model-tournament-service",
       "carrier": "@red-cup-engineering/model-tournament-service",
@@ -9281,8 +9281,8 @@
     {
       "id": "@red-cup-engineering/normalize-earning-opportunity-service",
       "sourcePaths": [
-        "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
-        "services/engineering-services-section/services/financial-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs"
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/package.json",
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/normalize-earning-opportunity-service/src/index.mjs"
       ],
       "effect": "the package @red-cup-engineering/normalize-earning-opportunity-service",
       "carrier": "@red-cup-engineering/normalize-earning-opportunity-service",
@@ -9655,10 +9655,10 @@
     {
       "id": "@red-cup-engineering/transaction-cost-replay-service",
       "sourcePaths": [
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
-        "services/engineering-services-section/services/financial-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs"
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package-lock.json",
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/package.json",
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/src/replay.mjs",
+        "services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/computer-economic-systems-engineering-services-section/services/computer-financial-systems-engineering-services-section/services/strategy-evaluation-services-section/services/transaction-cost-replay-service/test/replay.test.mjs"
       ],
       "effect": "the package @red-cup-engineering/transaction-cost-replay-service",
       "carrier": "@red-cup-engineering/transaction-cost-replay-service",
