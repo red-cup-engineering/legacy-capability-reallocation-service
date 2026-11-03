@@ -889,7 +889,7 @@
    "deps": [],
    "consumers": [
     "@561-group/kindle-publishing-system-services-section",
-    "@coesite-operations/enterprise-outreach-services-section",
+    "@coesite-operations/enterprise-outreach-operations-services-section",
     "@emsenn/youtube-engineering-services-section",
     "@red-cup-engineering/fastmail-services-section",
     "@red-cup-engineering/gemini-notebook-services-section",
@@ -1903,7 +1903,7 @@
     "@561-group/group-operations",
     "@561-group/kindle-publishing-system-services-section",
     "@causeway-services/public-education-services-section",
-    "@coesite-operations/enterprise-outreach-services-section",
+    "@coesite-operations/enterprise-outreach-operations-services-section",
     "@red-cup-engineering/agent-harness-computer-system-engineering-services-section",
     "@red-cup-engineering/animating",
     "@red-cup-engineering/computer-deployment-engine",
@@ -1965,7 +1965,7 @@
     "@561-group/corpus-management-service",
     "@561-group/kindle-publishing-system-services-section",
     "@561-group/memetics",
-    "@coesite-operations/enterprise-outreach-services-section",
+    "@coesite-operations/enterprise-outreach-operations-services-section",
     "@emsenn/organizing-as-lakota",
     "@lenticule-science/divination-computer-system-service",
     "@lenticule-science/divining",
@@ -3723,7 +3723,7 @@
    "consumers": [
     "@561-group/kindle-publishing-system-services-section",
     "@causeway-services/shop",
-    "@coesite-operations/enterprise-outreach-services-section",
+    "@coesite-operations/enterprise-outreach-operations-services-section",
     "@red-cup-engineering/x402-services-section"
    ],
    "level": 10
@@ -4033,7 +4033,7 @@
    "consumers": [
     "@561-group/kindle-publishing-system-services-section",
     "@causeway-services/shop",
-    "@coesite-operations/enterprise-outreach-services-section",
+    "@coesite-operations/enterprise-outreach-operations-services-section",
     "@red-cup-engineering/buttondown-services-section",
     "@red-cup-engineering/computer-systems-publishing-engineering-services-section"
    ],
@@ -4365,7 +4365,7 @@
    ],
    "consumers": [
     "@561-group/bare-cedar-fog-services-section",
-    "@coesite-operations/enterprise-outreach-services-section",
+    "@coesite-operations/enterprise-outreach-operations-services-section",
     "@red-cup-engineering/public-personality-services-section"
    ],
    "level": 1
