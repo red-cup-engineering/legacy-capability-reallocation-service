@@ -129138,8 +129138,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 3,
    "deletedBy": {
@@ -129153,80 +129153,80 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/build.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/build.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/build.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/build.mjs",
      "gitBlob": "43993ef48c0f9b08c8dde882bbe00ade9a33f38d",
      "sha256": "240180b1c5dc314e1ee681986b9bd26d1e4fd1d7fde167a906e2c3a6e4ed99e7",
      "bytes": 11171,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/catalog.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/catalog.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/catalog.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/catalog.json",
      "gitBlob": "751d761369c7ce4420290e2b96c7186177452dc1",
      "sha256": "dbe62c780e53777a86567a105ea5d1c90ed6d3fc4fa5ac57348625e6a8452470",
      "bytes": 50928,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/index.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/index.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/index.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/index.html",
      "gitBlob": "eb3fc8713a289124dba3bc3ce2755eeba46a6c44",
      "sha256": "1ec0fc9e774902c9ce08ca244f6a20df733aac2b68e9b0f68a99e68ecc3d46d7",
      "bytes": 47292,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/js/today.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/js/today.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/js/today.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/js/today.mjs",
      "gitBlob": "94d17e5bcea7f249768c2bf9e7a68ee088afaa96",
      "sha256": "acf92bae8b7a0606651cf0540ceadfd6a60a0b59a8419111ddd481e86b522e4d",
      "bytes": 9222,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/package-lock.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/package-lock.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/package-lock.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/package-lock.json",
      "gitBlob": "8d537055e4334862f7495e11b361aab7018a68e8",
      "sha256": "a4ed515d045651dd661e21511052fa69c62aa242fd14c11f3d6cbc8839778ee5",
      "bytes": 61834,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/package.json",
      "gitBlob": "d70bcc651db2b2674a63dd82e212588d8fe6c1b0",
      "sha256": "063e3bc9b996ee894cc7ae163fbef32e1c18399fb344da5b26f711988f428944",
      "bytes": 1329,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/scripts/build-catalog.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/scripts/build-catalog.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/scripts/build-catalog.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/scripts/build-catalog.mjs",
      "gitBlob": "37e8986965c4a325c2cc69c1d9fc1e2731c10879",
      "sha256": "cc144057dc9d2ebba6d06db5ef3cc29d5f6e5e9653b0a446f44756693cb5c623",
      "bytes": 12766,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/test/catalog-generation.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/test/catalog-generation.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/test/catalog-generation.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/test/catalog-generation.test.mts",
      "gitBlob": "71389e8a953ef79c7cbf72188752966f1e851284",
      "sha256": "8ee6e6c902dbb378cfdb8994032f51c5378a308581a466d22682cad9eee540cd",
      "bytes": 6041,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/test/honest-links.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/test/honest-links.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/test/honest-links.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/test/honest-links.test.mts",
      "gitBlob": "d3856bb779a7c7c4a4ced8a6c3f36992193fa53e",
      "sha256": "6eaab61b34ddf04e74b0fa057846f3c3a8195c22336bfef779716424e08fdf94",
      "bytes": 10368,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/today.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-games-services-section/sites/play.561.group/today.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/today.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/lib/legacy/restored-from-main/2026-09-18-5cc6364/services/public-computer-games-services-section/services/public-web-game-services-section/sites/play.561.group/today.html",
      "gitBlob": "54d9176374453edd20632e3bc7b1e7da0c3a60a5",
      "sha256": "e124bec1432b2335e38a0c68597e6e8fea83c17706f262f0c2f348ac35577f8f",
      "bytes": 16228,
@@ -132286,8 +132286,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 7,
    "deletedBy": {
@@ -132301,56 +132301,56 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/server/world/log-store.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/server/world/log-store.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/server/world/log-store.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/server/world/log-store.mjs",
      "gitBlob": "00acbe2c76078db6855a3e5fae94308856da6b5e",
      "sha256": "15389aa0a736d52105f3479997db4066b87b5927edb1ac7a2761027642d92b17",
      "bytes": 16010,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/boot-compaction.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/boot-compaction.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/boot-compaction.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/boot-compaction.test.mjs",
      "gitBlob": "0bc342a0b7b4a3b44b4804c6fe050348486baa58",
      "sha256": "1d1b36ac7df3dd0963e0e2d48aace86128d9162bfb86a68377ac331d1b059999",
      "bytes": 10569,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/compaction.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/compaction.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/compaction.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/compaction.test.mjs",
      "gitBlob": "ed1c9e43395d25b963128d4bf8c9e3527bc12d85",
      "sha256": "6f626eda8012923fcefdf8da68b3c424d68a03d576b1c76197615ab31470b6de",
      "bytes": 9729,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/gcs-client.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/gcs-client.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/gcs-client.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/gcs-client.test.mjs",
      "gitBlob": "d412676f616c724fedf2986d11fb4857868cab6e",
      "sha256": "e20ea1c6da3a608d3e93615fc978e0ab58d7275bbe02d8c12e34256e49f6f852",
      "bytes": 8505,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/gcs-retry.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/gcs-retry.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/gcs-retry.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/gcs-retry.test.mjs",
      "gitBlob": "f4b9da2ebcf70bf8b21da78e814653c91bc3b877",
      "sha256": "2ff1b7a236f8619d6ee7e939efde29371d073620652d3b1337901a150a2878a1",
      "bytes": 9028,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/helpers/fake-gcs.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/helpers/fake-gcs.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/helpers/fake-gcs.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/helpers/fake-gcs.mjs",
      "gitBlob": "abf5dcaf52adde1d6d976474631b5e589d44ae93",
      "sha256": "4262f473e7f6fc5aba0b66dd2c1a3edaebd54195369e3d61d071348ea8cf48b4",
      "bytes": 8479,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/log-store.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/log-store.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/log-store.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites/aletheon.561.group/tests/log-store.test.mjs",
      "gitBlob": "b5e52566f7163bf68e59224df82dcfb374b140b3",
      "sha256": "e991372d7049432f83fe1e39ad264286f5143f0bcefe70d622814722ab5bd722",
      "bytes": 7857,
@@ -134506,8 +134506,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-8591895/sites/lantern.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-8591895/sites/lantern.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -134521,8 +134521,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/test/parity.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-8591895/sites/lantern.play.561.group/web/test/parity.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/test/parity.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-8591895/sites/lantern.play.561.group/web/test/parity.test.mjs",
      "gitBlob": "bd7f1808fce27d00b8578916b8aaa65f0b86d9a0",
      "sha256": "a80061292caf564e3c48fa1559b7b5cfc9290a852791cc7b9845b0f8ba7d7a59",
      "bytes": 7716,
@@ -134531,8 +134531,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 3,
    "deletedBy": {
@@ -134546,24 +134546,24 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/src/lightcone.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group/src/lightcone.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/src/lightcone.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group/src/lightcone.mjs",
      "gitBlob": "a482a423b0f08ac9d6b602fb000130024bcc8d5a",
      "sha256": "c500563aecac0152cc18e967379ebb215827ff5606d4dbb8ace6ec9196f83639",
      "bytes": 4780,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/src/stability.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group/src/stability.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/src/stability.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group/src/stability.mjs",
      "gitBlob": "e876ed996b0c45fe742820728403b77b5f0d45e1",
      "sha256": "83a1f8722b89f06d392bbd157b7a22a61c1f6105b8295bc3314afbf823c2cf0b",
      "bytes": 10502,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/src/types.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group/src/types.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/src/types.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites/lantern.play.561.group/src/types.mjs",
      "gitBlob": "7f6f92c1115fad5b1e6e30e5cef8aadbf31d9c70",
      "sha256": "f0c3dd3ab2923c5b4615c330b827f6728bf151a22ff614e193f3f9b3ccd8354f",
      "bytes": 807,
@@ -134597,8 +134597,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 6,
    "deletedBy": {
@@ -134612,288 +134612,288 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/.gitignore",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/.gitignore",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/.gitignore",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/.gitignore",
      "gitBlob": "06ce0e5511d079d9c9458d963317814e1687c430",
      "sha256": "d842f5f4cc844f056108901e9fb67f6e8146e58efd785fe2ef3e50ae25dbf7f1",
      "bytes": 98,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/ARCHITECTURE.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/ARCHITECTURE.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/ARCHITECTURE.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/ARCHITECTURE.md",
      "gitBlob": "bd16c40f759f8571ec530ef7bf64ac3ca730d7e6",
      "sha256": "57392350a278b878b65e8cd5a9d838d04169e19701866e0df39a947035c9aebb",
      "bytes": 13450,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/README.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/README.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/README.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/README.md",
      "gitBlob": "60e850703ada5558161800718710a311d572bf60",
      "sha256": "c1b761f3741f56675ab3e3592478c9bac0d7d52acca096807021cb7a437c7a34",
      "bytes": 7213,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/ROADMAP.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/ROADMAP.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/ROADMAP.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/ROADMAP.md",
      "gitBlob": "95553eedf4ac25786d0fe0315e5d53e5d3abcd18",
      "sha256": "5ee79291bf15e5e91e62b2e91691326f6c03d96ce6624d61b3b6d83de1355615",
      "bytes": 3217,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/catalog-entry.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/catalog-entry.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/catalog-entry.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/catalog-entry.json",
      "gitBlob": "d4205065d18bed427f494b8647442ecefe440782",
      "sha256": "b847a6d4bbf8524d42804c1c52558f67482d976358e818b437c3b81de869d082",
      "bytes": 1056,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/data/world-weiqi.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/data/world-weiqi.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/data/world-weiqi.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/data/world-weiqi.json",
      "gitBlob": "6fd21429d20ab840e4130cbdf441b91f1912c841",
      "sha256": "85c7618bad7b50211c36b14fcae3f3fe5763e617fa486096143648bbb1e127bf",
      "bytes": 570110,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/package.json",
      "gitBlob": "1214b00353258118a3af59fd5d0ae7e9b811720d",
      "sha256": "12af0fb900962f6057e33b88656726b4152e67e40ddc33256ef0551877419e3c",
      "bytes": 793,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/scripts/vaultmaze.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/scripts/vaultmaze.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/scripts/vaultmaze.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/scripts/vaultmaze.mjs",
      "gitBlob": "d338fe6345c71a45ee456eb3a29434861347c10d",
      "sha256": "148451687b54bb06d7fb4cae2c21ac40630b875691daca127f6eb0f28ac5d38a",
      "bytes": 6970,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/css/style.css",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/css/style.css",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/css/style.css",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/css/style.css",
      "gitBlob": "522c1343c27e623163ca53cb21c61e3d7c3a3cec",
      "sha256": "6164545600d74e92450fdd44b33ce83ebc253bbdf4ffe48dbd2d193874d74390",
      "bytes": 9968,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/dummy-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/dummy-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/dummy-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/dummy-layout.json",
      "gitBlob": "bb9d6c415b39be759b13b868ce1df41f9f0b10cb",
      "sha256": "d9597cbe65a975cbdf178e0482c25c75670a92d6c5827968b9b19c5c3ba17228",
      "bytes": 36212,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/dummy-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/dummy-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/dummy-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/dummy-meta.json",
      "gitBlob": "aed1197b171d5a0ef4b40ab55959c3ceceec31a6",
      "sha256": "808858f58d6f2675459638749386f7e176f9de5ede02d61785635c067a296526",
      "bytes": 499,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/dummy.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/dummy.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/dummy.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/dummy.json",
      "gitBlob": "f669f72805eef38621dcbb2a118436fa08372ac3",
      "sha256": "61714b0067ebe489a00f17eb82c9208f3ead52df0fbacf70802c96077a82e7ac",
      "bytes": 797165,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/obsfixture-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/obsfixture-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/obsfixture-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/obsfixture-layout.json",
      "gitBlob": "4cadcc871f611f292a723dadeca90a31299fceed",
      "sha256": "6999a32362dd2d7c2e7cf31ea57ffc871757bbc50008233851df92f185e5297b",
      "bytes": 2541,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/obsfixture-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/obsfixture-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/obsfixture-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/obsfixture-meta.json",
      "gitBlob": "ea3edcefcda851ba64163e038e9bce7875f7d542",
      "sha256": "61b1038e93e35c3096c8aa88fd980ed3ddad19bb3a034cc4ac2e8013e3bc2512",
      "bytes": 614,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/obsfixture.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/obsfixture.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/obsfixture.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/obsfixture.json",
      "gitBlob": "a3f061104b92b04de9b8d90425b305e8c3d09dda",
      "sha256": "b0cef78d77a633103d578079f1c0d23ca09cbd5e5ce3a2c19f7d52675b2afd26",
      "bytes": 25839,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/orgsample-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/orgsample-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/orgsample-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/orgsample-layout.json",
      "gitBlob": "adcf63c695059e200cbf28d93a9522ba844fb939",
      "sha256": "a5df18f72d6291664019632a8076186a68edf2946120ea5a26145385e4920fc4",
      "bytes": 1759,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/orgsample-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/orgsample-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/orgsample-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/orgsample-meta.json",
      "gitBlob": "59fffb1dd4f19b5f311a955591126643a3753759",
      "sha256": "47b90d6fe0e625b547b08407bd6151c9d42aeb10fbc48b75c6866c3693d956b7",
      "bytes": 533,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/orgsample.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/orgsample.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/orgsample.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/orgsample.json",
      "gitBlob": "843c78652fca56497da5df89a0d0d2ed19837382",
      "sha256": "1cc1da6942fad4a1a971426d32b91baabaeea942257cb2fba598a56e5ccd2817",
      "bytes": 47520,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/ourcontent-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/ourcontent-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent-layout.json",
      "gitBlob": "f4e20639150a159b78d0d56cd948db5321e45bef",
      "sha256": "9de9cb9e8705d6e62ac8f60027f5509d7abd8beb5d69e2b12162f4cd7adf35f2",
      "bytes": 15511,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/ourcontent-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/ourcontent-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent-meta.json",
      "gitBlob": "45b9f8f7e133b941a7e21fd462278faa2e77b8b8",
      "sha256": "54a7b1c11d52386d3e4129d0cec6615af407632237742c7ab6c5448095d904ba",
      "bytes": 542,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/ourcontent.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/ourcontent.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent.json",
      "gitBlob": "fdc3ef82753401c146045a2622cefd77a89d9620",
      "sha256": "318ed465cb2e69ab678fb2e8886f62069b4d19cc6fafa18025dadb26e19007fd",
      "bytes": 520237,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/ourcontent2-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent2-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/ourcontent2-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent2-layout.json",
      "gitBlob": "a30925cb122230244215a982a342279d05f233f4",
      "sha256": "94a38be36fdb053fc995f04ad651ed070e471e75c6f53bb3bfb42ee9a920e55d",
      "bytes": 15512,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/ourcontent2-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent2-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/ourcontent2-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent2-meta.json",
      "gitBlob": "e622cc673e4902d1a9684b456713a5e5378d18f5",
      "sha256": "eb164865c9d403ad1d001f8c8f65a4d6341e441b380eb9f5d70d838c37381caa",
      "bytes": 543,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/ourcontent2.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent2.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/ourcontent2.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/ourcontent2.json",
      "gitBlob": "58addbae14206886908d458430040a7dcc694db2",
      "sha256": "d8f550bf52e17fc7e2a23a717680d05998624a1e7f8be08f6e933042e2e633a2",
      "bytes": 526010,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/weiqi-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/weiqi-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-layout.json",
      "gitBlob": "b22780510de68c395125690d3ea2b32d5f5e7d8c",
      "sha256": "cc049fe54739a11a2b10cba54e2402ffa92233b62376121abd0110df5b1ad45e",
      "bytes": 13397,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/weiqi-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/weiqi-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-meta.json",
      "gitBlob": "d717520c4b83abdcee62baf1d379dc32beca7f6f",
      "sha256": "ab7c17dd2e0ed3c8811e9599aa826fa845762e09ec47cd3019d44707930aab99",
      "bytes": 466,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/weiqi-regr-layout.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-regr-layout.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/weiqi-regr-layout.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-regr-layout.json",
      "gitBlob": "fb5be1bfebb3deaee8685e538dc6284074239a5d",
      "sha256": "0871ebcccccc465de562a43a8c32f4351d6ce5087af2f209bed35af7d2c5583f",
      "bytes": 13967,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/weiqi-regr-meta.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-regr-meta.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/weiqi-regr-meta.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-regr-meta.json",
      "gitBlob": "e8c7693b21a243f2972c44c39b76c934b1bd18ba",
      "sha256": "74ae7e93229f5536e5048239366cf5ab275c7f2f2b6a7a294445c189fa0bcdd3",
      "bytes": 471,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/weiqi-regr.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-regr.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/weiqi-regr.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi-regr.json",
      "gitBlob": "ec420b32776ab077c6e0b4add94ac4eae3af01b2",
      "sha256": "aa7f06eb0c974e8fc22181b9087e535640ecae1752d697b81af67ab1e6752708",
      "bytes": 597456,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/data/weiqi.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/data/weiqi.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/data/weiqi.json",
      "gitBlob": "254c87fa8d50a588eb4ca09c8b8dd64d65912fab",
      "sha256": "00cc53ad7b2afbce37e717c19d7da6b3f286f74f3ebc87079d52167a64023779",
      "bytes": 551310,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/index.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/index.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/index.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/index.html",
      "gitBlob": "303924e1afbc45c55c45f7616ed5ac3c56d2b6b9",
      "sha256": "ab596faef50f5834ee98d6d686480ba2510a37cf23c4d32b24ed051a5030af1c",
      "bytes": 4349,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/js/a11y.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/js/a11y.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/js/a11y.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/js/a11y.js",
      "gitBlob": "b43ae979bf02f9eb7ec93276a8210eb54d5b28aa",
      "sha256": "fc5c782a4e58ea6116a611136a4348c155ce02e75625ce1ccdf47eacdddf06bc",
      "bytes": 2276,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/js/app.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/js/app.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/js/app.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/js/app.js",
      "gitBlob": "ddc492705ca6c5d05b37542f47cedd657d02b0a5",
      "sha256": "b1257289cd504897b5d8d7d5d98d4717005098a87c829ebe35cee3934c125663",
      "bytes": 22585,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/js/state.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/js/state.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/js/state.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/js/state.js",
      "gitBlob": "5f7d6d04b9a6f94696b2c54f98fe6de4d617c28f",
      "sha256": "34a57f21bd6316ca1c73477390f3aeb50bab58300d5ec7bd6845f955aaea5d6e",
      "bytes": 7478,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/server.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/server.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/server.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/server.mjs",
      "gitBlob": "3b4dc1e1591970ff8b400bc907fedc3fd2e64489",
      "sha256": "ece9db8b0a9a4aba8088b756232c6710ca9a5417ced5e964b8c96ed979c3782a",
      "bytes": 2554,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/lantern.play.561.group/web/test/smoke.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/test/smoke.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/lantern.play.561.group/web/test/smoke.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites/lantern.play.561.group/web/test/smoke.test.mjs",
      "gitBlob": "1aa915769e8b86b7f47f5e20d09bcb949be0e8b1",
      "sha256": "86fef66d566ab9207e83ea93fc5f82479b8dcf817890e37576a9bfa25528f203",
      "bytes": 7363,
@@ -135007,8 +135007,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -135022,24 +135022,24 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/.gcloudignore",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group/.gcloudignore",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/.gcloudignore",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group/.gcloudignore",
      "gitBlob": "3bfd68f34fabbc00bd624a4aa453f4877cea0e95",
      "sha256": "cd8c2a593486dd13772fc89d9bb8e2c01b741a9337d69a256a5d24578d299b76",
      "bytes": 71,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/Dockerfile",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group/Dockerfile",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/Dockerfile",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group/Dockerfile",
      "gitBlob": "9894b4e833a562ae53a628f64e208bf09d921a4c",
      "sha256": "ce0abf5a54e85e538455c6cd945686a904e19ef69536555881b0eb467cc46804",
      "bytes": 476,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/telnet-wiring.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group/src/telnet-wiring.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/telnet-wiring.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites/farstone.561.group/src/telnet-wiring.mjs",
      "gitBlob": "ad4ce6e233ae299f920456ad1c2bf1a57cb0beb5",
      "sha256": "099be19820fc4e688880683ed306762814d186f2dc781a698e0f6ea220757997",
      "bytes": 6355,
@@ -135105,8 +135105,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/crucible.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/crucible.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/crucible.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/crucible.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -135120,16 +135120,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/crucible.play.561.group/src/seed.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/crucible.play.561.group/src/seed.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/crucible.play.561.group/src/seed.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/crucible.play.561.group/src/seed.mjs",
      "gitBlob": "c545bd9cfb7e51096027c566b63ac1a16f7c7c3a",
      "sha256": "0f7fbbe77355fe1fc4b65563c138a6275c0ec42a2dc7a2cbe85cac194021a957",
      "bytes": 2553,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/crucible.play.561.group/src/seed.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/crucible.play.561.group/src/seed.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/crucible.play.561.group/src/seed.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/crucible.play.561.group/src/seed.test.mjs",
      "gitBlob": "2d673c3590b49e0967a42132eb5c1c64f8d201da",
      "sha256": "46c8cdacde4b8d9b98a36166ef3e65ef404981ec1d428066280be7ad0f9f1c11",
      "bytes": 2472,
@@ -135138,8 +135138,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/flickering.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/flickering.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/flickering.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/flickering.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -135153,8 +135153,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/flickering.play.561.group/src/seed.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/flickering.play.561.group/src/seed.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/flickering.play.561.group/src/seed.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/flickering.play.561.group/src/seed.mjs",
      "gitBlob": "b73aac9fd982e4e985d29a7125d168552f3d1f30",
      "sha256": "db73ce7487043c41a2a058d2f38db9e22e7db864c43de223f10637924dc90a94",
      "bytes": 1258,
@@ -135163,8 +135163,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/gambling-trainer.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/gambling-trainer.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/gambling-trainer.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/gambling-trainer.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -135178,8 +135178,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/gambling-trainer.play.561.group/src/seed.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/gambling-trainer.play.561.group/src/seed.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/gambling-trainer.play.561.group/src/seed.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/gambling-trainer.play.561.group/src/seed.mjs",
      "gitBlob": "92d06644d00d7cbd46bf3a9f601d76796e63718e",
      "sha256": "d190f055435f2b30870b79e58255b7616f1c70ed0b7751b7d1211d531e474e0c",
      "bytes": 2652,
@@ -135188,8 +135188,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/onestone.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/onestone.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/onestone.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/onestone.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -135203,16 +135203,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/onestone.play.561.group/src/seed.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/onestone.play.561.group/src/seed.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/onestone.play.561.group/src/seed.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/onestone.play.561.group/src/seed.mjs",
      "gitBlob": "e1706a44486f4172ca531cbc1f88479d7014bf61",
      "sha256": "27eaee6f62caa4c2c88266f8115a2cb625e2d57280e30f30ec812f97101051d3",
      "bytes": 2819,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/onestone.play.561.group/src/seed.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/onestone.play.561.group/src/seed.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/onestone.play.561.group/src/seed.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/onestone.play.561.group/src/seed.test.mjs",
      "gitBlob": "645204a0665119d198390cb9cf0c2698ade83ce1",
      "sha256": "10fb17582ee82995205fd809fbf0e587836021a19d5b41bf61768c86fb59eba2",
      "bytes": 4057,
@@ -135221,8 +135221,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/solitaire.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/solitaire.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/solitaire.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/solitaire.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -135236,16 +135236,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/solitaire.play.561.group/src/cards.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/solitaire.play.561.group/src/cards.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/solitaire.play.561.group/src/cards.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/solitaire.play.561.group/src/cards.mjs",
      "gitBlob": "a8edfff137d5166bbffd4fdeb2144d4ecec30707",
      "sha256": "0f5dde38d39a5ae9f654d2060641decb4ef3272f4124774771422e1296520857",
      "bytes": 4633,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/solitaire.play.561.group/src/cards.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/solitaire.play.561.group/src/cards.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/solitaire.play.561.group/src/cards.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/solitaire.play.561.group/src/cards.test.mjs",
      "gitBlob": "91db8b2a0d73d797b227d3110584c27a2cd72b77",
      "sha256": "74efe3e0ed3f2f451e1cc8c9a185ec7cafc41a9772571e81a0f9ae2f49e91c0d",
      "bytes": 3170,
@@ -135254,8 +135254,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/you-are-conscious.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/you-are-conscious.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/you-are-conscious.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/you-are-conscious.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -135269,8 +135269,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/you-are-conscious.play.561.group/src/rng.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/you-are-conscious.play.561.group/src/rng.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/you-are-conscious.play.561.group/src/rng.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites/you-are-conscious.play.561.group/src/rng.mjs",
      "gitBlob": "cc9ad1e26369888d6a67e791958d3e9bf654e16c",
      "sha256": "3651293d3b8ed7c0a5ae7d0cac75bd043c4d30d6f618dbf90a3fc18bcc051d81",
      "bytes": 2146,
@@ -135493,8 +135493,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 4,
    "deletedBy": {
@@ -135508,32 +135508,32 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/server/world/local-log-compaction.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/server/world/local-log-compaction.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/server/world/local-log-compaction.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/server/world/local-log-compaction.mjs",
      "gitBlob": "1f1b6d4ecf5c26e39f49571de7ebfad0d228b8c4",
      "sha256": "fec11215df1cf4c13333ad0d3e1cb858f9ca336e9fd8da32e2f454f696c3023a",
      "bytes": 3169,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/server/world/snapshot.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/server/world/snapshot.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/server/world/snapshot.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/server/world/snapshot.mjs",
      "gitBlob": "156a6c84c84d66ef3581d8e2de17b631d3d45c85",
      "sha256": "2bb57720e1941e87a363492b7d0a939ed7c961bbd8d83192241e8ff2578ca522",
      "bytes": 6268,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/local-log-compaction.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/tests/local-log-compaction.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/local-log-compaction.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/tests/local-log-compaction.test.mjs",
      "gitBlob": "79e1fc9005200d97ee85efc65ef8e16cc0223f57",
      "sha256": "7b809870afddf033ebb5c3c13321bd35ac6597636e0ba086410ab75da46ff18e",
      "bytes": 8210,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/tests/snapshot-equivalence.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/tests/snapshot-equivalence.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/tests/snapshot-equivalence.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites/aletheon.561.group/tests/snapshot-equivalence.test.mjs",
      "gitBlob": "a3ff5d17288a87d2cb043c1c6457c7c58d575282",
      "sha256": "4cdb885962ba71e2ec71fc091e3372fcdbb8b056a23a3a6e3d07f2809ec7e1f7",
      "bytes": 9117,
@@ -135542,8 +135542,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/crucible.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-bdd6dac/sites/crucible.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/crucible.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-bdd6dac/sites/crucible.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -135557,8 +135557,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/crucible.play.561.group/web/test/importmap.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-bdd6dac/sites/crucible.play.561.group/web/test/importmap.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/crucible.play.561.group/web/test/importmap.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-bdd6dac/sites/crucible.play.561.group/web/test/importmap.test.mjs",
      "gitBlob": "d4d8c1270e8bca15787774a9871d7bc07327d00a",
      "sha256": "e1494efaa2c175d257857dbed98cb29d9de7f43820b62691235a1e1b2b46e8b5",
      "bytes": 5451,
@@ -135567,8 +135567,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 6,
    "deletedBy": {
@@ -135582,96 +135582,96 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/data/world-equivo.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/data/world-equivo.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/data/world-equivo.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/data/world-equivo.json",
      "gitBlob": "6d59ae76fe7a7aae7beffa2c3899f0f743e93b7b",
      "sha256": "bd81440352ae35aae3637ce1cda89a4e3ef19aacbeee80205c6f6710187f6608",
      "bytes": 55869,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/test/fixtures/sample-adapter.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/test/fixtures/sample-adapter.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/test/fixtures/sample-adapter.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/test/fixtures/sample-adapter.mjs",
      "gitBlob": "6a234ac4ea1babe49a8ce6f304b831822877550a",
      "sha256": "aa192931370bbe2f8560887deebd2202091da7cac26da57c42370a0872dbd672",
      "bytes": 87,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/test/fixtures/sample-builder.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/test/fixtures/sample-builder.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/test/fixtures/sample-builder.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/test/fixtures/sample-builder.mjs",
      "gitBlob": "1ddfa26538795b317845963444f91a7ec6912d69",
      "sha256": "4a515094380cb8ec0721aa8510cdaf7cc3ea4cad764b441694a305b041a321c1",
      "bytes": 87,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/test/projector.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/test/projector.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/test/projector.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/test/projector.test.mjs",
      "gitBlob": "06867e9aa8ed66c362d5ad4c73a2ec64304a886f",
      "sha256": "ca3b7ff4285e3b6cc16cb36959c7e5c9b0bea40cc4899e17b6faffb353b4219f",
      "bytes": 3071,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/.assetsignore",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/.assetsignore",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/.assetsignore",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/.assetsignore",
      "gitBlob": "1b37dff94b972ced8a38633ca6af0343d81f2065",
      "sha256": "4dab52113fd9b8ec089a3eefb7f4929be41d7fa6ed5245069356a2f7682618b5",
      "bytes": 35,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/css/style.css",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/css/style.css",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/css/style.css",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/css/style.css",
      "gitBlob": "d4615b751c882720c66513919cbb5ddcb9492270",
      "sha256": "1b7ef2fdb10ff1b333c8b21aab9b58f91a2cc032b69d65ab29aef096283c315d",
      "bytes": 7670,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/index.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/index.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/index.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/index.html",
      "gitBlob": "bc2568aea403cd5e3ca185b4cec6ea419aecd386",
      "sha256": "06e2e969551b71445a016eb489d21f7f3807f4bb84e745db05bfff0f4342b514",
      "bytes": 2499,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/js/equivo-app.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/js/equivo-app.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/js/equivo-app.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/js/equivo-app.js",
      "gitBlob": "3e718318054062789de5296f0fd3a29b95decb6d",
      "sha256": "d0dff3c4a6c0ecd76fa6ad9819987cccbeadb7dfc8c79d797e1dc1eb177f29b6",
      "bytes": 163,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/server.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/server.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/server.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/server.mjs",
      "gitBlob": "a8f0fc2818a9f87464966926734664c0a03264b1",
      "sha256": "50f35d422097d087df3d4e4383773a04978e100cc97a4a37307c49bc40cca9f2",
      "bytes": 1510,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/test/router-wiring.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/test/router-wiring.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/test/router-wiring.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/test/router-wiring.test.mjs",
      "gitBlob": "5bc46c87effb7c24763a0e89b4744b11f4f42a9e",
      "sha256": "5d38cc324ff2242a143932908c010f10c49d0ca6ae6a81760c662836f8b1b888",
      "bytes": 1421,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/test/smoke.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/test/smoke.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/test/smoke.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/test/smoke.test.mjs",
      "gitBlob": "2c563a55bb59e618d63fe490c4c5488763f12044",
      "sha256": "99f644984441f97731743aeeb54f0535a5b4ff92c255766cc19a0bc7f6f2b153",
      "bytes": 4586,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/equivo.play.561.group/web/test/vendor-parity.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/test/vendor-parity.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/equivo.play.561.group/web/test/vendor-parity.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites/equivo.play.561.group/web/test/vendor-parity.test.mjs",
      "gitBlob": "e124c3efa7c4f469ba8d5ccc78bf656c1f01f91d",
      "sha256": "4af105cb814bff0a4cf2183f950cd169a2d591e1e30962e6a9536ec408f98682",
      "bytes": 6350,
@@ -135680,8 +135680,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 5,
    "deletedBy": {
@@ -135695,64 +135695,64 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/build.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/build.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/build.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/build.mjs",
      "gitBlob": "10471282ca12f75a7b2c0612e0ddcf6237c7fa55",
      "sha256": "899463b37beb17ada6496c32f662032c1452604b289430fa10ea6c8c242b1124",
      "bytes": 10959,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/catalog.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/catalog.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/catalog.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/catalog.json",
      "gitBlob": "6063b4ef3051e41e59abbc891c1bbf1200fedc00",
      "sha256": "3ed95d93667611c0780d7b80c346aac7879a7a923254c20282562ab19fdd2a21",
      "bytes": 44019,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/index.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/index.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/index.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/index.html",
      "gitBlob": "62f0d129a53a303cbd71964e6c17b1907ea46f76",
      "sha256": "227433268ed497660720b02534b8275c9dec5edc5db85e69e4ceec6febedfaed",
      "bytes": 44563,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/js/live-subdomains.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/js/live-subdomains.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/js/live-subdomains.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/js/live-subdomains.mjs",
      "gitBlob": "48b0ececd48870450df87e634f887ea2efe0a3e3",
      "sha256": "ddbe95128b09af8d8bbda934cdb802dedc9cc7e5c6afde29bfeaa4cb1b6fa7c8",
      "bytes": 628,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/scripts/stage-public.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/scripts/stage-public.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/scripts/stage-public.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/scripts/stage-public.mjs",
      "gitBlob": "999ea97a7141d4055e31783bf754d4ce6574228f",
      "sha256": "fff34d67463f2708e0cb59db33b7787918fd693a5bc945a8b37c5e18f008b3b8",
      "bytes": 1298,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/serve.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/serve.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/serve.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/serve.mjs",
      "gitBlob": "400ae7b1eaceb53d4381eda0fcfc17a098ee06ca",
      "sha256": "8e4cda41bedff5ed2253ca21192653c9ae2d2276421541e6c1f8ffc6d8e18271",
      "bytes": 837,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/test/honest-links.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/test/honest-links.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/test/honest-links.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/test/honest-links.test.mjs",
      "gitBlob": "fcf30516f0567ff8f5d1c39714694e21a5a70c1a",
      "sha256": "ffc618d68b9dfcdf10235068849e9b81834128f4dabd8cd23f5e58ca91cc5a70",
      "bytes": 9298,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group/today.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/today.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group/today.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites/play.561.group/today.html",
      "gitBlob": "6721be2733dbdcf0b12423fe510bc63d75c24497",
      "sha256": "0942a9d8432bfc8c70febd0422ac688ed2121e7a4b40ec8d12625f1e157ca1bc",
      "bytes": 16071,
@@ -135761,8 +135761,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/ruinfold.play.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites/ruinfold.play.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/ruinfold.play.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites/ruinfold.play.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -135776,16 +135776,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/ruinfold.play.561.group/src/server/engine-serve.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites/ruinfold.play.561.group/src/server/engine-serve.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/ruinfold.play.561.group/src/server/engine-serve.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites/ruinfold.play.561.group/src/server/engine-serve.mjs",
      "gitBlob": "4d77b8bee16f50ddc943928ab4ff81838fc4853f",
      "sha256": "9c7327b55a42d8f2a9c5c69e27d1e6d9195f45123254b561807ed6c60cec5ad4",
      "bytes": 1964,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/ruinfold.play.561.group/src/server/static.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites/ruinfold.play.561.group/src/server/static.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/ruinfold.play.561.group/src/server/static.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites/ruinfold.play.561.group/src/server/static.mjs",
      "gitBlob": "498fbc9ae7c5ec04ea2b9f4128e6c8f84654a1be",
      "sha256": "987df612045ff86c06cb4e9a7c9e1e3bb5cf9f4de426476a9afefbebb020ab5d",
      "bytes": 2223,

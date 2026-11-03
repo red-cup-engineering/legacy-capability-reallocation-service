@@ -4644,7 +4644,7 @@
    },
    "copies": [
     {
-     "path": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/flickering.play.561.group",
+     "path": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/flickering.play.561.group",
      "version": "0.1.0",
      "identical": false,
      "copyOnly": [

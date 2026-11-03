@@ -393,7 +393,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/teraum.561.group/lib/legacy/2026-05-20-engineering-triage-archive",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/teraum.561.group/lib/legacy/2026-05-20-engineering-triage-archive",
    "restored": false,
    "files": 327,
    "sourceFiles": 162,
@@ -1305,7 +1305,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-23-2178fdd/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-23-2178fdd/sites",
    "restored": true,
    "files": 73,
    "sourceFiles": 73,
@@ -1908,7 +1908,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/ruinfold.play.561.group/lib/legacy/legacy/2026-06-15-ruinfold",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/ruinfold.play.561.group/lib/legacy/legacy/2026-06-15-ruinfold",
    "restored": false,
    "files": 58,
    "sourceFiles": 53,
@@ -2267,7 +2267,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-22-b7def6c/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-22-b7def6c/sites",
    "restored": true,
    "files": 47,
    "sourceFiles": 47,
@@ -2280,7 +2280,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/ruinfold.play.561.group/lib/legacy/legacy/2026-08-17-windows-561-group-apps-games-ruinfold",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/ruinfold.play.561.group/lib/legacy/legacy/2026-08-17-windows-561-group-apps-games-ruinfold",
    "restored": false,
    "files": 52,
    "sourceFiles": 47,
@@ -2604,7 +2604,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites",
    "restored": true,
    "files": 57,
    "sourceFiles": 40,
@@ -2619,7 +2619,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group/lib/legacy/2026-08-17-windows-561-group-apps-games-aletheon",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group/lib/legacy/2026-08-17-windows-561-group-apps-games-aletheon",
    "restored": false,
    "files": 47,
    "sourceFiles": 40,
@@ -2631,7 +2631,7 @@
     "@561-group/aletheon"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/aletheon.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/aletheon.561.group"
    ],
    "activation": "pending"
   },
@@ -3865,7 +3865,7 @@
     "@red-cup-engineering/games-catalog-storefront"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group"
    ],
    "activation": "pending"
   },
@@ -6378,7 +6378,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-20-303781e/sites",
    "restored": true,
    "files": 12,
    "sourceFiles": 11,
@@ -7187,7 +7187,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-27-5b46bfa/sites",
    "restored": true,
    "files": 9,
    "sourceFiles": 9,
@@ -7723,7 +7723,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-28b653c/sites",
    "restored": true,
    "files": 12,
    "sourceFiles": 8,
@@ -7736,7 +7736,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/durante.play.561.group/lib/legacy/legacy/2026-06-17-durante",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/durante.play.561.group/lib/legacy/legacy/2026-06-17-durante",
    "restored": false,
    "files": 10,
    "sourceFiles": 8,
@@ -8277,7 +8277,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/durante.play.561.group/lib/legacy/legacy/2026-08-17-windows-561-group-apps-games-durante",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/durante.play.561.group/lib/legacy/legacy/2026-08-17-windows-561-group-apps-games-durante",
    "restored": false,
    "files": 9,
    "sourceFiles": 7,
@@ -9019,7 +9019,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-25-5632335/sites",
    "restored": true,
    "files": 36,
    "sourceFiles": 6,
@@ -10176,7 +10176,7 @@
     "@causeway-services/play"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group"
    ],
    "activation": "pending"
   },
@@ -10193,7 +10193,7 @@
     "@red-cup-engineering/crucible-561-group"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/crucible.play.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/crucible.play.561.group"
    ],
    "activation": "pending"
   },
@@ -10212,7 +10212,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-82d19d8/sites",
    "restored": true,
    "files": 8,
    "sourceFiles": 5,
@@ -11716,7 +11716,7 @@
     "@red-cup-engineering/flickering-561-group"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/flickering.play.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/flickering.play.561.group"
    ],
    "activation": "pending"
   },
@@ -11775,7 +11775,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-8eea345/sites",
    "restored": true,
    "files": 4,
    "sourceFiles": 4,
@@ -13707,7 +13707,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-19-f60a3fe/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-19-f60a3fe/sites",
    "restored": true,
    "files": 4,
    "sourceFiles": 3,
@@ -13720,7 +13720,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-4557dcc/sites",
    "restored": true,
    "files": 3,
    "sourceFiles": 3,
@@ -17733,7 +17733,7 @@
     "@causeway-services/play"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/play.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/play.561.group"
    ],
    "activation": "pending"
   },
@@ -17778,7 +17778,7 @@
     "@red-cup-engineering/onestone-561-group"
    ],
    "activeTwins": [
-    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/onestone.play.561.group"
+    "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/onestone.play.561.group"
    ],
    "activation": "pending"
   },
@@ -17822,7 +17822,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-5bed221/sites",
    "restored": true,
    "files": 2,
    "sourceFiles": 2,
@@ -24822,7 +24822,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-24-8591895/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-24-8591895/sites",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -24835,7 +24835,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-09-26-02ce512/sites",
    "restored": true,
    "files": 3,
    "sourceFiles": 1,
@@ -24848,7 +24848,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-04-bdd6dac/sites",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-04-bdd6dac/sites",
    "restored": true,
    "files": 1,
    "sourceFiles": 1,
@@ -24861,7 +24861,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/fyreside.play.561.group/lib/legacy",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/fyreside.play.561.group/lib/legacy",
    "restored": false,
    "files": 1,
    "sourceFiles": 1,

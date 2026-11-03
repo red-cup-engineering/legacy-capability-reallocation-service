@@ -36736,8 +36736,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 40,
    "deletedBy": {
@@ -36751,456 +36751,456 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/.gitignore",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/.gitignore",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/.gitignore",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/.gitignore",
      "gitBlob": "948c5e38b2fe7b9dcce39cbe7529448e738efe8f",
      "sha256": "eccc4cbbd1dbcece15881b795373f14ced33895be8b8f20a620588dbee7d46f6",
      "bytes": 37,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/README.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/README.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/README.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/README.md",
      "gitBlob": "a1ce4126681fa0716b9d116b3b15ff61c7522987",
      "sha256": "bf51b495e557531842cd2ffc98c0b914917e8379ff0e357f3b50f6eafbf4b641",
      "bytes": 3837,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/catalog-entry.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/catalog-entry.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/catalog-entry.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/catalog-entry.json",
      "gitBlob": "725c63e2fd01dfa11ad5983c541ceae4f621e012",
      "sha256": "47e0a78fe4d87f545db1109b0cb837b9fd1ac3d53152a27446c56d0c044d89e5",
      "bytes": 1074,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/data/records/retired-google-deployment.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/data/records/retired-google-deployment.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/data/records/retired-google-deployment.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/data/records/retired-google-deployment.md",
      "gitBlob": "c4e637a8ef5ebc0846c7b32d1fc8585514118e51",
      "sha256": "c01d8ca5e56e928d4ee9f74ed9daa630392c90669bc0bc1d03a1c4b32dff7b1e",
      "bytes": 3459,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/DESIGN.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/DESIGN.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/DESIGN.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/DESIGN.md",
      "gitBlob": "991bf92b16b6aea3ea1e5a5604aaae773354bf2a",
      "sha256": "b4c0913e0719d74fef90e18a6af9dbc749d922ae2e42bc80f4f7327f1a081e7f",
      "bytes": 24523,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/ROADMAP.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/ROADMAP.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/ROADMAP.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/ROADMAP.md",
      "gitBlob": "614e159daa2f6180cd0aa4f402293841de10aa0d",
      "sha256": "d663b1a5f6908747159e150367e2f93ad1fef4a7c35f459c269dac743cc2078d",
      "bytes": 8259,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/SYSTEMS.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/SYSTEMS.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/SYSTEMS.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/SYSTEMS.md",
      "gitBlob": "a9d8e5ddab37d63e97716f9e1c32d6c5f32975db",
      "sha256": "d05f7c74fdb162633aaaee07a59e88ef14ba2e75f2c3826ff5ad7591e6fcfe97",
      "bytes": 25506,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/world/README.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/README.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/world/README.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/README.md",
      "gitBlob": "0bce308cf40ba34601780de8f3e09447c158a835",
      "sha256": "8ab9376556d8442023d077b3a766c0f51660a1b27d8927fb0875010fa9b09ffc",
      "bytes": 4641,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/world/harbor.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/harbor.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/world/harbor.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/harbor.json",
      "gitBlob": "2ac36eb9a3c5eb3d796ae014f35e871011be8f33",
      "sha256": "4260dc1c7ed59286ebd6d084c6e15961d518b3e1e721ee80923c580a78476543",
      "bytes": 103377,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/world/lore.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/lore.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/world/lore.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/lore.md",
      "gitBlob": "7c5668ff1b4cc77236f42256e467626f74b662be",
      "sha256": "b3c504def15b8156824cf43cd3260cfda3e3c657ba9d0c40de3365751c5abbd8",
      "bytes": 12589,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/docs/world/mythos.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/mythos.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/docs/world/mythos.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/docs/world/mythos.md",
      "gitBlob": "c8c21755ef500fbded39fda8ab8b0c5d661ee104",
      "sha256": "7eef30f6a3bd908fd7ca9bdf79647cd32b0dccc7de6b61467e0fff8894c47ae8",
      "bytes": 22181,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/lib/agency/duties/assessing-farstone-demand.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/duties/assessing-farstone-demand.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/lib/agency/duties/assessing-farstone-demand.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/duties/assessing-farstone-demand.json",
      "gitBlob": "bd409189c59b2bf52327d484279f817d9f356eca",
      "sha256": "f45564d117c75c90c311c5f0d20037600b0be3a0e04336d3bd0ce9cc95096b8d",
      "bytes": 613,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/lib/agency/enterprises/farstone.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/enterprises/farstone.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/lib/agency/enterprises/farstone.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/enterprises/farstone.json",
      "gitBlob": "12c3744f67e193202470b1ad5a34811fe51c60d4",
      "sha256": "75e394ea2a10b71c2db48949aed11ba0f7a4d827d90dc0f9de77814d3134db70",
      "bytes": 844,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/lib/agency/offices/farstone-lead.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/offices/farstone-lead.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/lib/agency/offices/farstone-lead.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/offices/farstone-lead.json",
      "gitBlob": "0fa0b1d24e437bb2186c6509cd1bf69ab8dcffea",
      "sha256": "297b85d892a7508320083cceb9f65950cd3b6070733ad8b5598d8efa312a5fbd",
      "bytes": 1562,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/lib/agency/works/assessing-farstone-demand.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/works/assessing-farstone-demand.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/lib/agency/works/assessing-farstone-demand.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/lib/agency/works/assessing-farstone-demand.json",
      "gitBlob": "796cdac23c9c904cdbfc52724c0f30b783058dc0",
      "sha256": "c26f41a2660d6e2234ea4a3443e098e46cffba7e56590eb917cf75abc641e9c6",
      "bytes": 1120,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/package.json",
      "gitBlob": "2cb35485d903285a70cf5c44dc6bfe75a205f5f2",
      "sha256": "312881be7eae53a805c3ba5a378749858d1459a8710a919dda73ca3969522534",
      "bytes": 1693,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/scripts/build-cloudflare.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/scripts/build-cloudflare.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/scripts/build-cloudflare.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/scripts/build-cloudflare.mjs",
      "gitBlob": "a5e1d48372cf19cf304727da3fc015c01109b385",
      "sha256": "0cc3f4da551f010a0be54c51a96e8563f615c58cd9b0e76b783c4ed03aa14b99",
      "bytes": 681,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/scripts/verify-cloud.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/scripts/verify-cloud.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/scripts/verify-cloud.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/scripts/verify-cloud.mjs",
      "gitBlob": "83aac9bb1d30523caae65142fb3326998522057a",
      "sha256": "f51677283c721e76889f1954bd26f3a08518b03ae5c6e7fffc6908d0c63ecaff",
      "bytes": 7444,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/campaign.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/campaign.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/campaign.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/campaign.mjs",
      "gitBlob": "995c3223390dc4af063a5cf4247f488ee98ff4f2",
      "sha256": "546d688b44daf7f3b21114805d7da47a38fb810bccff6f4368125c13f4650832",
      "bytes": 1112,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/catalogs.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/catalogs.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/catalogs.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/catalogs.mjs",
      "gitBlob": "c38e9c46f0ee933cc4bd03ee4e72cffadd6149e7",
      "sha256": "e11131390db30961493f1f52a59cd23acda0812410f69bed53e85888c787a955",
      "bytes": 13670,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/depths.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/depths.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/depths.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/depths.mjs",
      "gitBlob": "bdb306c0f486730a8d82f6aae6ce022764129150",
      "sha256": "a86efbe083c1c1a8eaf0eef43a60040c3d2bba2508cdeb549ec88aae5a4c4d1c",
      "bytes": 3052,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/depths.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/depths.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/depths.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/depths.test.mjs",
      "gitBlob": "80ae771b94cc0a796745476be71033f0531eed92",
      "sha256": "12d4584a310112388ba71646739c19cc91de1d0178802014e9ed2239d2a9f873",
      "bytes": 5918,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/director.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/director.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/director.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/director.mjs",
      "gitBlob": "11981b421f090c4f0ad7a0747cfd08bff445e1eb",
      "sha256": "2d24cd3731905c339a4f37dcb6c484c4ddfc2fb26baad27ef8e939ebca3355de",
      "bytes": 386,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/director.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/director.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/director.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/director.test.mjs",
      "gitBlob": "01bf8dbd29b8bdb7d463623266df28c744edb145",
      "sha256": "c1c1aabb78ecaad01e7cdf04a51149fa6eaf13c4e91e2aaaac55adc1a5c6a389",
      "bytes": 8717,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-arcs.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-arcs.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-arcs.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-arcs.mjs",
      "gitBlob": "1c41c5dca9b83cbe89effad1c8c313f9b828fc16",
      "sha256": "dd4adb756c1fb46891289a5c949d45b3db67d898a20ce8c10009893eb62cd932",
      "bytes": 11906,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-arcs.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-arcs.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-arcs.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-arcs.test.mjs",
      "gitBlob": "5f74dde3b6e039c1a00ec0109156681784f3ed0a",
      "sha256": "b5c1cb11f5ca953d8da3fe39d055e9ad856d1404ee2c23066b9fad927833a5c4",
      "bytes": 11072,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-civic-corpus.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-civic-corpus.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-civic-corpus.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-civic-corpus.mjs",
      "gitBlob": "a79966191199c43e7d44bfe9d0f71245d8435b68",
      "sha256": "e444e5790b964732e0794e026d40fd9cf8c1a6f7f8246aeaa7535e2ede4de530",
      "bytes": 4627,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-climate.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-climate.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-climate.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-climate.mjs",
      "gitBlob": "642c94f5d001c9835d62b0e1d15a4a0e3f76360f",
      "sha256": "f95c661ed9ff39168e930c7c7bf5e2c52c2a6ac59701855f1fda20de4966cacf",
      "bytes": 14612,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-climate.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-climate.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-climate.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-climate.test.mjs",
      "gitBlob": "d12559a8be21cf7ce22b4e4cc9bec9fe8a402dfa",
      "sha256": "8c1d86abcdb75cab5f5b1694c8bf922ee6a6692a86bef4765b9d7f940c8d3d43",
      "bytes": 6794,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-game.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-game.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-game.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-game.mjs",
      "gitBlob": "11afc00105fb11ac6cdfaf04e587fabbc0f4de63",
      "sha256": "7f289adc08ffa24a4585536cfec20e708b9c7c5de75e324017cc6640d824046b",
      "bytes": 18233,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-perception.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-perception.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-perception.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-perception.mjs",
      "gitBlob": "b87f86320d35c676b417bcf4cab72430aaef7ed6",
      "sha256": "c8f2cb46444481ac84d2899d6aae66942b13d6bce754170e7ca0a6c3e5741058",
      "bytes": 7370,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-perception.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-perception.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-perception.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-perception.test.mjs",
      "gitBlob": "70284ceabca575ec3357d894faacbbf43d523486",
      "sha256": "10fcdd448990738bdf7742b0887785a87210d85fc580f3bf9e920a34c25b22a0",
      "bytes": 7491,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-progression.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-progression.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-progression.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-progression.mjs",
      "gitBlob": "480b8376825c5255a3a5e5ae8bf57c26077196fa",
      "sha256": "42c4bf3d9411a173aff9f342cc0e785a29802841d4e75525857a889bf3794765",
      "bytes": 15578,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-protocol.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-protocol.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-protocol.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-protocol.mjs",
      "gitBlob": "2e4940d35bd52cd0b55128d00a355d1d81508298",
      "sha256": "c45333ec307d279967afc735afd77fef168b389194b1cad29256e0fc09407d49",
      "bytes": 2055,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-protocol.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-protocol.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-protocol.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-protocol.test.mjs",
      "gitBlob": "c8139b63a0e120f4de4f4d204b3cd511227a61b1",
      "sha256": "08248e61c146b702ff24c60862b6bd56ded9fdccf107064e8d97710299efa8b9",
      "bytes": 4296,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-room.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-room.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-room.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-room.mjs",
      "gitBlob": "365b83ae3f8d55822801454b25b62ae8a7b7154a",
      "sha256": "dbba17f0e097da5842fba6b9da57ed7f9b5faf19a54a5926a387eaf6ba1b043f",
      "bytes": 2216,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-room.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-room.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-room.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-room.test.mjs",
      "gitBlob": "0858e689e4fe9f80ec6130d50c4b1cffd40f40af",
      "sha256": "c0b90043fe45b669e0e3c19767b8b88543045a50add533f535bab34b00264b5b",
      "bytes": 7900,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-social.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-social.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-social.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-social.mjs",
      "gitBlob": "6c7e46263a4954d2450be5f21031b7b23f3635bb",
      "sha256": "9b20305072200ea1ee2df0ee9cb21adc0052ed82c4f51a0c19c051afbc1786d1",
      "bytes": 1688,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-tufte.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-tufte.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-tufte.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-tufte.mjs",
      "gitBlob": "189b51359c2bb192dce5460e0d9682a0d2dcbf1b",
      "sha256": "66777742dacb27935477e263bffcfcddd95070e85582dc0bd892d94d7ab45296",
      "bytes": 7668,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-tufte.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-tufte.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-tufte.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-tufte.test.mjs",
      "gitBlob": "91c1c64711184d19e8ac573f3cb3508ec4640245",
      "sha256": "f9218e7828608ee9947b4f22c7e43e1933a52614fb49a5732d559da148443790",
      "bytes": 2485,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/farstone-world.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-world.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/farstone-world.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/farstone-world.test.mjs",
      "gitBlob": "3a78c1576049859df838dd9c2f8d9f1faa73ea8d",
      "sha256": "419b7f091993a9d3b3d89a948e9634a9ba4a3145ca8efb5a32d3160e16800900",
      "bytes": 6780,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/index.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/index.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/index.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/index.mjs",
      "gitBlob": "423e95fe18bd2e8af3557408d9df31d12b1c6400",
      "sha256": "e6bf6eb683d5ceee3d9da347213fab06ff4ff2d688865a625675ab9c437452d2",
      "bytes": 1199,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/material-economy.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/material-economy.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/material-economy.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/material-economy.test.mjs",
      "gitBlob": "f4a876ce51e5eec24628b633275882c0e772eba5",
      "sha256": "ede302da2bc85f6afea7e892db6ff61798ebd372f60f6cb3d99bbf986c00ca2a",
      "bytes": 10560,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/player-journey.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/player-journey.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/player-journey.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/player-journey.test.mjs",
      "gitBlob": "24e7f0c11d9fee1372ec0aba0d3dbdcc6ea75299",
      "sha256": "99e86a422b817b31ddc6c039ab61ee98f0c2787156e0925567d4ac3d65d00897",
      "bytes": 10198,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/serve.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/serve.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/serve.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/serve.mjs",
      "gitBlob": "a6b490ca6bd83e6620ff4e4327eefdd43fad3d08",
      "sha256": "778c080494bc61db9052aa1e16273a69f9a6f07079d135eda37051a6c36247dd",
      "bytes": 1952,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/simulation.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/simulation.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/simulation.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/simulation.test.mjs",
      "gitBlob": "2ba525f9a26591f81f0fb7ee7931d2915cb36a77",
      "sha256": "8fb15db427caf35ccd617b026ab7cb89a42308223a700e3c0db521181903a638",
      "bytes": 1581,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/stability.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/stability.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/stability.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/stability.test.mjs",
      "gitBlob": "2bb0e4bf032050ca9b46cdad602c85ce4922bf6c",
      "sha256": "c61816ea450bc25a16daf08e89373df3d22c949fab301ac0feba4df72fb13ced",
      "bytes": 1677,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/telnet-wiring.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/telnet-wiring.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/telnet-wiring.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/telnet-wiring.test.mjs",
      "gitBlob": "10deeb3e94b4ff115307f8156badd7c2ff7bf67e",
      "sha256": "961d0163d48b0cecf8a00af1e8ef24f38e283145f85a02bccea1e52422a85601",
      "bytes": 10088,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/thoughts.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/thoughts.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/thoughts.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/thoughts.mjs",
      "gitBlob": "47c793dafeaa3d265f34c42c8e636f07f2cedb73",
      "sha256": "32cf57c8ef69a55b51d93a51d8c20d96bbfaacffdbd69711076d01c3225ef871",
      "bytes": 792,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/web/farstone-client.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/web/farstone-client.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/web/farstone-client.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/web/farstone-client.mjs",
      "gitBlob": "8fa0f4074cc089046fcee2cc0688e3a1d69794df",
      "sha256": "bf2d8349f68c89ea54f8264aceb3d22e44625cd22915377eca4d7cde20e484c1",
      "bytes": 6781,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/web/farstone-view.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/web/farstone-view.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/web/farstone-view.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/web/farstone-view.mjs",
      "gitBlob": "801c295240328ad16631873c12b4cb71c8b16525",
      "sha256": "39fdd705c23cf41c2554b9f31853dfd7b8550e4f45e8c7c4e6c83e37bb2b6935",
      "bytes": 5384,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/worker.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/worker.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/worker.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/worker.mjs",
      "gitBlob": "4978697ae1217bd466f6f83b8023bd3596919421",
      "sha256": "bea9ce214dd0c30c8cd08fa499bf1ad64af41dfa3bf41ec99ca1abdeeb3d538b",
      "bytes": 1558,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/world-runtime-concurrency.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/world-runtime-concurrency.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/world-runtime-concurrency.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/world-runtime-concurrency.test.mjs",
      "gitBlob": "cd6839fcd3f0f4f5013782a6103a6bbbef605600",
      "sha256": "b1978a4da0b28fe03cd48932a3f55899f32d8eb8fbd7474fd9717d1fef0cba1c",
      "bytes": 6452,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/world-runtime-live.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/world-runtime-live.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/world-runtime-live.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/world-runtime-live.test.mjs",
      "gitBlob": "93b4b17aaa325f2a2ef032750d200cf9dfcaf051",
      "sha256": "319dd5201c88910b1daca0330e0b5938641a4f556fe208cf14831d3a76e318f7",
      "bytes": 6606,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/world-store-replay.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/world-store-replay.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/world-store-replay.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/world-store-replay.test.mjs",
      "gitBlob": "53f0cb6c43b12b33580b8d812808dc16f44b05b3",
      "sha256": "5946ac1305958d8f1e103addf017202f78661303e0df028ff13aa2cbb2babc63",
      "bytes": 2467,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/src/ws-wiring.test.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/ws-wiring.test.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/src/ws-wiring.test.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/src/ws-wiring.test.mjs",
      "gitBlob": "d531304de9138245ae19ce4c17ed77aff851ddf3",
      "sha256": "69bb484d07df0fd914d26a95f839f8d6b7f2512e1fc285d06e907df644a47981",
      "bytes": 13540,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/sites/farstone.561.group/wrangler.jsonc",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-games-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/wrangler.jsonc",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/sites/farstone.561.group/wrangler.jsonc",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-media-services-section/services/public-games-services-section/services/public-web-game-services-section/lib/legacy/restored-from-main/2026-10-01-0cd1aac/sites/farstone.561.group/wrangler.jsonc",
      "gitBlob": "ed2dc83afdbeae9ff6a696866570dbc8834c21a1",
      "sha256": "54c804a440147272c5ee922dd7444dcfd73b721edea246f2c8d53780f5e31c8a",
      "bytes": 602,
