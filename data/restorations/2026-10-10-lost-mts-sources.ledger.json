@@ -13123,8 +13123,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat",
    "placement": "restored-tree",
    "lostSourceFiles": 13,
    "deletedBy": {
@@ -13138,104 +13138,104 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/agents/addressing/feed-token.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/agents/addressing/feed-token.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/agents/addressing/feed-token.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/agents/addressing/feed-token.mts",
      "gitBlob": "a3bc00745488cbdf22bf2ae8ff188aec7c433e8f",
      "sha256": "a97bb1aa246bb6b742c139dcbd75159cf339893ee8950f1f43648705eb5c1615",
      "bytes": 3410,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/agents/capability-witnesses.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/agents/capability-witnesses.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/agents/capability-witnesses.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/agents/capability-witnesses.mts",
      "gitBlob": "bf2864758f622b0157e82dae028989934daf185a",
      "sha256": "ce7551a166ef6746fd04c7cc8405ed5245606c9f80e602c0869b34efd9d906c0",
      "bytes": 2522,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/apps/infograph/operations/realization.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/apps/infograph/operations/realization.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/apps/infograph/operations/realization.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/apps/infograph/operations/realization.mts",
      "gitBlob": "caef65029bd7d1e5b20740b135ece0f50bff67ac",
      "sha256": "e8e02a70cce2dfde848fd964babd08e987352352a0b4075402e7d4dfd9975abc",
      "bytes": 5411,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/integrations/hooks/claim.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/integrations/hooks/claim.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/integrations/hooks/claim.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/integrations/hooks/claim.mts",
      "gitBlob": "1e8b05222c7928253cb4c3ab1733fe0ebab67857",
      "sha256": "15ccde960cac753c4f6e7766f23fa2cdda402a2d41dc207d0d3b4c00893db194",
      "bytes": 678,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/event.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/event.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/event.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/event.mts",
      "gitBlob": "685ca70ce42af43f45017d89b7ba5a84a081a435",
      "sha256": "bed21844283bc7b287c1e51b737228262ab5d276c94cf140f76bb7a470c2c44d",
      "bytes": 6103,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/filesystem/events.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/filesystem/events.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/filesystem/events.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/filesystem/events.mts",
      "gitBlob": "5d715719409cff5abce67c518f1155f777790714",
      "sha256": "7d97eb1a6ed8ba95861e3ded253903617c059d5e63f17cf4a37e6c5bc3e6c85c",
      "bytes": 28263,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/filesystem/index.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/filesystem/index.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/filesystem/index.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/filesystem/index.mts",
      "gitBlob": "1015ed2f6dd9161008c86d58ab7f1ad47110a41d",
      "sha256": "4185e389bebf58f24490c075f30e0f55bffd465730883ad4f7ad8049be588ed0",
      "bytes": 40942,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/filesystem/operations/index.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/journal/filesystem/operations/index.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/filesystem/operations/index.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/journal/filesystem/operations/index.mts",
      "gitBlob": "b22e0d7c8a95b7723fb076a2f5ce9d85d89547b7",
      "sha256": "48c3d88c0b0e7af75231fac7094cbc5d110516b6bc044d4eb0687b7d87816fb8",
      "bytes": 7269,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/lib/capability/claims.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/lib/capability/claims.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/lib/capability/claims.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/lib/capability/claims.mts",
      "gitBlob": "5e19eb02a8aa33f532acb09245881d9b2bb5fae9",
      "sha256": "a0d303947d7baf9e08f405cf497a05f304c531b7062bfa9a34a7e4b59df0931e",
      "bytes": 7679,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/presentation/surface.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/presentation/surface.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/presentation/surface.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/presentation/surface.mts",
      "gitBlob": "a8b4140169d52c6317c48ee6d8c50bef3d6922aa",
      "sha256": "c94521535c1664ba01e7010971f3f79f63216d44dadd3acd31631ee94921ea3f",
      "bytes": 42293,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/rpc/arrival.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/rpc/arrival.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/rpc/arrival.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/rpc/arrival.mts",
      "gitBlob": "d85299dcb8b5671a2fadc64d8635de9a5051c4ef",
      "sha256": "66089cef2b8218e725493f3bef19006088ce6b6a6a3038e245d06115810dd378",
      "bytes": 12911,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/rpc/contract.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/rpc/contract.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/rpc/contract.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/rpc/contract.mts",
      "gitBlob": "1525412b762ccccd2520ed49835fc3e5235716f4",
      "sha256": "6b2b52ade3f3e4016388d608e3ba290f7c2c7fc1779c4852be797835db32c8f9",
      "bytes": 11299,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/rpc/operation.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat/src/rpc/operation.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/rpc/operation.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat/src/rpc/operation.mts",
      "gitBlob": "85f2a46b35273a5d197540896fc2fed97e7a7511",
      "sha256": "e2b2a1f688e09389b9d427b48b91325fbbeb1ec714c1c31c953ee2e3edbc2585",
      "bytes": 31274,
@@ -13244,8 +13244,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-check-service",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-check-service",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-check-service",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-check-service",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -13259,8 +13259,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-check-service/src/entry.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-check-service/src/entry.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-check-service/src/entry.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-check-service/src/entry.mts",
      "gitBlob": "45fe0c5ea1e8215673b58e2262d6e7b59b77a44b",
      "sha256": "b268d317f0a87a67367c77bb9c86acc7c0dc104633e194a3b715c2dd59d7ba48",
      "bytes": 389,
@@ -13269,8 +13269,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-invite-service",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-invite-service",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-invite-service",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-invite-service",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -13284,8 +13284,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-invite-service/src/entry.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-invite-service/src/entry.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-invite-service/src/entry.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-invite-service/src/entry.mts",
      "gitBlob": "ad87d4cbb0bacf334d5baea5cc7b6eda3157ce15",
      "sha256": "05530a11c43e3945209e0f36e819994b68118ce75a5909f9bc0d1189450d0bbd",
      "bytes": 391,
@@ -13294,8 +13294,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-run-service",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-run-service",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-run-service",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-run-service",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -13309,8 +13309,8 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-run-service/src/entry.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/discord-steward-run-service/src/entry.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-run-service/src/entry.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-12-a8f47a5/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/discord-steward-run-service/src/entry.mts",
      "gitBlob": "399413da05cb17f50d977acf58f3911537832148",
      "sha256": "0b0b1fe1e63e62913387f0fdaaa7dbcca9e64a51c0bf5e0374b8bc45abda461c",
      "bytes": 405,
@@ -14873,8 +14873,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
    "placement": "restored-tree",
    "lostSourceFiles": 3,
    "deletedBy": {
@@ -14882,62 +14882,62 @@
     "date": "2026-09-06",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "Rename javascript-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli"
+    "title": "Rename javascript-engineering-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/AGENTS.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/AGENTS.md",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/AGENTS.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/AGENTS.md",
      "gitBlob": "b223ec985561998517ddc8d73531489e60db1a0f",
      "sha256": "9d2b5fa099e7867a2eecc3beed9345f504fc7973ad03735addf7e9578ee3fea9",
      "bytes": 1055,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/README.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/README.md",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/README.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/README.md",
      "gitBlob": "42e33c63a680767c8a543e795e9fafb6f24b4827",
      "sha256": "d25340444a0186d15a98ba393cb5c07ed1ba7bf27082b2dc7e539814e6190c80",
      "bytes": 1031,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package-lock.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package-lock.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package-lock.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package-lock.json",
      "gitBlob": "02470889aaad782ea767a078067d6996be78016e",
      "sha256": "c8b25b19502e8cd2e6fadfc000222674fb333ec1431c5599fc6515537d481029",
      "bytes": 4163,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
      "gitBlob": "a15e400a7e067d937b389825740a8b250ee2cdf3",
      "sha256": "21176b7e296c3c6da9fc7f147bcbc8d4640ae33ff14734cc2b6e3de8c3ed48ec",
      "bytes": 1505,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/scripts/derive-set-of-package-liberties.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/scripts/derive-set-of-package-liberties.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/scripts/derive-set-of-package-liberties.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/scripts/derive-set-of-package-liberties.mts",
      "gitBlob": "6d97d7d8fc368c35a93e923bec71196419746878",
      "sha256": "fa2494431a7b8e384d23498deece42fa956b53474c9456785d1fad3126968cb5",
      "bytes": 6076,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/cli-bin.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/cli-bin.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/cli-bin.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/cli-bin.test.mts",
      "gitBlob": "c3963a1a143e7e0f68b1fa7b0e1eff4cb250990f",
      "sha256": "19bdabdf3e2a9000edf4045dd9105d5a9925c6190a3c49336161f7b5145b43bf",
      "bytes": 3037,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/index.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/index.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/index.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/index.test.mts",
      "gitBlob": "87f61b348ca2b5221c5c56a7a12b769291c4764d",
      "sha256": "157d88311db884f21ee79f1493f9f109db0dfeb2a46e2a9bc330d5b86db479a8",
      "bytes": 3192,
@@ -14946,8 +14946,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
    "placement": "restored-tree",
    "lostSourceFiles": 4,
    "deletedBy": {
@@ -14955,54 +14955,54 @@
     "date": "2026-09-06",
     "pullRequest": null,
     "branch": "direct-to-main",
-    "title": "Rename javascript-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli"
+    "title": "Rename javascript-engineering-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli"
    },
    "state": "restored-legacy",
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
      "gitBlob": "d7aeb88b1949c0abeeb21a6f396856bb6af2372d",
      "sha256": "dc2b996e9a461394b5f8de35d4892fa795965999a0a219fbd8b54f84f46b14c3",
      "bytes": 132975,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
      "gitBlob": "0390f8166d73489dbd614ce7103989d037fc1d19",
      "sha256": "0ce855f05ff02d6a080edeb11570d49d334964846ae121cbb093abe74a1d8496",
      "bytes": 2163,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/index.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/index.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/index.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/index.test.mts",
      "gitBlob": "677309a5ca0883ead491253160217b5ca79dddf6",
      "sha256": "a8951585952bf84fdcd64124868f20f79a3a173a72d7122288318dea413cfd41",
      "bytes": 29277,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
      "gitBlob": "1c0a65fc15d32815f66ae81e63d4acf2f30b6c9b",
      "sha256": "8a8e9677eca7ff7082069d2afd68b267e38cc5c3272c5380cca66367f20eb7cd",
      "bytes": 27551,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/service.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/service.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/service.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/service.mts",
      "gitBlob": "6901cfa1a4fb2be9338e81e1fa097f67b7d38435",
      "sha256": "618ab09b27280b2d0365dc5673f6f019c19c9a2f2ba1d90453a156ce1b608d91",
      "bytes": 60026,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/views.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/views.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/views.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/views.mts",
      "gitBlob": "36ce36ba71f730ec1c88649dceff3a1d1ce5f349",
      "sha256": "80393d36a880fbcc3bbb89126612b0c34b8b7644cd52bd89275a767a112e5397",
      "bytes": 87638,
@@ -15011,8 +15011,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer",
    "placement": "restored-tree",
    "lostSourceFiles": 1,
    "deletedBy": {
@@ -15026,16 +15026,16 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/package.json",
      "gitBlob": "ff490442b1252f3b6d1927fd842698a15a9eb5e6",
      "sha256": "8a52ca063740bc3713cdb200df8cd469e6c003c3fb276833fe482dbafc5ddaf9",
      "bytes": 1505,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/duplication.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/duplication.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/duplication.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-computer/src/duplication.mts",
      "gitBlob": "952976c4274be6b9a4381feccd27e555555d6eb9",
      "sha256": "36cc6fa3f8214b15098f1bb57158da2970a2f8c8d8b332730c662056134516aa",
      "bytes": 22310,
@@ -15044,8 +15044,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
-   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
+   "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server",
    "placement": "restored-tree",
    "lostSourceFiles": 3,
    "deletedBy": {
@@ -15059,40 +15059,40 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package-lock.json",
      "gitBlob": "7fdc426eee0c3969c331e05dfcac9606d8c49f93",
      "sha256": "bfc9de646ef06fd1bf35d2c76eaa35b4c31cf17939e044d0f1459c25b64cbd31",
      "bytes": 132975,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/package.json",
      "gitBlob": "d618aa6535264c3c07117822a0ddad6301dff8c0",
      "sha256": "a85db1bae9cc6d73f1a6220b63c521f8762adeeec433e282f62de1727ce9003d",
      "bytes": 2163,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp-stdio.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp-stdio.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp-stdio.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp-stdio.test.mts",
      "gitBlob": "823d135f1425ef781989788b8a8d641dcee1fd93",
      "sha256": "ac049f5aa74b57c48e88aeb06b65617142409e77f9b491dcaad88c78b098fa1d",
      "bytes": 7883,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.mts",
      "gitBlob": "a31fe2d717de1eaba83a049cd79df132bdd400f6",
      "sha256": "4891e3f85dc6663d730a8e32e13c5f8ab65d41fe093b71d63ed8f8b9c5d6f731",
      "bytes": 27322,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-8b6e76d/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/services/jsnode-workspace-analysis-services-section/services/jsnode-server/src/mcp.test.mts",
      "gitBlob": "555ba4aed1e2174a083271092ac4f09469e80b81",
      "sha256": "50bc923781d2a75f3b7406dbc40d54cc96d5745867b10bf27e39e9383b2f31c3",
      "bytes": 29286,
