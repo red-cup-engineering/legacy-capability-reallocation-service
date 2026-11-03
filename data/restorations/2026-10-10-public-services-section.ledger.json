@@ -8965,8 +8965,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos",
    "placement": "restored-tree",
    "lostSourceFiles": 34,
    "deletedBy": {
@@ -8980,288 +8980,288 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/VENDORED.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/VENDORED.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/VENDORED.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/VENDORED.md",
      "gitBlob": "ee14f341def17aa55b940f017e0c3ec1f9b7117d",
      "sha256": "6a5cbc4d8adfacfce272bc7ef073908a55d79de6b7a572f56e79773735d9c57a",
      "bytes": 10168,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/package.json",
      "gitBlob": "c897c6e258013721e80e6dfb7a006844c280ae81",
      "sha256": "0da4eb6a8814939a3164482eae70832056c6ddfc124b675897cc78878fe7eee4",
      "bytes": 2056,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/capabilities.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/capabilities.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/capabilities.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/capabilities.mjs",
      "gitBlob": "05abd0810a006b8f53371ccd264cc93082eced28",
      "sha256": "ad5008753cf30364a3e9e975e90debec4261bdb32a116594faa1454301538546",
      "bytes": 2241,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/client.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/client.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/client.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/client.mjs",
      "gitBlob": "a8c6cad6c1f382d0cd41905432fd4a3ab32fc0c5",
      "sha256": "a4305565b253856f6038a80ab5533f14e487f7613d1d095ce4284d346194e5e6",
      "bytes": 959,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/components.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/components.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/components.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/components.mjs",
      "gitBlob": "df7556e8e08a8397ced2b5924b71d6fb1430f18b",
      "sha256": "19a599a1b77f932a001e1c28682b532505c4345fa76eeac6040ba0f8bed1323a",
      "bytes": 1292,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/crafting.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/crafting.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/crafting.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/crafting.mjs",
      "gitBlob": "08b718720cdb0e024ddd6694829c636878c353df",
      "sha256": "5f9a12f70b6a1747032da3d6bd29d90ff8d808a862e4b131d8a79eb87738c036",
      "bytes": 2824,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/director.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/director.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/director.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/director.mjs",
      "gitBlob": "ff2c03685c6f0af8af84f2cd2eefe60a5c8353a2",
      "sha256": "2eb4298f53c6f80a18547062bd9a81a341044e1a31d5754e9808de2632d2897e",
      "bytes": 9697,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/ecology.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/ecology.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/ecology.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/ecology.mjs",
      "gitBlob": "cd33ccd4a2c61a0b434b7e1eabd0dc4935dc059d",
      "sha256": "28d2a2af4e98d1b37ed4d77a962de5e5a04230ab9ace436bac597bf12221b959",
      "bytes": 3448,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/engine.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/engine.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/engine.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/engine.mjs",
      "gitBlob": "85a702efca6ac1de3f4b6b2c92a8114ab3598428",
      "sha256": "9c0c81cfe6fb9fef357961122373e28b615a15aa776fc170c0e6852690586726",
      "bytes": 10148,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/faculties.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/faculties.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/faculties.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/faculties.mjs",
      "gitBlob": "8e5dda5e42c582d520afad3139bdd0f21bbb1d4e",
      "sha256": "9558debff5db3eaeaac849f72453922dee5fccfa9d509e972cb1d3eb1a3eca38",
      "bytes": 3442,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/faculty-cover.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/faculty-cover.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/faculty-cover.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/faculty-cover.mjs",
      "gitBlob": "a2c8426b741bed99b581062395bdb8c92d36121d",
      "sha256": "4e283223e2a7cb1c8e111faed6ebdb3cc53bbebd75555e09e9264c853ad0c590",
      "bytes": 1067,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/federation.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/federation.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/federation.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/federation.mjs",
      "gitBlob": "1c81bcd4771dbeadf2185eefa5b8b0f290bc982f",
      "sha256": "469ca9822b47e7a4cc2ab1107e0e7db20e9d5e2e1f681cf26d1aca0f7d3e0853",
      "bytes": 2568,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/fields.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/fields.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/fields.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/fields.mjs",
      "gitBlob": "9e4313266e8846c08f882c188940ef6487ebb24b",
      "sha256": "d6022bcd7187d9c8bc6685e38fda43918f6c65dc54fddef97d5465d9bdd2898b",
      "bytes": 3683,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/four.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/four.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/four.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/four.mjs",
      "gitBlob": "1e9d913773e27f32b3d29ed035b88b6ac17d409f",
      "sha256": "ea61385e38708fdf082a10cc2d88cd86475b45022b15926200a547c35a544bf0",
      "bytes": 2604,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/game.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/game.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/game.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/game.mjs",
      "gitBlob": "f49a526584716db6338fefa6e71b4ba1413cb11e",
      "sha256": "2d287bf6a8e4938eb0724690839ee0b65f3c7dd59050dcabebf4c936ac43d543",
      "bytes": 6181,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/http.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/http.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/http.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/http.mjs",
      "gitBlob": "c5a0ab386e0a15d64d88cfc532d53dc50552c080",
      "sha256": "1d5862f23de4baf8b13ba499be9ea0ec874895daa459d08d0906b310ca4397f3",
      "bytes": 2791,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/index.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/index.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/index.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/index.mjs",
      "gitBlob": "13025bf1a6a94aabb6068e836e9709e63e54620d",
      "sha256": "a42afd052c7232bbe339fb84ce39d2b691e13bb985c97a2f1f01ead013326643",
      "bytes": 1292,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/inhabiting.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/inhabiting.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/inhabiting.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/inhabiting.mjs",
      "gitBlob": "c95917d96523544a6b38cb7b0e3fc08c688dc388",
      "sha256": "94f07f212dddba3a8fb6c526e5ffd267ab8493951733eaa87cf936fc82619a9b",
      "bytes": 743,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/instancing.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/instancing.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/instancing.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/instancing.mjs",
      "gitBlob": "26fb30482d4194723297db5cc7f5be896f4370fb",
      "sha256": "1db0295e636f18aa98edadb8fafda9f8acc2a006771b162d125ac95ccaa7f1f6",
      "bytes": 2091,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/interaction.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/interaction.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/interaction.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/interaction.mjs",
      "gitBlob": "c0d2a493c5687f9cad731c37bad434daf8be9e70",
      "sha256": "c531f7be6479ca827cdb798bb7d7d8ee4d9b1c8e65603db652473fe6adcef6f3",
      "bytes": 2707,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/interiority.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/interiority.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/interiority.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/interiority.mjs",
      "gitBlob": "e39a6f032d1a42c9de589cd0235d1091d2183530",
      "sha256": "f014b1d70e0da20430006f62ea2f364e474b991aad8424967925e332302152a8",
      "bytes": 2375,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/knowing.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/knowing.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/knowing.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/knowing.mjs",
      "gitBlob": "1f10a0cece317ffded2d29096c1d8838f7939f5e",
      "sha256": "7c33c4e76834afe05016b640d8c89378a85c14df130841cb3dd0fd00e36b5734",
      "bytes": 1797,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/market.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/market.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/market.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/market.mjs",
      "gitBlob": "c5f433ed020dcf01a6ba3350a1fed282b8f7f840",
      "sha256": "d2a03250f1b41d10dde70add2bd71dc7f6aa3a140caefa14b7aeb0376508cac3",
      "bytes": 4235,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/mud-server.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/mud-server.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/mud-server.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/mud-server.mjs",
      "gitBlob": "d8cfb51795a38d48a9696c981f2f69d81ad6e3a5",
      "sha256": "d14af09c6c70367c2634dd7ca8717b5214551242cbd7ac1b8a212df21b4112f3",
      "bytes": 3773,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/npc.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/npc.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/npc.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/npc.mjs",
      "gitBlob": "d3b30e82471fe0ba78c2d5136df6198777759f4c",
      "sha256": "972eb024388b5aebd8e7f4c3e19c98a03f7080c4a94462f83c2ae90495757ccb",
      "bytes": 2058,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/operations.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/operations.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/operations.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/operations.mjs",
      "gitBlob": "662e1a842ee5e217a6383f338bf025d3222bda44",
      "sha256": "d3843a167dc2feccf32e91253eaef692414d91c933d10c3a6b2592df15f38c36",
      "bytes": 3161,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/persistence.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/persistence.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/persistence.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/persistence.mjs",
      "gitBlob": "9383536f4537b40adba851203b4c0c3a53256186",
      "sha256": "7394cbeb1a034c01dd1480e83feb1a7aafc60404d115285bb83105736536164a",
      "bytes": 7556,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/playing.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/playing.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/playing.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/playing.mjs",
      "gitBlob": "b3537b8241101b16150bcf04b0686faa9c9e723d",
      "sha256": "745b2f15ac0a14b7cb9887b22ee53a8d2b8ec9b21ef19f5820890697358e6e86",
      "bytes": 2256,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/predication.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/predication.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/predication.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/predication.mjs",
      "gitBlob": "1493e5721ab2cbc1f8052cbc9181e98ca8225ae0",
      "sha256": "8ebecf10b68e9a54569778a7f3bae9d64c7a7b969c2015256d137b26b82a5075",
      "bytes": 4090,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/progression.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/progression.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/progression.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/progression.mjs",
      "gitBlob": "784c708a983094c69fc752b1589ee0a5e3fc050f",
      "sha256": "7e45d07f24e41fd2ea77e9438bcabe051e08147f4010a20a7f5eaabe974040a8",
      "bytes": 5284,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/reputation.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/reputation.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/reputation.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/reputation.mjs",
      "gitBlob": "a175a6287eedf0459bf21a16acbf0027ad7b136a",
      "sha256": "6960085a775ff2e1d160adacd27d93c49ffcc5afe6063d940eb0ba6e32352f1e",
      "bytes": 2166,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/runtime-ecology.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/runtime-ecology.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/runtime-ecology.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/runtime-ecology.mjs",
      "gitBlob": "ec314a17b9243f1bd28e94b1f8fd21a25a624724",
      "sha256": "396295d0cbbcdc9e86d84b745c0d718482444a7666274217497dc56889615dec",
      "bytes": 517,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/skills.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/skills.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/skills.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/skills.mjs",
      "gitBlob": "02c547dbd50c3a49802a7f7e20fa99eaa51c965a",
      "sha256": "50d32c4e99fb4e4c37bd19c1ea40eb1ce4bf2451b5611d00e26401fbecf86169",
      "bytes": 1380,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/social.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/social.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/social.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/social.mjs",
      "gitBlob": "8d9981752157c21f7e6ff3b6d1c7d40cb10ba094",
      "sha256": "16039a4caa604bc125bce1491958b59b86e5fa014ef1643822849b55d56f4529",
      "bytes": 2821,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/world-clock.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/world-clock.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/world-clock.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/world-clock.mjs",
      "gitBlob": "2969fa1bf5a158a2ed5a02ee356618220978b866",
      "sha256": "5f255c1408dedc63f41a9f6a597be99d81a7e7ea2abaa4ac560d74a42df8a417",
      "bytes": 3868,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/world.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/src/world.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/world.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/src/world.mjs",
      "gitBlob": "ebd262fa2bd764d08da854e2cd2b5a0d7d582aa0",
      "sha256": "40dea29d642c9e71f9ac5babd40c24f026f3eb375b5a61f088db933fcdc3864a",
      "bytes": 8127,
@@ -9270,8 +9270,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic",
    "placement": "restored-tree",
    "lostSourceFiles": 14,
    "deletedBy": {
@@ -9285,120 +9285,120 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/bilattice/src/index.d.ts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/bilattice/src/index.d.ts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/bilattice/src/index.d.ts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/bilattice/src/index.d.ts",
      "gitBlob": "6e68bac9d5ef7676b96d077a80e5984665a451ee",
      "sha256": "06be44c7848fa6b10f104f8154f9bb4aa426e5841bf77f38cdbb8b4edf5e4335",
      "bytes": 4502,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/four.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/four.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/four.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/four.mjs",
      "gitBlob": "ce84fab893c8ad4fe4cb79fea42241a7916f0dd1",
      "sha256": "ee3fcfb47556f8556641007c0f2ba52e8298a34bf79eb097703852254371a20f",
      "bytes": 5615,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/index.d.ts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/index.d.ts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/index.d.ts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/chu/src/index.d.ts",
      "gitBlob": "787db9b1f7307fdc58e82281dff8ed7e5c7b1c63",
      "sha256": "76807ddb518ebfea4ece41913f708117ddaefafca5a18299d97fc4acfd1be36a",
      "bytes": 4290,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/closure.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/closure.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/closure.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/closure.mjs",
      "gitBlob": "eeb8978646b89a41fddf28b8d5ccdac0a24254a2",
      "sha256": "892a559952d6efeffd814b7f78b13526fca3fce72bd5cef13b552152c15c056b",
      "bytes": 3805,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.d.ts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.d.ts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.d.ts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.d.ts",
      "gitBlob": "ab14f79f509969dde6b217289fa5fb2e2f99334a",
      "sha256": "6da7df1ccb8fce5041848ffcc8b8271c1f7a1aa23623a5218387d096443299d3",
      "bytes": 2797,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/closure/src/index.mjs",
      "gitBlob": "f3e72ab8f49a76537caf3f663d9a65a8964077ea",
      "sha256": "99d1dcc5add939c917a891df189df4b7d8b46689e70d2ff45637b06c1d04aa96",
      "bytes": 1457,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/dframe/src/cohomology.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/dframe/src/cohomology.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/dframe/src/cohomology.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/dframe/src/cohomology.mjs",
      "gitBlob": "e4e310b341f45fc8afa16078c1d35970bc8ecd65",
      "sha256": "bb95257c28ef69eb7e425edd564a6317327cd6e22e38fbfd16d68c751c23fba8",
      "bytes": 4038,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/index.d.ts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/index.d.ts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/index.d.ts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/index.d.ts",
      "gitBlob": "33a052224e31aef5d77025d310c3fd354597420e",
      "sha256": "afda2c0761b849dee9fa9782f7d9f34bd0a0e742e0d371e1d564e2c42e99f5ea",
      "bytes": 8891,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/natural.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/natural.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/natural.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/natural.mjs",
      "gitBlob": "a47aa8d33aa1a62967db93496541fa1a2eaa305a",
      "sha256": "ed4ab0f21a4bd3a08c4b9df207bb12e49610cde77d3ef9a0e6592bf008cdc50d",
      "bytes": 7970,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/rational.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/rational.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/rational.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/number/src/rational.mjs",
      "gitBlob": "c097ef5ed7ccf84f23991f58383d5a48e13c099a",
      "sha256": "70bbaa766f0d38c387297a69d00850a64d27e1e49340ce3f3c66b919ddc7a73b",
      "bytes": 4383,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/package.json",
      "gitBlob": "ca219b4afea5089011ae65a3107762bcf87fadf3",
      "sha256": "494cf23aef71c503404f92f68fc03ee36681bd45dcd3f5ac70ec13fdb5ab4526",
      "bytes": 5820,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/type-theory/src/index.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/type-theory/src/index.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/type-theory/src/index.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/type-theory/src/index.mjs",
      "gitBlob": "0cc8c8fb593cbc7a758585342c24a16b05fb4bfa",
      "sha256": "103e0f39e1ba57e62810c82b71f8904ffcdaccc5c1fee6cb9b07839c455f4226",
      "bytes": 585,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/gauge.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/gauge.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/gauge.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/gauge.mjs",
      "gitBlob": "b7ecbf9472c2ae8f3882c099b68dba2f3adcd4c6",
      "sha256": "75ff4a26845be954f91dc98e05d9513d16cf2c72223d007a97f9655f7ca87f77",
      "bytes": 4309,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.d.ts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.d.ts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.d.ts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.d.ts",
      "gitBlob": "2fbae2c22f91234f528a40e6faa27c0ec671c602",
      "sha256": "3b96d2f7a119bc140a02a2e1849cab5740b72031937e7fa6fd82675e1f379885",
      "bytes": 3043,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-01-de9b378/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/vendor/@red-cup-engineering/feltos/deps/@lenticule-science/metrologic/verdier/src/index.mjs",
      "gitBlob": "75e43366698c7aa962ee9ffe14a8061a30b7d6ad",
      "sha256": "7ce1d8cfd133f002abbc6c2c8a93a066f093d808b0f04d2c2e58da55d795f170",
      "bytes": 2175,
@@ -9829,8 +9829,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 2,
    "deletedBy": {
@@ -9844,96 +9844,96 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/agents/ws-transport.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/agents/ws-transport.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/agents/ws-transport.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/agents/ws-transport.mjs",
      "gitBlob": "d102f98974b9a012bce2d6da53d89c72ff586189",
      "sha256": "d8e89c57ca735f42e1640e4f524ac747a06366490401ebfd87ce1516990f21ec",
      "bytes": 2596,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/clock-store.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/clock-store.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/clock-store.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/clock-store.mts",
      "gitBlob": "d0d6980d09065b43094b649fdf02647441e8dfc5",
      "sha256": "53abcb6227a26bd53ab80a72789aac985f6600138e27fde73b93c709dd30956c",
      "bytes": 4249,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/clock-store.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/clock-store.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/clock-store.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/clock-store.test.mts",
      "gitBlob": "9b9cc4c26d8bb4631b562427563f1410e99ef6f1",
      "sha256": "79b4722af1983459ec507a22e53627a512bd74d01b3294eccc36607e6c05502e",
      "bytes": 3858,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/fake-gcs.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/fake-gcs.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/fake-gcs.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/fake-gcs.mts",
      "gitBlob": "c0cfcb9b38f29ddebf76038244c4fd39ebb6259c",
      "sha256": "fbb104d3831634ab1b12c69a7ec9468e773e03bfb6f2909c36790a9b02262c02",
      "bytes": 8855,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-client.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/gcs-client.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/gcs-client.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/gcs-client.test.mts",
      "gitBlob": "ab211978add0dc98e4023acd160c615f3c5ccc24",
      "sha256": "f3aefff6af4899fc08a7a0fd71621e7b23881232940ee183bc4b51e2b2c9b31b",
      "bytes": 4788,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/http-wiring.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/http-wiring.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/http-wiring.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/http-wiring.mts",
      "gitBlob": "b8a9f0df0dcb9904d76ecfe0175f11b3b0aaeaca",
      "sha256": "06ddb50aceba476e9889e95b0acbd8502feb000aed1ce98164e6d533dd498e30",
      "bytes": 3010,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/tidepool-runtime.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/tidepool-runtime.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/tidepool-runtime.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/tidepool-runtime.mts",
      "gitBlob": "2ba7abddd5988e0d6c4174a3f9194ca330103f61",
      "sha256": "0b8c585a96da1d67cd7d47622433442f2043ba6a1fd52d7ccf091b05feb0046a",
      "bytes": 12427,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/tidepool-runtime.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/tidepool-runtime.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/tidepool-runtime.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/tidepool-runtime.test.mts",
      "gitBlob": "afbdf556f77ed7794ece2b4eda6f674de67d938d",
      "sha256": "bbfb9ec1fccfc96593c76c2765cc555605e8ecb0be38c1ace1092ca8195cca9b",
      "bytes": 8467,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/world-store.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/world-store.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/world-store.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/world-store.mts",
      "gitBlob": "8d01bb969e04ce08bf8e30f4d09ff88b48c44177",
      "sha256": "245502e76f4bead31a11db8f729220f7802d17e830c6e78019fd0c723804ef50",
      "bytes": 4255,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/world-store.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/src/world-store.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/world-store.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/src/world-store.test.mts",
      "gitBlob": "49949d2d884575e26037130ad55dd5f8e502e7ea",
      "sha256": "f817576b893eddda1b3312bf12d61840c42691cfcc4f50ff2a005b8b66ef41e0",
      "bytes": 5122,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/web/app.js",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/web/app.js",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/web/app.js",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/web/app.js",
      "gitBlob": "04c7aeb64cb3b8a2bc3c7258ca91b648d721413c",
      "sha256": "c86d0f2eac29fe328d706be6c22e3b683921b5421ae472530723697b1129a50b",
      "bytes": 5416,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/web/index.html",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.emsenn.net/web/index.html",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/web/index.html",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-computer-services-section/services/public-web-services-section/lib/legacy/restored-from-main/2026-09-02-92eb6a2/services/public-web-game-services-section/services/public-tidepool-services-section/sites/tidepool.turntide.561.group/web/index.html",
      "gitBlob": "f02e3030fef24673a7125856b953b687a0489e95",
      "sha256": "0caffaede193fa3aa21cdd6ed5fe810c18c82bce6087a4aaee5a74f2a54be715",
      "bytes": 3962,
@@ -16050,8 +16050,8 @@
    ]
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net",
-   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net",
+   "unit": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group",
+   "restoredTo": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group",
    "placement": "restored-tree",
    "lostSourceFiles": 5,
    "deletedBy": {
@@ -16065,280 +16065,280 @@
    "activation": "pending-inventory",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/.gitignore",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/.gitignore",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/.gitignore",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/.gitignore",
      "gitBlob": "bc595a89cc3a3d07d45e635e945f3693da275f1a",
      "sha256": "b7f998aa413696b70ac18b80bb7dadc2072b555b9b838c03b2f85e47cf089a3a",
      "bytes": 461,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/Dockerfile",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/Dockerfile",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/Dockerfile",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/Dockerfile",
      "gitBlob": "0333e6276c008843cbc8e09c74907744ed2862c6",
      "sha256": "b9a2b9d8331d032795885a54a61515de4aba72105e956f09c0bb56c80e150bdb",
      "bytes": 1900,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/README.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/README.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/README.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/README.md",
      "gitBlob": "cd4f0c6da9463733cd4f29621a5110ae4b68a442",
      "sha256": "3f87f61b655f6d5202572bdacb7b0f16ccc3dd01b9dcbb43439097446626e99a",
      "bytes": 7088,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/agents/reference-bot.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/agents/reference-bot.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/agents/reference-bot.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/agents/reference-bot.mjs",
      "gitBlob": "d247c00115697624a23d2401c492bfd0abda1022",
      "sha256": "afd51e6908fc89839bd9a14ceced7e01bbb789d1a8264fbfd56299d002dfdf6f",
      "bytes": 6596,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/DEPLOY.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/DEPLOY.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/DEPLOY.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/DEPLOY.md",
      "gitBlob": "7a02302d6bd35cb920ade69e8a45ea9b29b2ed81",
      "sha256": "ff0af95114cef21c588b12b745154aa13961153a24ae5d02d2c1941609cf786b",
      "bytes": 5002,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/DESIGN.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/DESIGN.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/DESIGN.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/DESIGN.md",
      "gitBlob": "608313dff9dcefee45860e2f472077580203e3f2",
      "sha256": "39dba56f7b44efee2c3964c918cbcd7bab65ba02adcc395f072b38f6799d8af4",
      "bytes": 10792,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/PROTOCOL.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/PROTOCOL.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/PROTOCOL.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/PROTOCOL.md",
      "gitBlob": "574fcd6cf8be897c67bdb4c552f982b702aa4827",
      "sha256": "4c5c90f1560fbf67d2e6feeaed30da60a838d4095d93421a955941c44d200c23",
      "bytes": 6241,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/WORLD.md",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/docs/WORLD.md",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/WORLD.md",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/docs/WORLD.md",
      "gitBlob": "0c20e364fa308d297b0d63f61b2c151d737c3f62",
      "sha256": "38c8dc775511029727fad1c6dbb201d7878cdb0c791b2c0acf1d26c0ef3e52cb",
      "bytes": 4123,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/package-lock.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/package-lock.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/package-lock.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/package-lock.json",
      "gitBlob": "6c05f844d1e0e7dae1413f43bd1a9f44b2d8a4da",
      "sha256": "a315f5a7fe503e9b898b924ce504c25f38b1c28232c1c6897527a4c0c0497283",
      "bytes": 327697,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/package.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/package.json",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/package.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/package.json",
      "gitBlob": "3366d3da8d812cca739463fb9d872ede8d889457",
      "sha256": "2ebb114ee73dd1bde9d0631eeaa405c08f2106d6576554d02666da0cf4b78873",
      "bytes": 1318,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-discourse.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-discourse.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-discourse.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-discourse.mts",
      "gitBlob": "c65abb3876474c622ff357caa6db67d62f4bc205",
      "sha256": "cd5e678473d791f3a436fac113063dc61ec1cfc3b17643e52b8b0e4bb35105ee",
      "bytes": 6792,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-ecology.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-ecology.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-ecology.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-ecology.mts",
      "gitBlob": "b30f8b3f71099c0fbf4bd85d78edd174e70e33f1",
      "sha256": "03e4aa5ccdd643e7fd98bcc65db803ff5a8c36beb9adcc2a722a0386ef4a55ea",
      "bytes": 4103,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-economy.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-economy.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-economy.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-economy.mts",
      "gitBlob": "d7f2850df42c1a268c64c816c01c6a76b42fe3d8",
      "sha256": "c8ed1077b87c3b9da128f9039c95bada903d4579df17ff6a8a9ad9688f6cd55e",
      "bytes": 5388,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-governance.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-governance.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-governance.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-governance.mts",
      "gitBlob": "e9927ca8013dcc7369d2dc1af419bd2bfe5bcd47",
      "sha256": "6ec2c92c876d5d30875a8b1cb8e09204b740618736da0656b305061411629b5b",
      "bytes": 4122,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-social.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-social.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-social.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-social.mts",
      "gitBlob": "1881f21a09dfeda5aa76561b6acc80776acf8bf2",
      "sha256": "745edbaacbfe1b0d2dfdf71879572b3a0489b33ae6a34bd89a5f13447a3e2224",
      "bytes": 5281,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-tide.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/cap-tide.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-tide.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/cap-tide.mts",
      "gitBlob": "b58be09d85a6568e286bfe4a8d815d852032ff44",
      "sha256": "94a18e73f97e5ac682de1e9c2b4565aaf63494aaa27099ae38563619f2dc4dde",
      "bytes": 2170,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/index.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/index.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/index.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/index.mts",
      "gitBlob": "4f714bedfdde31df1b9c07d2a63672dff07cc424",
      "sha256": "bd14014dc88574ae048874e4aa6c271e6c67f91bae7013bc35391ac89c28517b",
      "bytes": 1213,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/perception.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/perception.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/perception.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/perception.mts",
      "gitBlob": "8b3172a6dc8ebdb1532873eb7f28c2c3b6eaff37",
      "sha256": "b8b6e99922cefff519fbc57dbe51ed5fbc3889b7c5440d4a41660b3475826cdc",
      "bytes": 6127,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/perception.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/perception.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/perception.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/perception.test.mts",
      "gitBlob": "eb37c260c6530a0f038d160da97e8bc64122bb60",
      "sha256": "a46f37dd9c43b79a664fb133ec43080f3a758e465c8ac63460b1491dbbaa6332",
      "bytes": 7213,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/persistence-churn.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/persistence-churn.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/persistence-churn.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/persistence-churn.test.mts",
      "gitBlob": "09b7b8fb81e2a94b39857db091888ff2b46a720a",
      "sha256": "2becae129982346d51f82af1e0b2ff4d36a9c5138728e45ccd73750e41e4814c",
      "bytes": 11031,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/serve.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/serve.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/serve.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/serve.mts",
      "gitBlob": "280a03d2654368d7a97e909ec5625744b333d267",
      "sha256": "cc9022b22fe601e8b1dbd3c9b7ddf3cffcd77fe73511e2c89a79171a12abcdd8",
      "bytes": 1774,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-capabilities.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-capabilities.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-capabilities.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-capabilities.mts",
      "gitBlob": "0e232d3bcf06387e907b5afe74bc5ef98a078eb9",
      "sha256": "268b4cc9f282f58a4b77820c11a900b834077ec0f5cbe1d8283bf1d0f2f4f3a3",
      "bytes": 1382,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-game.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-game.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-game.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-game.mts",
      "gitBlob": "b757899ddb7dd7844ae06bb235f3a33c3c18a0c8",
      "sha256": "60baa3592ecc69063249c78a1572ff834cce6226dd42ffce1947736df74fafa5",
      "bytes": 14625,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-game.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-game.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-game.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-game.test.mts",
      "gitBlob": "375354a7f1c961bbfaaab93908b29861dd60481d",
      "sha256": "484f40841cf644c4d252b86f820a7f9a1ae841be8a691f17d916686f9f955f50",
      "bytes": 15571,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-protocol.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-protocol.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-protocol.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-protocol.mts",
      "gitBlob": "728bbfde4f50d30f334ae72b1f91060f2568829d",
      "sha256": "cc4cab9bf2cf5c78a94ad99ac146bce1add3de0765acbd56df055a7df734935c",
      "bytes": 1909,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-protocol.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-protocol.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-protocol.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-protocol.test.mts",
      "gitBlob": "d4ab1c20e4876fc8746b23bb5ed519bdb774d1da",
      "sha256": "5fded81574fb65e7e789a263ed213cb0d0ff8aa010298c26044e3549867ba7bf",
      "bytes": 4679,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-room.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-room.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-room.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-room.mts",
      "gitBlob": "5534181150b8022138036dadfafaa2c2d81b31c5",
      "sha256": "277f5954d05d29a81fbba6ec87f196e35643870a2ec91b70c7e049d2b6f1d689",
      "bytes": 9361,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-room.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-room.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-room.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-room.test.mts",
      "gitBlob": "70d4fcb73ce4423df4b8729c9afa750d289f7734",
      "sha256": "28b52e431c56ddb81cbeb0b54156cb3d8e648d44b8aaed22c4780c7f33f8c7fa",
      "bytes": 6321,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-tufte.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-tufte.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-tufte.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-tufte.mts",
      "gitBlob": "b86b49a18c316aedd1022117f90803e63eea74ed",
      "sha256": "4c953b1238c98f91f53d1ff8ad270ebc15df4b0d1ec5fe81ec8d76b575b580e0",
      "bytes": 4372,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-tufte.test.mts",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/tidepool-tufte.test.mts",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-tufte.test.mts",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/tidepool-tufte.test.mts",
      "gitBlob": "b138100af74dfcabec737f1eaed3eed91bfd76e8",
      "sha256": "6d87442b978de013ab3e63d21d70ae13ae0d45057d9ba441c1f941532e1d397b",
      "bytes": 2841,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/web/tidepool-client.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/web/tidepool-client.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/web/tidepool-client.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/web/tidepool-client.mjs",
      "gitBlob": "3f445c47b6b44c60d4b098c2f653cf71e71b92bc",
      "sha256": "a410977b4e588017c9f7ea738d289a3cbbf6578b7b2b5c19c9979ee8da1c4806",
      "bytes": 4894,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/web/tidepool-view.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/src/web/tidepool-view.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/web/tidepool-view.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/src/web/tidepool-view.mjs",
      "gitBlob": "405bfa78f4f34cb6fac5debc4140a00e980893ab",
      "sha256": "002e033445c799e7b1148be65f4d1d53cad3991a284d951b043695d8ff254d77",
      "bytes": 5159,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/terminal/tidepool-term.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/terminal/tidepool-term.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/terminal/tidepool-term.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/terminal/tidepool-term.mjs",
      "gitBlob": "027941d5466b6e00f5c25e011d19130f077d11a4",
      "sha256": "1e2cdbea24d5692e0f7b41f92c6f5d63c84e106c8ce05c7ede831f9fe13f4f5f",
      "bytes": 5899,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/tools/agent-b-session.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/tools/agent-b-session.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/tools/agent-b-session.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/tools/agent-b-session.mjs",
      "gitBlob": "ab267113f02c66b734563ac176b6c61928c67915",
      "sha256": "cb4189dad1d7bab0582c1ff2426d15fe30f3f85b58787bde1ff6ab86f2d5307e",
      "bytes": 6626,
      "mode": "100644"
     },
     {
-     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/tools/human-session.mjs",
-     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.emsenn.net/tools/human-session.mjs",
+     "originalPath": "lib/emsenn/services/561-group/services/public-services-section/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/tools/human-session.mjs",
+     "restoredPath": "lib/emsenn/services/561-group/services/public-services-section/lib/legacy/restored-from-main/2026-09-14-806adea/services/public-publishing-services-section/services/public-computer-publishing-services-section/services/public-system-computer-publishing-section/services/public-web-publishing-services-section/sites/tidepool.turntide.561.group/tools/human-session.mjs",
      "gitBlob": "13514b175b2f3b5abd7f85f4fe9c223bbfd17315",
      "sha256": "f431757ab41f92667af83d8b74e8fe93aa7740cf2913457edb08c5906d4111e4",
      "bytes": 8788,
