@@ -3283,7 +3283,7 @@
    "lostSourceFiles": 1
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section",
    "restoredTo": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2",
    "placement": "restored-tree",
    "lossClass": "deliberately-removed",
@@ -3291,14 +3291,14 @@
     "commit": "4f1f4f26b253cae3c61732dd0fc291a96b026822",
     "date": "2026-09-06",
     "pullRequest": null,
-    "title": "Rename javascript-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli"
+    "title": "Rename javascript-engineering-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli"
    },
    "state": "restored-legacy",
    "activation": "pending-promotion-review",
    "files": [
     {
-     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-services-section/services/javascript-node-services-section/lib/agency/characters/jsnode-engineer.schema.json",
-     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-services-section/services/javascript-node-services-section/lib/agency/characters/jsnode-engineer.schema.json",
+     "originalPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/agency/characters/jsnode-engineer.schema.json",
+     "restoredPath": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-engineering-services-section/lib/legacy/restored-from-main/2026-09-06-4f1f4f2/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/agency/characters/jsnode-engineer.schema.json",
      "gitBlob": "ae79443377024ac4533872bb56738058c45a00fd",
      "sha256": "68423c0d654be35d317754f7c3f8dfa4a811897b9dd59b3e99a82a2d4be2bd18",
      "bytes": 978,

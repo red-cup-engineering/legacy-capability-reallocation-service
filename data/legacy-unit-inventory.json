@@ -5037,7 +5037,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-02-873e043/services/computer-code-services-section/services/javascript-services-section/lib/legacy/csl-in-yaml",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/lib/legacy/restored-from-main/2026-09-02-873e043/services/computer-code-services-section/services/javascript-engineering-services-section/lib/legacy/csl-in-yaml",
    "restored": true,
    "files": 18,
    "sourceFiles": 15,
@@ -5407,7 +5407,7 @@
    "activation": "pending"
   },
   {
-   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat",
+   "unit": "lib/emsenn/services/561-group/services/engineering-services-section/lib/legacy/restored-from-main/2026-08-11-8dfb48d/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat",
    "restored": true,
    "files": 13,
    "sourceFiles": 13,

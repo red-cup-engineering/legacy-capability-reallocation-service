@@ -4858,10 +4858,10 @@
    "title": "Consolidate the 3-way organizing-with-jsnode fork on organizing-jsnode-analysis; move jsnode-computer/codecs/server into new jsnode-workspace-analysis-services-section; repoint NOG README citations",
    "intent": "deletion",
    "topDirectories": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/lib/legacy/2026-08-18-triage-dev-src-lib",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/lib/legacy/organizing-with-jsnode",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/lib/legacy/jsnode-codecs",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/lib/legacy/jsnode-computer"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/2026-08-18-triage-dev-src-lib",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/lib/legacy/organizing-with-jsnode",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/jsnode-codecs",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/jsnode-computer"
    ],
    "deletedAbsentFromHead": 34,
    "notRestored": 4,
@@ -6621,7 +6621,7 @@
    "title": "Migrate bibliography CSL handling off legacy csl-in-yaml",
    "intent": "deletion",
    "topDirectories": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-services-section/lib/legacy/csl-in-yaml"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/lib/legacy/csl-in-yaml"
    ],
    "deletedAbsentFromHead": 19,
    "restoredFromHistory": 18,
@@ -6984,7 +6984,7 @@
    "date": "2026-09-06",
    "pullRequest": null,
    "branch": "direct-to-main",
-   "title": "Rename javascript-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli",
+   "title": "Rename javascript-engineering-services-section to javascript-engineering-services-section; seat jsnode-engineering-services-section; move jsnode-computer to jsnode-engineering-cli",
    "intent": "deletion",
    "topDirectories": [
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services"
@@ -7033,7 +7033,7 @@
    "title": "archive metroplat and reconcile repository state",
    "intent": "deletion",
    "topDirectories": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-services-section/lib/legacy/metroplat",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-coding-services-section/services/javascript-engineering-services-section/lib/legacy/metroplat",
     "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services"
    ],
    "deletedAbsentFromHead": 17,
@@ -12825,8 +12825,8 @@
    "title": "Route javascript-algebra/javascript-computer/jsnode-topology to engineering practice homes per the code/theory ruling; link (not move) the JS/Node categorical-theory notes from sciences",
    "intent": "deletion",
    "topDirectories": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/services/javascript-node-services-section/lib/legacy/jsnode-topology",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/lib/legacy/javascript-computer"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/services/javascript-node-services-section/lib/legacy/jsnode-topology",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/lib/legacy/javascript-computer"
    ],
    "deletedAbsentFromHead": 4,
    "survivesEditedAtHead": 1,
@@ -16033,11 +16033,11 @@
    "date": "2026-08-21",
    "pullRequest": null,
    "branch": "direct-to-main",
-   "title": "Prune dead legacy stubs in javascript-services-section; final README consistency pass",
+   "title": "Prune dead legacy stubs in javascript-engineering-services-section; final README consistency pass",
    "intent": "deletion",
    "topDirectories": [
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/lib/legacy/javascript-services-section.package.json",
-    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-services-section/lib/legacy/jsnode-services-section.package.json"
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/lib/legacy/javascript-engineering-services-section.package.json",
+    "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-services-section/services/computer-code-services-section/services/javascript-engineering-services-section/lib/legacy/jsnode-services-section.package.json"
    ],
    "deletedAbsentFromHead": 2,
    "notRestored": 2
